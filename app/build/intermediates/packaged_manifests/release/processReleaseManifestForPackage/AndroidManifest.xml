@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shahu.tv"
+    android:versionCode="3"
+    android:versionName="3.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="28" />
+
+    <!-- Normal (install-time) permissions only: used for the Wi-Fi/Ethernet status glyph. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- Device Manager: "Stop background processes" (normal permission; Android only stops BACKGROUND processes). -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <!-- Home Screen Mode = SHAHU'S TV: open SHAHU'S TV once after startup (one-shot receiver, no service). -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- Device Manager: recently active apps + app sizes. Special app-op, OFF until granted explicitly via adb. -->
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:name="com.shahu.tv.ShahuApp"
+        android:allowBackup="false"
+        android:banner="@drawable/banner"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.ShahusTV" >
+
+        <!-- A normal TV app: appears in Fire TV "Your Apps". HOME is only declared by the (default-disabled) .HomeAlias. -->
+        <activity
+            android:name="com.shahu.tv.MainActivity"
+            android:banner="@drawable/banner"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|density|fontScale|locale|layoutDirection"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+ HOME SCREEN MODE = SHAHU'S TV: this alias makes SHAHU'S TV a HOME candidate. Disabled by default and
+             toggled only by HomeMode (our own component). Amazon's launcher (priority 950) stays installed,
+             enabled and the system default on Fire OS.
+        -->
+        <activity-alias
+            android:name="com.shahu.tv.HomeAlias"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.shahu.tv.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.shahu.tv.SettingsActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|density|fontScale|locale|layoutDirection"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.shahu.tv.DeviceManagerActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|density|fontScale|locale|layoutDirection"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <receiver
+            android:name="com.shahu.tv.BootReceiver"
+            android:exported="true" >
+
+            <!--
+                 Fire OS delivers BOOT_COMPLETED to apps one at a time (measured ~2 min on AFTSSS); 999 = earliest
+                 slot a normal app may ask for.
+            -->
+            <intent-filter android:priority="999" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- OPTIONAL, EXPERIMENTAL: Home-button redirect. Does nothing until the user enables it in Accessibility. -->
+        <service
+            android:name="com.shahu.tv.HomeButtonService"
+            android:exported="true"
+            android:label="@string/home_service_label"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/home_button_service" />
+        </service>
+    </application>
+
+</manifest>

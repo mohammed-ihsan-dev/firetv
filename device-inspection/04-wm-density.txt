@@ -1,0 +1,2 @@
+$ adb -s 192.168.1.2:5555 shell wm density
+Physical density: 320

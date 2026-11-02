@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/xml_home_button_service.xml.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/xml/home_button_service.xml"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable-nodpi_circle_youtube.png.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable-nodpi/circle_youtube.png"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable-nodpi_circle_fancode.png.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable-nodpi/circle_fancode.png"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable_tile_bg.xml.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable/tile_bg.xml"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable-nodpi_circle_zee5.png.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable-nodpi/circle_zee5.png"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable-nodpi_circle_settings.png.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable-nodpi/circle_settings.png"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable_ic_settings.xml.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.shahu.tv.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.shahu.tv.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable-nodpi_circle_more.png.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable-nodpi/circle_more.png"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable_profile_badge.xml.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable/profile_badge.xml"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable-nodpi_circle_hotstar.png.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable-nodpi/circle_hotstar.png"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable-nodpi_circle_netflix.png.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable-nodpi/circle_netflix.png"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable-xhdpi_banner.png.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable-xhdpi/banner.png"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable_ic_apps.xml.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable/ic_apps.xml"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable_tile_focus.xml.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable/tile_focus.xml"
+    },
+    {
+        "merged": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-debug-4:/drawable-nodpi_circle_prime.png.flat",
+        "source": "/Users/ihsan/.gradle/daemon/8.9/com.shahu.tv.app-main-6:/drawable-nodpi/circle_prime.png"
+    }
+]

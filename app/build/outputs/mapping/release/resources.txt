@@ -1,0 +1,198 @@
+Marking color:bg:2130771969 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking color:text_tertiary:2130771976 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking color:text_secondary:2130771975 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking color:accent_red:2130771968 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:brand:2131165185 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking dimen:tile_radius:2130837511 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:circle_youtube:2130903047 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:circle_hotstar:2130903042 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:circle_netflix:2130903044 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:circle_zee5:2130903048 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:circle_prime:2130903045 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:circle_fancode:2130903041 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:circle_settings:2130903046 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:circle_more:2130903043 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:tile_bg:2130903052 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_settings:2130903050 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_apps:2130903049 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:not_installed:2131165194 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking dimen:tile_w:2130837513 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking dimen:tile_h:2130837510 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking dimen:tile_gap:2130837509 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking dimen:tile_row_gap:2130837512 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:tile_focus:2130903053 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking dimen:tile_elevation:2130837507 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking dimen:tile_focus_z:2130837508 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:more_count:2131165190 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:launch_failed:2131165189 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:default_description:2131165186 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking layout:activity_main:2131034112 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:wallBack:2130968592 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:wallFront:2130968593 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:homeLayer:2130968583 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:carousel:2130968579 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:appName:2130968577 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:appDesc:2130968576 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:morePanel:2130968588 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:moreScroll:2130968589 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:moreGrid:2130968586 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:moreCount:2130968584 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:moreFocused:2130968585 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:clock:2130968580 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:date:2130968581 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:wifi:2130968594 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:empty:2130968582 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_title:2131165197 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_subtitle:2131165196 reachable: referenced from /Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+@color/accent_red : reachable=true
+@color/bg : reachable=true
+@color/border_subtle : reachable=false
+@color/glass_fill_bottom : reachable=false
+@color/glass_fill_top : reachable=false
+@color/surface : reachable=false
+@color/text_primary : reachable=false
+@color/text_secondary : reachable=true
+@color/text_tertiary : reachable=true
+@dimen/edge : reachable=false
+@dimen/grid_bottom : reachable=false
+@dimen/row_keyline : reachable=false
+@dimen/tile_elevation : reachable=true
+@dimen/tile_focus_z : reachable=true
+@dimen/tile_gap : reachable=true
+@dimen/tile_h : reachable=true
+@dimen/tile_radius : reachable=true
+@dimen/tile_row_gap : reachable=true
+@dimen/tile_w : reachable=true
+@drawable/banner : reachable=true
+@drawable/circle_fancode : reachable=true
+@drawable/circle_hotstar : reachable=true
+@drawable/circle_more : reachable=true
+@drawable/circle_netflix : reachable=true
+@drawable/circle_prime : reachable=true
+@drawable/circle_settings : reachable=true
+@drawable/circle_youtube : reachable=true
+@drawable/circle_zee5 : reachable=true
+@drawable/ic_apps : reachable=true
+@drawable/ic_settings : reachable=true
+@drawable/profile_badge : reachable=false
+@drawable/tile_bg : reachable=true
+    @color/glass_fill_bottom
+    @color/glass_fill_top
+    @dimen/tile_radius
+@drawable/tile_focus : reachable=true
+    @dimen/tile_radius
+    @color/border_subtle
+@id/appDesc : reachable=true
+@id/appName : reachable=true
+@id/brand : reachable=false
+@id/carousel : reachable=true
+@id/clock : reachable=true
+@id/date : reachable=true
+@id/empty : reachable=true
+@id/homeLayer : reachable=true
+@id/moreCount : reachable=true
+@id/moreFocused : reachable=true
+@id/moreGrid : reachable=true
+@id/moreHint : reachable=false
+@id/morePanel : reachable=true
+@id/moreScroll : reachable=true
+@id/profile : reachable=false
+@id/root : reachable=false
+@id/wallBack : reachable=true
+@id/wallFront : reachable=true
+@id/wifi : reachable=true
+@layout/activity_main : reachable=true
+    @dimen/edge
+    @color/accent_red
+    @color/text_primary
+    @string/brand
+    @color/text_secondary
+    @drawable/profile_badge
+    @string/more_title
+    @color/text_tertiary
+    @string/more_hint
+    @string/no_apps
+@mipmap/ic_launcher : reachable=true
+@string/app_name : reachable=true
+@string/brand : reachable=true
+@string/default_description : reachable=true
+@string/home_service_description : reachable=false
+@string/home_service_label : reachable=true
+@string/launch_failed : reachable=true
+@string/more_count : reachable=true
+@string/more_hint : reachable=false
+@string/more_title : reachable=false
+@string/no_apps : reachable=false
+@string/not_installed : reachable=true
+@string/row_title : reachable=false
+@string/settings_subtitle : reachable=true
+@string/settings_title : reachable=true
+@style/Theme_ShahusTV : reachable=true
+    @color/bg
+    @color/text_primary
+@xml/home_button_service : reachable=true
+    @string/home_service_description
+
+The root reachable resources are:
+ color:accent_red:2130771968
+ color:bg:2130771969
+ color:text_secondary:2130771975
+ color:text_tertiary:2130771976
+ dimen:tile_elevation:2130837507
+ dimen:tile_focus_z:2130837508
+ dimen:tile_gap:2130837509
+ dimen:tile_h:2130837510
+ dimen:tile_radius:2130837511
+ dimen:tile_row_gap:2130837512
+ dimen:tile_w:2130837513
+ drawable:banner:2130903040
+ drawable:circle_fancode:2130903041
+ drawable:circle_hotstar:2130903042
+ drawable:circle_more:2130903043
+ drawable:circle_netflix:2130903044
+ drawable:circle_prime:2130903045
+ drawable:circle_settings:2130903046
+ drawable:circle_youtube:2130903047
+ drawable:circle_zee5:2130903048
+ drawable:ic_apps:2130903049
+ drawable:ic_settings:2130903050
+ drawable:tile_bg:2130903052
+ drawable:tile_focus:2130903053
+ id:appDesc:2130968576
+ id:appName:2130968577
+ id:carousel:2130968579
+ id:clock:2130968580
+ id:date:2130968581
+ id:empty:2130968582
+ id:homeLayer:2130968583
+ id:moreCount:2130968584
+ id:moreFocused:2130968585
+ id:moreGrid:2130968586
+ id:morePanel:2130968588
+ id:moreScroll:2130968589
+ id:wallBack:2130968592
+ id:wallFront:2130968593
+ id:wifi:2130968594
+ layout:activity_main:2131034112
+ mipmap:ic_launcher:2131099648
+ string:app_name:2131165184
+ string:brand:2131165185
+ string:default_description:2131165186
+ string:home_service_label:2131165188
+ string:launch_failed:2131165189
+ string:more_count:2131165190
+ string:not_installed:2131165194
+ string:settings_subtitle:2131165196
+ string:settings_title:2131165197
+ style:Theme_ShahusTV:2131230720
+ xml:home_button_service:2131296256
+Unused resources are: 
+ color:surface:2130771973
+ dimen:grid_bottom:2130837505
+ dimen:row_keyline:2130837506
+ id:brand:2130968578
+ id:moreHint:2130968587
+ id:profile:2130968590
+ id:root:2130968591
+ string:row_title:2131165195
+Resource shrinking did not work (grew from 412272 to 412403); using original instead

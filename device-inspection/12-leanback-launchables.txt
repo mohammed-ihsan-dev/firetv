@@ -1,0 +1,95 @@
+$ adb -s 192.168.1.2:5555 shell cmd package query-activities --brief -a android.intent.action.MAIN -c android.intent.category.LEANBACK_LAUNCHER
+31 activities found:
+  Activity #0:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.amazon.bueller.music/com.amazon.music.MainActivity
+  Activity #1:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.amazon.shoptv.firetv.client/.ThreePClientLauncher
+  Activity #2:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.amazon.firetv.youtube/dev.cobalt.app.MainActivity
+  Activity #3:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.amazon.firetv.youtube.kids/dev.cobalt.app.MainActivity
+  Activity #4:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.apple.atve.amazon.appletv/.MainActivity
+  Activity #5:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    com.future.moviesByFawesomeAndroidTV/.SplashActivity
+  Activity #6:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.amazon.audiohome/.MainActivity
+  Activity #7:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.amazon.firebat/com.amazon.pyrocore.IgnitionActivity
+  Activity #8:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.amazon.firetv.troubleshooting/.ui.MainActivity
+  Activity #9:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.amazon.minitv.android.app/com.amazon.minitv.app.MainActivity
+  Activity #10:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.amazon.spiderpork/.activities.MainActivity
+  Activity #11:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.creative.fastscreen.tv/.activity.ad.Advertisement
+  Activity #12:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.dazn/.MainActivity
+  Activity #13:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.discoveryplus.tv.fire/.DPlusFireTvActivity
+  Activity #14:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.esaba.downloader/.ui.main.MainActivity
+  Activity #15:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.fancode.tv/com.fancode.fcandroidtv.SplashScreen
+  Activity #16:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.ionitech.airscreen/.ui.activity.welcome.StreamAssistantIndexActivity
+  Activity #17:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.jio.media.jiotvplus/com.jio.media.stb.ondemand.patchwall.views.MainActivity
+  Activity #18:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.mxtech.videoplayer.television/com.mxtech.videoplayer.tv.home.HomeActivity
+  Activity #19:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.netflix.ninja/.MainActivity
+  Activity #20:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.onemainstream.sonyliv.android/com.sonyliv.ui.splash.SplashActivity
+  Activity #21:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.pigeoncast.screen.mirroring.android.tv/com.mirror_universal.receiver.activity.SplashActivity
+  Activity #22:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.spotify.tv.android/.SpotifyTVActivity
+  Activity #23:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.suntv.sunnxt/com.androidtv.myplex.ui.activity.SPlashActivity
+  Activity #24:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.tmp.com/.Activities.PageAndListRowActivity
+  Activity #25:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.yupptv.firetv/com.yupptv.ott.ui.activity.SplashActivity
+  Activity #26:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    com.zee5.amazon/com.zee5.android.launch.presentation.AppStartActivity
+  Activity #27:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    in.startv.hotstar/com.hotstar.MainActivity
+  Activity #28:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    org.videolan.vlc/.StartActivity
+  Activity #29:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    tv.airtel.xstream.tvapp/tv.airtel.xstream.AirtelXstream
+  Activity #30:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    tv.airtel.xstream.tvapp/tv.airtel.xstream.splash.SplashActivity

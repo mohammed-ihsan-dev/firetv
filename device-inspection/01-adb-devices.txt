@@ -1,0 +1,4 @@
+$ adb devices -l
+List of devices attached
+192.168.1.2:5555       device product:sheldonp model:AFTSSS device:sheldonp transport_id:1
+

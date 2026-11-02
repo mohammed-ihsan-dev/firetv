@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "defaultWallpaper": "wallpapers/default.jpg",
+  "fallbackWallpapers": [
+    "wallpapers/hero-original.jpg",
+    "wallpapers/hero-neutral.jpg",
+    "wallpapers/batman-alt.jpg",
+    "wallpapers/spiderman-alt.jpg",
+    "wallpapers/superman-alt.jpg"
+  ],
+  "home": [
+    "com.amazon.firetv.youtube",
+    "in.startv.hotstar",
+    "com.netflix.ninja",
+    "com.zee5.amazon",
+    "com.amazon.firebat",
+    "com.fancode.tv",
+    "shahu.settings",
+    "shahu.more"
+  ],
+  "pinned": [
+    "com.netflix.ninja",
+    "com.amazon.firebat",
+    "com.amazon.firetv.youtube",
+    "in.startv.hotstar",
+    "com.spotify.tv.android",
+    "com.apple.atve.amazon.appletv",
+    "com.jio.media.jiotvplus",
+    "tv.airtel.xstream.tvapp",
+    "com.onemainstream.sonyliv.android",
+    "com.zee5.amazon",
+    "org.videolan.vlc"
+  ],
+  "hidden": [],
+  "applications": {
+    "com.netflix.ninja": {
+      "name": "Netflix",
+      "wallpaper": "wallpapers/Netflix.png",
+      "description": "Series, films and originals.",
+      "wallpapers": [
+        "wallpapers/Netflix.png",
+        "wallpapers/NETFLIX.jpg"
+      ]
+    },
+    "com.amazon.firebat": {
+      "name": "Prime Video",
+      "wallpaper": "wallpapers/prime.jpg",
+      "description": "Movies, series and live sport from Prime."
+    },
+    "com.amazon.firetv.youtube": {
+      "name": "YouTube",
+      "wallpaper": "wallpapers/YOUTUBE-MAIN.png",
+      "description": "Videos, creators and live streams.",
+      "wallpapers": [
+        "wallpapers/YOUTUBE-MAIN.png",
+        "wallpapers/TV YOUTUBE 1.jpg",
+        "wallpapers/YOUTUBE-MAIN.jpg",
+        "wallpapers/YT-WALLPAPER.jpg"
+      ]
+    },
+    "in.startv.hotstar": {
+      "name": "JioHotstar",
+      "wallpaper": "wallpapers/JIO-HOTSTAR(1).jpg",
+      "description": "Movies, shows and live cricket.",
+      "fallbackWallpaper": "wallpapers/JIO-HOTSTAR.jpg"
+    },
+    "com.spotify.tv.android": {
+      "name": "Spotify",
+      "wallpaper": "wallpapers/hero-dark.jpg",
+      "description": "Music and podcasts on the big screen."
+    },
+    "com.apple.atve.amazon.appletv": {
+      "name": "Apple TV",
+      "wallpaper": "wallpapers/superman-alt.jpg",
+      "description": "Apple Originals, movies and more."
+    },
+    "com.jio.media.jiotvplus": {
+      "name": "JioTV+",
+      "wallpaper": "wallpapers/batman-alt.jpg",
+      "description": "Live TV channels."
+    },
+    "tv.airtel.xstream.tvapp": {
+      "name": "Airtel Xstream",
+      "wallpaper": "wallpapers/hero-original.jpg",
+      "description": "Live TV and on-demand entertainment."
+    },
+    "com.onemainstream.sonyliv.android": {
+      "name": "SonyLIV",
+      "wallpaper": "wallpapers/hero-dark.jpg",
+      "description": "Shows, movies and live sport."
+    },
+    "com.zee5.amazon": {
+      "name": "ZEE5",
+      "wallpaper": "wallpapers/ZEE5.jpg",
+      "description": "Movies, shows and originals."
+    },
+    "org.videolan.vlc": {
+      "name": "VLC",
+      "wallpaper": "wallpapers/hero-neutral.jpg",
+      "description": "Play your own media files."
+    },
+    "shahu.settings": {
+      "name": "Settings",
+      "wallpaper": "wallpapers/settings.jpg",
+      "description": "Home screen mode, Device Manager and Fire TV settings."
+    },
+    "com.fancode.tv": {
+      "name": "FanCode",
+      "wallpaper": "wallpapers/fancode.jpg",
+      "description": "Live cricket, football and more sport."
+    },
+    "shahu.more": {
+      "name": "More Apps",
+      "wallpaper": "wallpapers/bg-more-apps.jpg",
+      "description": "Every other app installed on this Fire TV."
+    },
+    "shahu.library": {
+      "name": "More Apps (open)",
+      "wallpaper": "wallpapers/bg-library.jpg"
+    }
+  }
+}

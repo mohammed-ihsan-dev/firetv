@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SHAHU\'S TV</string>
+    <string name="brand">SHAHU\'S TV</string>
+    <string name="row_title">Your Apps</string>
+    <string name="more_title">More Apps</string>
+    <string name="more_hint">BACK  Home    ·    OK  Open    ·    MENU  App info</string>
+    <string name="more_count">%1$d apps</string>
+    <string name="default_description">Press OK to open.</string>
+    <string name="not_installed">Not installed</string>
+    <string name="launch_failed">Could not open %1$s</string>
+    <string name="no_apps">No other apps are installed.</string>
+    <string name="settings_title">SHAHU\'S TV Settings</string>
+    <string name="settings_subtitle">Home screen mode, Device Manager and Fire TV settings</string>
+    <string name="home_service_description">SHAHU\'S TV Home button: when Home Screen Mode is SHAHU\'S TV, a short press of the remote\'s Home button opens SHAHU\'S TV. Only the Home key is checked. Screen content is never read.</string>
+    <string name="home_service_label">SHAHU\'S TV Home button</string>
+</resources>

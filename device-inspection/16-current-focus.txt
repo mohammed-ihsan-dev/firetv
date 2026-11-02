@@ -1,0 +1,181 @@
+$ adb -s 192.168.1.2:5555 shell dumpsys window windows
+WINDOW MANAGER WINDOWS (dumpsys window windows)
+  Window #0 Window{1549a24 u0 PromptUIDisplayer}:
+    mDisplayId=0 stackId=0 mSession=Session{4b5d4d5 3358:u0a10055} mClient=android.os.BinderProxy@1cf35b6
+    mOwnerUid=10055 mShowToOwnerOnly=false package=com.amazon.vizzini appop=NONE
+    mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=KEYGUARD_DIALOG fmt=TRANSLUCENT
+      fl=NOT_FOCUSABLE LAYOUT_IN_SCREEN DISMISS_KEYGUARD HARDWARE_ACCELERATED}
+    Requested w=0 h=0 mLayoutSeq=30
+    mBaseLayer=201000 mSubLayer=0 mAnimLayer=0+=0 mLastLayer=0
+    mToken=WindowToken{85b82b7 android.os.BinderProxy@1cf35b6}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 ?mcc?mnc [en_IN] ldltr sw540dp w960dp h540dp 320dpi lrg long land television -touch qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.6}
+    mLastReportedConfiguration={0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mWindowingMode=undefined mActivityType=undefined}}
+    mHasSurface=false isReadyForDisplay()=false mWindowRemovalAllowed=false
+    mFrame=[0,0][1920,1080] last=[0,0][0,0]
+    Frames: containing=[0,0][1920,1080] parent=[0,0][1920,1080]
+        display=[0,0][1920,1080] overscan=[0,0][1920,1080]
+        content=[0,0][1920,1080] visible=[0,0][1920,1080]
+        decor=[0,0][1920,1080]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] surface=[0,0][0,0] outsets=[0,0][0,0] cutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) boundingRect=Rect(0, 0 - 0, 0)}
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0] cutout=com.android.server.wm.utils.WmDisplayCutout@3c1
+    WindowStateAnimator{1ba6571 PromptUIDisplayer}:
+      mDrawState=NO_SURFACE       mLastHidden=false
+      mSystemDecorRect=[0,0][0,0] mLastClipRect=[0,0][0,0]
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+    isOnScreen=false
+    isVisible=false
+  Window #1 Window{e0be951 u0 VoiceUIDisplayer}:
+    mDisplayId=0 stackId=0 mSession=Session{4b5d4d5 3358:u0a10055} mClient=android.os.BinderProxy@d4283db
+    mOwnerUid=10055 mShowToOwnerOnly=false package=com.amazon.vizzini appop=NONE
+    mAttrs={(0,0)(fillxwrap) gr=BOTTOM LEFT CENTER sim={adjust=pan} ty=KEYGUARD_DIALOG fmt=TRANSLUCENT
+      fl=NOT_FOCUSABLE LAYOUT_IN_SCREEN DISMISS_KEYGUARD HARDWARE_ACCELERATED}
+    Requested w=1920 h=0 mLayoutSeq=43
+    mBaseLayer=201000 mSubLayer=0 mAnimLayer=0+=0 mLastLayer=0
+    mToken=WindowToken{fe10e78 android.os.BinderProxy@d4283db}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 ?mcc?mnc [en_IN] ldltr sw540dp w960dp h540dp 320dpi lrg long land television -touch qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.6}
+    mLastReportedConfiguration={0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mWindowingMode=undefined mActivityType=undefined}}
+    mHasSurface=false isReadyForDisplay()=false mWindowRemovalAllowed=false
+    mFrame=[0,1080][1920,1080] last=[0,0][0,0]
+    Frames: containing=[0,0][1920,1080] parent=[0,0][1920,1080]
+        display=[0,0][1920,1080] overscan=[0,0][1920,1080]
+        content=[0,1080][1920,1080] visible=[0,1080][1920,1080]
+        decor=[0,0][1920,1080]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] surface=[0,0][0,0] outsets=[0,0][0,0] cutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) boundingRect=Rect(0, 0 - 0, 0)}
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0] cutout=com.android.server.wm.utils.WmDisplayCutout@3c1
+    WindowStateAnimator{dabcf56 VoiceUIDisplayer}:
+      mDrawState=NO_SURFACE       mLastHidden=false
+      mSystemDecorRect=[0,0][0,0] mLastClipRect=[0,0][0,0]
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+    isOnScreen=false
+    isVisible=false
+  Window #2 Window{2fd398d u0 Sys2023:dream}:
+    mDisplayId=0 stackId=0 mSession=Session{90be5b6 14105:u0a10123} mClient=android.os.BinderProxy@b18ca24
+    mOwnerUid=10123 mShowToOwnerOnly=true package=com.amazon.ftv.screensaver appop=NONE
+    mAttrs={(0,0)(fillxfill) sim={adjust=pan} layoutInDisplayCutoutMode=always ty=DREAM wanim=0x10302ee
+      fl=ALLOW_LOCK_WHILE_SCREEN_ON KEEP_SCREEN_ON LAYOUT_IN_SCREEN FULLSCREEN LAYOUT_INSET_DECOR SHOW_WHEN_LOCKED DISMISS_KEYGUARD SPLIT_TOUCH HARDWARE_ACCELERATED
+      pfl=FORCE_DRAW_STATUS_BAR_BACKGROUND
+      vsysui=LOW_PROFILE}
+    Requested w=1920 h=1080 mLayoutSeq=110
+    mBaseLayer=131000 mSubLayer=0 mAnimLayer=0+=0 mLastLayer=0
+    mToken=WindowToken{a3afb63 android.os.Binder@f0bb592}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x1
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 ?mcc?mnc [en_IN] ldltr sw540dp w960dp h540dp 320dpi lrg long land television -touch qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.6}
+    mLastReportedConfiguration={1.0 ?mcc?mnc [en_IN] ldltr sw540dp w960dp h540dp 320dpi lrg long land television -touch qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.6}
+    mHasSurface=true isReadyForDisplay()=true mWindowRemovalAllowed=false
+    mFrame=[0,0][1920,1080] last=[0,0][1920,1080]
+    Frames: containing=[0,0][1920,1080] parent=[0,0][1920,1080]
+        display=[0,0][1920,1080] overscan=[0,0][1920,1080]
+        content=[0,0][1920,1080] visible=[0,0][1920,1080]
+        decor=[0,0][1920,1080]
+        outset=[0,0][1920,1080]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] surface=[0,0][0,0] outsets=[0,0][0,0] cutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) boundingRect=Rect(0, 0 - 0, 0)}
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0] cutout=com.android.server.wm.utils.WmDisplayCutout@3c1
+    WindowStateAnimator{dd7abd7 Sys2023:dream}:
+       mAnimationIsEntrance=true      mSurface=Surface(name=Sys2023:dream)/@0xa79dcc4
+      Surface: shown=true layer=0 alpha=1.0 rect=(0.0,0.0) 1920 x 1080 transform=(1.0, 0.0, 1.0, 0.0)
+      mDrawState=HAS_DRAWN       mLastHidden=false
+      mSystemDecorRect=[0,0][1920,1080] mLastClipRect=[0,0][1920,1080]
+    isOnScreen=true
+    isVisible=true
+  Window #3 Window{49802c2 u0 com.amazon.tv.settings.v2/com.amazon.tv.settings.v2.tv.device.DeviceActivity}:
+    mDisplayId=0 stackId=1 mSession=Session{bd11037 10564:u0a10135} mClient=android.os.BinderProxy@12ad30d
+    mOwnerUid=10135 mShowToOwnerOnly=true package=com.amazon.tv.settings.v2 appop=NONE
+    mAttrs={(0,0)(fillxfill) sim={adjust=resize forwardNavigation} ty=BASE_APPLICATION wanim=0x7f13012e
+      fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED LOCAL_FOCUS_MODE DRAWS_SYSTEM_BAR_BACKGROUNDS
+      pfl=FORCE_DRAW_STATUS_BAR_BACKGROUND}
+    Requested w=1920 h=1080 mLayoutSeq=106
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=0+=0 mLastLayer=0
+    mToken=AppWindowToken{da569aa token=Token{e936495 ActivityRecord{fa01c4c u0 com.amazon.tv.settings.v2/.tv.device.DeviceActivity t9735}}}
+    mAppToken=AppWindowToken{da569aa token=Token{e936495 ActivityRecord{fa01c4c u0 com.amazon.tv.settings.v2/.tv.device.DeviceActivity t9735}}}
+     isAnimatingWithSavedSurface()= mAppDied=false    drawnStateEvaluated=true    mightAffectAllDrawn=true
+    mViewVisibility=0x0 mHaveFrame=true mObscured=true
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 ?mcc?mnc [en_IN] ldltr sw540dp w960dp h540dp 320dpi lrg long land television -touch qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=standard} s.6}
+    mLastReportedConfiguration={1.0 ?mcc?mnc [en_IN] ldltr sw540dp w960dp h540dp 320dpi lrg long land television -touch qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=standard} s.6}
+    mHasSurface=true isReadyForDisplay()=true mWindowRemovalAllowed=false
+    mFrame=[0,0][1920,1080] last=[0,0][1920,1080]
+    Frames: containing=[0,0][1920,1080] parent=[0,0][1920,1080]
+        display=[0,0][1920,1080] overscan=[0,0][1920,1080]
+        content=[0,0][1920,1080] visible=[0,0][1920,1080]
+        decor=[0,0][1920,1080]
+        outset=[0,0][1920,1080]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] surface=[0,0][0,0] outsets=[0,0][0,0] cutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) boundingRect=Rect(0, 0 - 0, 0)}
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0] cutout=com.android.server.wm.utils.WmDisplayCutout@3c1
+    WindowStateAnimator{abee7ad com.amazon.tv.settings.v2/com.amazon.tv.settings.v2.tv.device.DeviceActivity}:
+      mSurface=Surface(name=com.amazon.tv.settings.v2/com.amazon.tv.settings.v2.tv.device.DeviceActivity)/@0xaad8ae2
+      Surface: shown=true layer=0 alpha=1.0 rect=(0.0,0.0) 1920 x 1080 transform=(1.0, 0.0, 1.0, 0.0)
+      mDrawState=HAS_DRAWN       mLastHidden=false
+      mSystemDecorRect=[0,0][1920,1080] mLastClipRect=[0,0][1920,1080]
+    isOnScreen=true
+    isVisible=true
+  Window #4 Window{cdbc676 u0 com.amazon.tv.launcher/com.amazon.tv.launcher.ui.HomeActivity_vNext}:
+    mDisplayId=0 stackId=0 mSession=Session{b67398f 1797:u0a10026} mClient=android.os.BinderProxy@da14511
+    mOwnerUid=10026 mShowToOwnerOnly=true package=com.amazon.tv.launcher appop=NONE
+    mAttrs={(0,0)(fillxfill) sim={state=always_hidden adjust=nothing} ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x7f1200d3
+      fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED LOCAL_FOCUS_MODE DRAWS_SYSTEM_BAR_BACKGROUNDS
+      pfl=FORCE_DRAW_STATUS_BAR_BACKGROUND
+      vsysui=HIDE_NAVIGATION FULLSCREEN IMMERSIVE IMMERSIVE_STICKY}
+    Requested w=1920 h=1080 mLayoutSeq=45
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=0+=0 mLastLayer=0
+    mToken=AppWindowToken{4267279 token=Token{228e340 ActivityRecord{8750ec3 u0 com.amazon.tv.launcher/.ui.HomeActivity_vNext t9734}}}
+    mAppToken=AppWindowToken{4267279 token=Token{228e340 ActivityRecord{8750ec3 u0 com.amazon.tv.launcher/.ui.HomeActivity_vNext t9734}}}
+     isAnimatingWithSavedSurface()= mAppDied=false    drawnStateEvaluated=true    mightAffectAllDrawn=true
+    mViewVisibility=0x8 mHaveFrame=true mObscured=true
+    mSeq=0 mSystemUiVisibility=0x1806
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 ?mcc?mnc [en_IN] ldltr sw540dp w960dp h540dp 320dpi lrg long land television -touch qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=home} s.6}
+    mLastReportedConfiguration={1.0 ?mcc?mnc [en_IN] ldltr sw540dp w960dp h540dp 320dpi lrg long land television -touch qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=home} s.6}
+    mHasSurface=false isReadyForDisplay()=false mWindowRemovalAllowed=false
+    mFrame=[0,0][1920,1080] last=[0,0][1920,1080]
+    Frames: containing=[0,0][1920,1080] parent=[0,0][1920,1080]
+        display=[0,0][1920,1080] overscan=[0,0][1920,1080]
+        content=[0,0][1920,1080] visible=[0,0][1920,1080]
+        decor=[0,0][1920,1080]
+        outset=[0,0][1920,1080]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] surface=[0,0][0,0] outsets=[0,0][0,0] cutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) boundingRect=Rect(0, 0 - 0, 0)}
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0] cutout=com.android.server.wm.utils.WmDisplayCutout@3c1
+    WindowStateAnimator{9012e73 com.amazon.tv.launcher/com.amazon.tv.launcher.ui.HomeActivity_vNext}:
+       mAnimationIsEntrance=true      mDrawState=NO_SURFACE       mLastHidden=true
+      mSystemDecorRect=[0,0][1920,1080] mLastClipRect=[0,0][1920,1080]
+    isOnScreen=false
+    isVisible=false
+
+  mGlobalConfiguration={1.0 ?mcc?mnc [en_IN] ldltr sw540dp w960dp h540dp 320dpi lrg long land television -touch qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.6}
+  mHasPermanentDpad=true
+  mCurrentFocus=Window{2fd398d u0 Sys2023:dream}
+  mFocusedApp=AppWindowToken{da569aa token=Token{e936495 ActivityRecord{fa01c4c u0 com.amazon.tv.settings.v2/.tv.device.DeviceActivity t9735}}}
+  mInTouchMode=false
+  mLastDisplayFreezeDuration=0 due to Window{9928ed1 u0 com.amazon.tv.settings.v2/com.amazon.tv.settings.v2.system.FallbackHome}
+  mLastWakeLockHoldingWindow=Window{2fd398d u0 Sys2023:dream} mLastWakeLockObscuringWindow=null
+  SnapshotCache
+  mSystemDecorLayer=0 mScreenRect=[0,0][1920,1080]
+  mTraversalScheduled=false
+  mHoldScreenWindow=Window{2fd398d u0 Sys2023:dream}
+  mObscuringWindow=Window{2fd398d u0 Sys2023:dream}
+  mWallpaperTarget=null
+  mLastWallpaperX=-1.0 mLastWallpaperY=-1.0
+  mSystemBooted=true mDisplayEnabled=true
+  mTransactionSequence=399
+  mDisplayFrozen=false windows=0 client=false apps=0  mRotation=0 mAltOrientation=false
+  mLastWindowForcedOrientation=-1 mLastOrientation=0
+ waitingForConfig=false
+  mDeferredRotationPauseCount=0
+  Animation settings: disabled=false window=1.0 transition=1.0 animator=1.0
+  mSkipAppTransitionAnimation=false
+  mLayoutToAnim:
+    mNextAppTransition=TRANSIT_UNSET
+    mAppTransitionState=APP_STATE_IDLE
+    mLastUsedAppTransition=TRANSIT_TRANSLUCENT_ACTIVITY_CLOSE
+    mLastOpeningApp=AppWindowToken{da569aa token=Token{e936495 ActivityRecord{fa01c4c u0 com.amazon.tv.settings.v2/.tv.device.DeviceActivity t9735}}}
+    mLastClosingApp=AppWindowToken{6f32d8 token=Token{a1afdbb ActivityRecord{62b6a4a u0 com.android.systemui/.usb.UsbDebuggingActivity t9736}}}

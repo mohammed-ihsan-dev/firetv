@@ -1,0 +1,1016 @@
+Wi-Fi is enabled
+Verbose logging is off
+Stay-awake conditions: 0
+mInIdleMode false
+mScanPending false
+WifiController:
+ total records=4
+ rec[0]: time=11-01 11:27:32.515 processed=StaDisabledState org=StaDisabledState dest=<null> what=155656(0x26008)
+ rec[1]: time=11-01 11:27:33.021 processed=StaDisabledState org=StaDisabledState dest=<null> what=155659(0x2600b)
+ rec[2]: time=11-01 11:27:33.021 processed=StaDisabledState org=StaDisabledState dest=DeviceActiveState what=155656(0x26008)
+ rec[3]: time=11-01 11:27:35.789 processed=DefaultState org=DeviceActiveState dest=<null> what=155655(0x26007)
+curState=DeviceActiveState
+mPersistWifiState 1
+mAirplaneModeOn false
+mEnableTrafficStatsPoll true
+mTrafficStatsPollToken 9
+mTxPkts 28979
+mRxPkts 23281
+mDataActivity 3
+
+Locks held:
+Locks acquired: 12 full, 3 full high perf, 0 scan
+Locks released: 12 full, 3 full high perf, 0 scan
+
+Locks held:
+
+mMulticastEnabled 2
+mMulticastDisabled 1
+Multicast Locks held:
+    Multicaster{WP JMDNS Explorer uid=10116} callerUid=10116
+
+Dump of WifiStateMachinePrime
+Current wifi mode: ClientModeActiveState
+NumActiveModeManagers: 1
+--Dump of ClientModeManager--
+current StateMachine mode: StartedState
+mClientInterfaceName: wlan0
+mIfaceIsUp: true
+
+WifiStateMachine:
+ total records=49
+ rec[0]: time=11-01 11:27:32.449 processed=DefaultState org=DefaultState dest=<null> what=131207(0x20087) XXX
+ rec[1]: time=11-01 11:27:33.023 processed=DefaultState org=DefaultState dest=<null> what=131149(0x2004d) XXX
+ rec[2]: time=11-01 11:27:33.670 processed=DefaultState org=DefaultState dest=DisconnectedState what=131144(0x20048) XXX
+ rec[3]: time=11-01 11:27:33.816 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) XXX
+ rec[4]: time=11-01 11:27:33.842 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) XXX
+ rec[5]: time=11-01 11:27:39.726 processed=DefaultState org=DisconnectedState dest=<null> what=131206(0x20086) XXX
+ rec[6]: time=11-01 11:27:39.726 processed=DefaultState org=DisconnectedState dest=<null> what=69632(0x11000) XXX
+ rec[7]: time=11-01 11:27:39.744 processed=ConnectModeState org=DisconnectedState dest=<null> what=131203(0x20083) XXX
+ rec[8]: time=11-01 11:27:41.755 processed=DefaultState org=DisconnectedState dest=<null> what=131278(0x200ce) XXX
+ rec[9]: time=11-01 11:27:42.813 processed=ConnectModeState org=DisconnectedState dest=<null> what=131215(0x2008f) XXX
+ rec[10]: time=11-01 11:27:42.842 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) XXX
+ rec[11]: time=11-01 11:27:42.917 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) XXX
+ rec[12]: time=11-01 11:27:42.920 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) XXX
+ rec[13]: time=11-01 11:27:42.920 processed=DefaultState org=DisconnectedState dest=<null> what=131219(0x20093) XXX
+ rec[14]: time=11-01 11:27:42.921 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) XXX
+ rec[15]: time=11-01 11:27:42.943 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) XXX
+ rec[16]: time=11-01 11:27:42.957 processed=ConnectModeState org=DisconnectedState dest=ObtainingIpState what=147459(0x24003) XXX
+ rec[17]: time=11-01 11:27:43.050 processed=ConnectModeState org=ObtainingIpState dest=<null> what=147462(0x24006) XXX
+ rec[18]: time=11-01 11:27:43.079 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) XXX
+ rec[19]: time=11-01 11:27:43.097 processed=ConnectModeState org=ObtainingIpState dest=<null> what=131276(0x200cc) XXX
+ rec[20]: time=11-01 11:27:43.099 processed=DefaultState org=ObtainingIpState dest=<null> what=131275(0x200cb) XXX
+ rec[21]: time=11-01 11:27:43.106 processed=DefaultState org=ObtainingIpState dest=<null> what=131212(0x2008c) XXX
+ rec[22]: time=11-01 11:27:43.116 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) XXX
+ rec[23]: time=11-01 11:27:43.119 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=196611(0x30003) XXX
+ rec[24]: time=11-01 11:27:43.119 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=196614(0x30006) XXX
+ rec[25]: time=11-01 11:27:44.166 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=196612(0x30004) XXX
+ rec[26]: time=11-01 11:27:44.172 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=131272(0x200c8) XXX
+ rec[27]: time=11-01 11:27:44.173 processed=DefaultState org=ObtainingIpState dest=<null> what=131212(0x2008c) XXX
+ rec[28]: time=11-01 11:27:44.183 processed=DefaultState org=ObtainingIpState dest=<null> what=131212(0x2008c) XXX
+ rec[29]: time=11-01 11:27:44.189 processed=L2ConnectedState org=ObtainingIpState dest=ConnectedState what=131210(0x2008a) XXX
+ rec[30]: time=11-01 11:27:44.218 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) XXX
+ rec[31]: time=11-01 11:27:44.279 processed=DefaultState org=ConnectedState dest=<null> what=131133(0x2003d) XXX
+ rec[32]: time=11-01 11:27:44.318 processed=L2ConnectedState org=ConnectedState dest=<null> what=131235(0x200a3) XXX
+ rec[33]: time=11-01 11:27:44.537 processed=ConnectedState org=ConnectedState dest=<null> what=131220(0x20094) XXX
+ rec[34]: time=11-01 11:27:46.775 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) XXX
+ rec[35]: time=11-01 20:28:16.373 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) XXX
+ rec[36]: time=11-01 20:28:18.080 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) XXX
+ rec[37]: time=11-01 20:28:31.229 processed=DefaultState org=ConnectedState dest=<null> what=131324(0x200fc) XXX
+ rec[38]: time=11-01 20:29:03.533 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) XXX
+ rec[39]: time=11-01 20:29:03.551 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) XXX
+ rec[40]: time=11-01 20:29:17.649 processed=DefaultState org=ConnectedState dest=<null> what=131275(0x200cb) XXX
+ rec[41]: time=11-01 20:29:29.632 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) XXX
+ rec[42]: time=11-01 20:29:52.674 processed=DefaultState org=ConnectedState dest=<null> what=131275(0x200cb) XXX
+ rec[43]: time=11-01 20:30:12.772 processed=DefaultState org=ConnectedState dest=<null> what=131275(0x200cb) XXX
+ rec[44]: time=11-01 20:30:36.629 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) XXX
+ rec[45]: time=11-01 20:31:49.608 processed=DefaultState org=ConnectedState dest=<null> what=131134(0x2003e) XXX
+ rec[46]: time=11-01 20:35:07.900 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) XXX
+ rec[47]: time=11-01 20:35:59.971 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) XXX
+ rec[48]: time=11-01 20:36:00.214 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) XXX
+curState=ConnectedState
+SupplicantStateTracker:
+ total records=3
+ rec[0]: time=11-01 11:27:33.816 processed=DefaultState org=UninitializedState dest=UninitializedState what=131183(0x2006f)
+ rec[1]: time=11-01 11:27:42.842 processed=DefaultState org=UninitializedState dest=HandshakeState what=147462(0x24006)
+ rec[2]: time=11-01 11:27:43.106 processed=DefaultState org=HandshakeState dest=CompletedState what=147462(0x24006)
+curState=CompletedState
+mAuthFailureInSupplicantBroadcast false
+mAuthFailureReason 0
+mNetworksDisabledDuringConnect false
+
+mLinkProperties {InterfaceName: wlan0 LinkAddresses: [XXX]  Routes: [XXX] DnsAddresses: [XXX] UsePrivateDns: false PrivateDnsServerName: null Domains: null MTU: 0ServerAddress: 192.168.1.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}
+mWifiInfo SSID: XXX, BSSID: XXX, MAC: XXX, OUI: 4c:ae:1c, Supplicant state: COMPLETED, RSSI: -53, Link speed: 130Mbps, Frequency: 2412MHz, Net ID: 0, Metered hint: false, score: 60
+mDhcpResults IP address 192.168.1.2/24 Gateway 192.168.1.1  DNS servers: [ 103.140.17.242 103.175.2.230 ] Domains  DHCP server /192.168.1.1 Vendor info CTC0 lease 86400 seconds
+mNetworkInfo [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+mLastSignalLevel 4
+mLastBssid 4c:ae:1c:XXX
+mLastNetworkId 0
+mOperationalMode 1
+mUserWantsSuspendOpt true
+mSuspendOptNeedsDisabled 4
+CountryCode sent to driver: IN
+mConnectionReqCount 6
+mUntrustedReqCount 0
+Wlan Wake Reasons: totalCmdEventWake 0 totalDriverFwLocalWake 0 totalRxDataWake 0 rxUnicast 0 rxMulticast 0 rxBroadcast 0 icmp 0 icmp6 0 icmp6Ra 0 icmp6Na 0 icmp6Ns 0 ipv4RxMulticast 0 ipv6Multicast 0 otherRxMulticast 0
+
+Dump of WifiConfigManager
+WifiConfigManager - Log Begin ----
+2026-11-01T11:27:39.719 - clearInternalData: Clearing all internal data
+2026-11-01T11:27:44.534 - setNetworkSelectionStatus: configKey=XXXXX networkStatus=NETWORK_SELECTION_ENABLED disableReason=NETWORK_SELECTION_ENABLE at=time=11-01 11:27:44.532
+WifiConfigManager - Log End ----
+WifiConfigManager - Configured networks Begin ----
+ID: 0 SSID: "FTTH-THONIYIL" PROVIDER-NAME: null BSSID: null FQDN: null PRIO: 0 HIDDEN: false PMF: false
+ NetworkSelectionStatus NETWORK_SELECTION_ENABLED
+ hasEverConnected: true
+ numAssociation 837
+ creation time=10-29 09:46:16.270
+ validatedInternetAccess
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms: OPEN
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ GroupMgmtCiphers:
+ SuiteBCiphers:
+ PSK/SAE: *
+Enterprise config:
+IP config:
+IP assignment: DHCP
+Proxy settings: NONE
+ cuid=10135 cname=com.amazon.tv.settings.v2 luid=10135 lname=com.amazon.tv.settings.v2 lcuid=10135 userApproved=USER_UNSPECIFIED noInternetAccessExpected=false 
+lastConnected: 11-01 11:27:44.189 
+recentFailure: Association Rejection code: 0
+
+WifiConfigManager - Configured networks End ----
+WifiConfigManager - Next network ID to be allocated 1
+WifiConfigManager - Last selected network ID -1
+
+Dump of PasspointManager
+PasspointManager - Providers Begin ---
+PasspointManager - Providers End ---
+PasspointManager - Next provider ID to be assigned 0
+Last sweep 0:18:47.539 ago.
+
+Chipset information :-----------------------------------------------
+FW Version is: t-neptune-customer-mt7663-ccn6-smp-2033-7663_SMP-20251222175041
+Driver Version is: 1_0_1-20260921015958
+Supported Feature set: -1
+--------------------------------------------------------------------
+Bug dump 0
+system time = 11-01 20:46:06.943
+kernel time = 1143.352
+reason = 7
+kernel log: 
+
+
+system log: 
+--------- beginning of main
+11-01 20:45:54.067   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:45:54.450   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:45:55.067   360   360 W ServiceManagement: Waited one second for android.hardware.camera.provider@2.4::ICameraProvider/external/0
+11-01 20:45:55.068   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:45:55.307 14105 14105 I Screensaver_CompositeScheduler: Ready to composite u2.w@6967e26
+11-01 20:45:55.456   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:45:55.876   329  4221 I Node    : dolby-audio-meter, AdapterPcmSystem adapter audio meter: channel 0; audio level: 0.000
+11-01 20:45:55.876   329  4221 I Node    : dolby-audio-meter, AdapterPcmSystem adapter audio meter: channel 1; audio level: 0.000
+11-01 20:45:55.897   329  4221 I RendererNode: dolby-audio-meter, Renderer renderer audio meter: channel 0; audio level: 0.000
+11-01 20:45:55.897   329  4221 I RendererNode: dolby-audio-meter, Renderer renderer audio meter: channel 1; audio level: 0.000
+11-01 20:45:55.897   329  4221 I RendererNode: dolby-audio-meter, Renderer renderer audio meter: channel 2; audio level: 0.000
+11-01 20:45:55.897   329  4221 I RendererNode: dolby-audio-meter, Renderer renderer audio meter: channel 3; audio level: 0.000
+11-01 20:45:55.897   329  4221 I RendererNode: dolby-audio-meter, Renderer renderer audio meter: channel 4; audio level: 0.000
+11-01 20:45:55.897   329  4221 I RendererNode: dolby-audio-meter, Renderer renderer audio meter: channel 5; audio level: 0.000
+11-01 20:45:55.897   329  4221 I Node    : dolby-audio-meter, AdapterPcmOut adapter audio meter: channel 0; audio level: 0.000
+11-01 20:45:55.897   329  4221 I Node    : dolby-audio-meter, AdapterPcmOut adapter audio meter: channel 1; audio level: 0.000
+11-01 20:45:56.069   360   360 W ServiceManagement: Waited one second for android.hardware.camera.provider@2.4::ICameraProvider/external/0
+11-01 20:45:56.069   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:45:56.436   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:45:56.615   529   538 I system_server: Background concurrent copying GC freed 138597(5MB) AllocSpace objects, 13(260KB) LOS objects, 25% free, 17MB/23MB, paused 297us total 240.409ms
+11-01 20:45:57.070   360   360 W ServiceManagement: Waited one second for android.hardware.camera.provider@2.4::ICameraProvider/external/0
+11-01 20:45:57.070   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:45:57.081   529 14110 W system_server: Insufficient pre-allocated space to mmap vdex.
+11-01 20:45:57.356   529 14110 I chatty  : uid=1000(system) Binder:529_1F identical 5 lines
+11-01 20:45:57.398   529 14110 W system_server: Insufficient pre-allocated space to mmap vdex.
+11-01 20:45:57.417  1414  1420 I NEO_DIAL_SVC: Received HTTP method GET
+11-01 20:45:57.417  1414  1420 I NEO_DIAL_SVC: Received request /apps/YouTube
+11-01 20:45:57.417  1414  1420 I NEO_DIAL_SVC: handle_app_status, App Id = YouTube:
+11-01 20:45:57.423   529 14110 W system_server: Insufficient pre-allocated space to mmap vdex.
+11-01 20:45:57.435   529 14110 W system_server: Insufficient pre-allocated space to mmap vdex.
+11-01 20:45:57.446   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:45:57.595   529 14110 W system_server: Insufficient pre-allocated space to mmap vdex.
+11-01 20:45:57.801   529 14110 I chatty  : uid=1000(system) Binder:529_1F identical 2 lines
+11-01 20:45:57.825   529 14110 W system_server: Insufficient pre-allocated space to mmap vdex.
+11-01 20:45:57.832  1368  1368 I main.wifi_score: dump_wifi_score_ctxt(): is2g=1, is11ac=0, is11ax=0, chan_bw=20, nss=2, bcn_rssi=-53, data_rssi=-53, tx_ok=9976, tx_failed=1438, cca_idle_pct=98
+11-01 20:45:57.833  1368  1368 I main.wifi_score: dump_wifi_score_ctxt(): last_tx_stats: sgi=0, pream=1, mcs=7, ss=2, bw=0
+11-01 20:45:57.860   529 14110 W system_server: Insufficient pre-allocated space to mmap vdex.
+11-01 20:45:57.900   529 14110 I chatty  : uid=1000(system) Binder:529_1F identical 1 line
+11-01 20:45:57.914   529 14110 W system_server: Insufficient pre-allocated space to mmap vdex.
+11-01 20:45:58.071   360   360 W ServiceManagement: Waited one second for android.hardware.camera.provider@2.4::ICameraProvider/external/0
+11-01 20:45:58.072   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:45:58.456   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:45:59.072   360   360 W ServiceManagement: Waited one second for android.hardware.camera.provider@2.4::ICameraProvider/external/0
+11-01 20:45:59.073   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:45:59.451   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:46:00.073   360   360 W ServiceManagement: Waited one second for android.hardware.camera.provider@2.4::ICameraProvider/external/0
+11-01 20:46:00.074   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:46:00.075   529   538 I system_server: Background concurrent copying GC freed 84187(6MB) AllocSpace objects, 2(32KB) LOS objects, 26% free, 16MB/22MB, paused 1.701ms total 254.573ms
+11-01 20:46:00.432   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:46:01.074   360   360 W ServiceManagement: Waited one second for android.hardware.camera.provider@2.4::ICameraProvider/external/0
+11-01 20:46:01.075   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:46:01.433   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:46:01.461  3358  4027 I AVSClient: [a] I HTTP2Transport:sendMessagesAndPings:this=0x9d6c9e00,connectionId=2637993210-1-1,engineType=1:sendingPingRequest,m_state=CONNECTED
+11-01 20:46:01.835  1368  1368 I main.wifi_score: dump_wifi_score_ctxt(): is2g=1, is11ac=0, is11ax=0, chan_bw=20, nss=2, bcn_rssi=-53, data_rssi=-54, tx_ok=11436, tx_failed=1615, cca_idle_pct=98
+11-01 20:46:01.835  1368  1368 I main.wifi_score: dump_wifi_score_ctxt(): last_tx_stats: sgi=0, pream=1, mcs=6, ss=2, bw=0
+11-01 20:46:01.835  1368  1368 I main.wifi_score: cca_idle 96%, bcn_rssi -53, data_rssi -54, per 10% (ok=1460, failed=177), N MCS 6, BW 0 SS 2  116mbps, AMPDU length 16, dur 2056us UDP tput 87mbps.
+11-01 20:46:01.835  1368  1368 I main.wifi_score: Score 6, mcs 81 (phyrate cur/min/avg/max= 116/38/113/130 mbps), expected  UDP throughput cur/min/avg/max= 87/10/84/108 mbps.
+11-01 20:46:02.075   360   360 W ServiceManagement: Waited one second for android.hardware.camera.provider@2.4::ICameraProvider/external/0
+11-01 20:46:02.077   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:46:02.447   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:46:02.464  3358 14983 I SPCH-Cont_HealthLogger: Current State = {"AlexaCaptionsEnabled":"false","Account":"valid","ProfileValidated":"true","ProfileType":"ADULT","AlexaCaptionsSupported":"true","memoryTotalPss":"28050","DeviceFamily":"SMP","memoryTotalSharedDirty":"1172","ActiveSpeechUI":"Classic","ReleaseVersion":"662.0.0","AlexaLegalTermsAccepted":"true","AppVersion":"3.0.23518.0","AlexaExperience":"FULL","SupportsFarField":"false","short_press_overlay_state":"{\"enabled\": true, \"hintsEnabled\": false, \"isChild\": false, \"override\": 0, \"hasFullAlexa\": true}","memoryAvailable":"308903936","Gateway":"avs-alexa-18-eu.amazon.com:443","memoryLow":"false","RemoteSettingsStrategy":"VizArcus","ConnectionState":"CONNECTED","OOBECompleted":"true","memoryTotalPrivateDirty":"14586","str.auto_wake_up_always":"0"}
+11-01 20:46:02.713   529   538 I system_server: Background concurrent copying GC freed 35894(6MB) AllocSpace objects, 0(0B) LOS objects, 26% free, 16MB/22MB, paused 395us total 229.028ms
+11-01 20:46:03.077   360   360 W ServiceManagement: Waited one second for android.hardware.camera.provider@2.4::ICameraProvider/external/0
+11-01 20:46:03.077   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:46:03.457   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:46:03.796   282   289 I neo_service_coordinat..: Coordinator-watchdog: Process com.amazon.tv.turnstile(pid=10046) already exited
+11-01 20:46:04.078   360   360 W ServiceManagement: Waited one second for android.hardware.camera.provider@2.4::ICameraProvider/external/0
+11-01 20:46:04.079   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:46:04.437   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:46:04.629  1797  1980 I DiebusMetrics: Starting reporting metrics
+11-01 20:46:04.630  1797  1980 I DiebusMetrics: End reporting metrics
+11-01 20:46:04.711  1797  1952 I DiebusMetrics: Starting reporting metrics
+11-01 20:46:04.711  1797  1952 I DiebusMetrics: End reporting metrics
+11-01 20:46:05.079   360   360 W ServiceManagement: Waited one second for android.hardware.camera.provider@2.4::ICameraProvider/external/0
+11-01 20:46:05.080   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:46:05.152   529   538 I system_server: Background concurrent copying GC freed 34164(6MB) AllocSpace objects, 1(16KB) LOS objects, 26% free, 16MB/22MB, paused 439us total 269.381ms
+11-01 20:46:05.452   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:46:05.832  1368  1368 I main.wifi_score: dump_wifi_score_ctxt(): is2g=1, is11ac=0, is11ax=0, chan_bw=20, nss=2, bcn_rssi=-53, data_rssi=-55, tx_ok=14477, tx_failed=1799, cca_idle_pct=98
+11-01 20:46:05.832  1368  1368 I main.wifi_score: dump_wifi_score_ctxt(): last_tx_stats: sgi=0, pream=1, mcs=6, ss=2, bw=0
+11-01 20:46:05.881   329  4221 I Node    : dolby-audio-meter, AdapterPcmSystem adapter audio meter: channel 0; audio level: 0.000
+11-01 20:46:05.881   329  4221 I Node    : dolby-audio-meter, AdapterPcmSystem adapter audio meter: channel 1; audio level: 0.000
+11-01 20:46:05.924   329  4221 I RendererNode: dolby-audio-meter, Renderer renderer audio meter: channel 0; audio level: 0.000
+11-01 20:46:05.924   329  4221 I RendererNode: dolby-audio-meter, Renderer renderer audio meter: channel 1; audio level: 0.000
+11-01 20:46:05.924   329  4221 I RendererNode: dolby-audio-meter, Renderer renderer audio meter: channel 2; audio level: 0.000
+11-01 20:46:05.924   329  4221 I RendererNode: dolby-audio-meter, Renderer renderer audio meter: channel 3; audio level: 0.000
+11-01 20:46:05.924   329  4221 I RendererNode: dolby-audio-meter, Renderer renderer audio meter: channel 4; audio level: 0.000
+11-01 20:46:05.924   329  4221 I RendererNode: dolby-audio-meter, Renderer renderer audio meter: channel 5; audio level: 0.000
+11-01 20:46:05.924   329  4221 I Node    : dolby-audio-meter, AdapterPcmOut adapter audio meter: channel 0; audio level: 0.000
+11-01 20:46:05.924   329  4221 I Node    : dolby-audio-meter, AdapterPcmOut adapter audio meter: channel 1; audio level: 0.000
+11-01 20:46:06.080   360   360 W ServiceManagement: Waited one second for android.hardware.camera.provider@2.4::ICameraProvider/external/0
+11-01 20:46:06.081   360   360 I ServiceManagement: getService: Trying again for android.hardware.camera.provider@2.4::ICameraProvider/external/0...
+11-01 20:46:06.269   529 14110 W FastPrintWriter: Write failure
+11-01 20:46:06.269   529 14110 W FastPrintWriter: java.io.IOException: write failed: EPIPE (Broken pipe)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at libcore.io.IoBridge.write(IoBridge.java:531)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at java.io.FileOutputStream.write(FileOutputStream.java:381)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at com.android.internal.util.FastPrintWriter.flushBytesLocked(FastPrintWriter.java:352)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at com.android.internal.util.FastPrintWriter.flushLocked(FastPrintWriter.java:375)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at com.android.internal.util.FastPrintWriter.appendLocked(FastPrintWriter.java:320)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at com.android.internal.util.FastPrintWriter.print(FastPrintWriter.java:497)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at java.io.PrintWriter.println(PrintWriter.java:739)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at com.android.server.pm.PackageManagerServiceUtils.dumpCriticalInfo(PackageManagerServiceUtils.java:350)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at com.android.server.pm.PackageManagerService.dump(PackageManagerService.java:22617)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at android.os.Binder.doDump(Binder.java:640)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at android.os.Binder.dump(Binder.java:630)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at android.os.Binder.onTransact(Binder.java:580)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:2796)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:4012)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at android.os.Binder.execTransact(Binder.java:808)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: Caused by: android.system.ErrnoException: write failed: EPIPE (Broken pipe)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at libcore.io.Linux.writeBytes(Native Method)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at libcore.io.Linux.write(Linux.java:288)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:348)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	at libcore.io.IoBridge.write(IoBridge.java:526)
+11-01 20:46:06.269   529 14110 W FastPrintWriter: 	... 14 more
+11-01 20:46:06.442   324   324 W IMGMemtrackHAL: hal_get_memory: memtrack cache rebuild was required
+11-01 20:46:06.686   529   538 I system_server: Background concurrent copying GC freed 35208(6MB) AllocSpace objects, 0(0B) LOS objects, 22% free, 20MB/26MB, paused 356us total 247.942ms
+--------- beginning of system
+11-01 20:46:06.801   529   529 W Looper  : Slow dispatch took 8529ms main h=android.os.Handler c=android.app.AlarmManager$ListenerWrapper@ff2c786 m=0
+11-01 20:46:06.804   529   529 W Process : Unable to open /proc/0/status
+11-01 20:46:06.805   529   529 W Looper  : Slow delivery took 8529ms main h=com.android.server.job.JobSchedulerService$JobHandler c=null m=1
+11-01 20:46:06.805   529   529 W Looper  : Drained
+11-01 20:46:06.806   529   633 W BestClock: java.time.DateTimeException: Missing NTP fix
+11-01 20:46:06.807   950 14990 I com.amazon.imp/TokenJobQueue[0]: Begin executing task GetToken:com.amazon.vizzini/com.amazon.dcp.sso.token.oauth.amazon.access_token
+11-01 20:46:06.808   950 14990 I com.amazon.imp/TokenJobQueue[0]: Scheduled running concurrent job GetToken:com.amazon.vizzini/com.amazon.dcp.sso.token.oauth.amazon.access_token.
+11-01 20:46:06.812   950 14991 I com.amazon.imp/MAPApplicationInformationQueryer[0]: Populate change for remote MAP info.
+11-01 20:46:06.812   950 14991 I com.amazon.imp/MAPApplicationInformationQueryer[0]: CacheContainsPartialResults? true
+11-01 20:46:06.820   950 14991 I com.amazon.imp/TokenJobQueue[0]: Finish executing task GetToken:com.amazon.vizzini/com.amazon.dcp.sso.token.oauth.amazon.access_token.
+11-01 20:46:06.827  3358  4027 I AVSClient: [a] I HTTP2Transport:sendMessagesAndPings:this=0x9d6c9e00,connectionId=2637993210-1-1,engineType=1:CreatingPingHandler
+11-01 20:46:06.830   529   550 I ActivityManager: Start proc 14993:com.amazon.venezia/u0a127 for service com.amazon.venezia/com.amazon.juggler.settings.sync.SyncToDeviceJob
+11-01 20:46:06.847 14993 14993 E .amazon.venezi: Not starting debugger since process cannot load the jdwp agent.
+11-01 20:46:06.848 14993 15000 I .amazon.venezi: Bumping SignalCatcher priority from 5 to 10
+11-01 20:46:06.858  1414  1420 I NEO_DIAL_SVC: Received HTTP method GET
+11-01 20:46:06.858  1414  1420 I NEO_DIAL_SVC: Received request /apps/YouTube
+11-01 20:46:06.859  1414  1420 I NEO_DIAL_SVC: handle_app_status, App Id = YouTube:
+11-01 20:46:06.876   529   633 W BestClock: java.time.DateTimeException: Missing NTP fix
+11-01 20:46:06.890   529   634 W BestClock: java.time.DateTimeException: Missing NTP fix
+11-01 20:46:06.913 14993 14993 I .amazon.venezi: The ClassLoaderContext is a special shared library.
+11-01 20:46:06.916 14993 14993 I .amazon.venezi: The ClassLoaderContext is a special shared library.
+11-01 20:46:06.917 14993 14993 W .amazon.venezi: ClassLoaderContext classpath size mismatch for position 0. expected=0, found=2 (PCL[] | PCL[/system/framework/com.amazon.ceviche.sdk.jar*211858957:/system/framework/com.amazon.identity.auth.device.jar*247403874])
+11-01 20:46:06.920 14993 14993 W .amazon.venezi: ClassLoaderContext classpath size mismatch for position 0. expected=0, found=3 (PCL[] | PCL[/system/framework/com.amazon.ceviche.sdk.jar*211858957:/system/framework/com.amazon.identity.auth.device.jar*247403874:/system/priv-app/MetricsApi/MetricsApi.apk*3997826149])
+11-01 20:46:06.924 14993 14993 W .amazon.venezi: ClassLoaderContext classpath size mismatch for position 0. expected=0, found=4 (PCL[] | PCL[/system/framework/com.amazon.ceviche.sdk.jar*211858957:/system/framework/com.amazon.identity.auth.device.jar*247403874:/system/priv-app/MetricsApi/MetricsApi.apk*3997826149:/system/priv-app/MinervaApi/MinervaApi.apk*2929471093])
+11-01 20:46:06.930 14993 14993 I .amazon.venezi: The ClassLoaderContext is a special shared library.
+11-01 20:46:06.938 14993 14993 I chatty  : uid=10127(com.amazon.venezia) identical 1 line
+11-01 20:46:06.940 14993 14993 I .amazon.venezi: The ClassLoaderContext is a special shared library.
+11-01 20:46:06.943 14993 14993 W .amazon.venezi: ClassLoaderContext classpath size mismatch for position 0. expected=0, found=8 (PCL[] | PCL[/system/framework/com.amazon.ceviche.sdk.jar*211858957:/system/framework/com.amazon.identity.auth.device.jar*247403874:/system/priv-app/MetricsApi/MetricsApi.apk*3997826149:/system/priv-app/MinervaApi/MinervaApi.apk*2929471093:/system/priv-app/DeviceMessagingAndroidInternalSDK/DeviceMessagingAndroidInternalSDK.apk*1700992038:/system/framework/FireOSPhoenixSDKNeoJavaServiceApi.jar*3060895436:/system/framework/com.amazon.device_remote_config_sync.jar*1022259897:/system/framework/FireTvSysappsLib.jar*2814627382])
+11-01 20:46:06.944 14993 14993 W .amazon.venezi: Found duplicate classes, falling back to extracting from APK : /system/priv-app/DeviceSoftwareOTAContracts/DeviceSoftwareOTAContracts.apk
+11-01 20:46:06.944 14993 14993 W .amazon.venezi: NOTE: This wastes RAM and hurts startup performance.
+11-01 20:46:06.944 14993 14993 W .amazon.venezi: Found duplicated class when checking oat files: 'Lcom/amazon/dcp/tph/TPHConstants;' in /system/priv-app/DeviceSoftwareOTAContracts/DeviceSoftwareOTAContracts.apk and /system/priv-app/DeviceMessagingAndroidInternalSDK/DeviceMessagingAndroidInternalSDK.apk
+11-01 20:46:06.944 14993 14993 W .amazon.venezi: 
+11-01 20:46:06.957 14993 14993 I .amazon.venezi: The ClassLoaderContext is a special shared library.
+
+ring-buffer = dummy
+
+--------------------------------------------------------------------
+HAL provided zero fates for "Last failed connection fates"
+HAL provided zero fates for "Latest fates"
+-------------------------- Last failed last-mile log ---------------------------
+XXX--------------------------------------------------------------------
+-------------------------- Latest last-mile log ---------------------------
+XXX--------------------------------------------------------------------
+--------------------------------------------------------------------
+IpClient.wlan0 APF dump:
+  No active ApfFilter; Hardware does not support APF.
+
+IpClient.wlan0 current ProvisioningConfiguration:
+  ProvisioningConfiguration{mEnableIPv4: true, mEnableIPv6: true, mUsingMultinetworkPolicyTracker: true, mUsingIpReachabilityMonitor: false, mRequestedPreDhcpActionMs: 36000, mInitialConfig: null, mStaticIpConfig: null, mApfCapabilities: ApfCapabilities{version: 0, maxSize: 0, format: 1}, mProvisioningTimeoutMs: 36000, mIPv6AddrGenMode: 0, mNetwork: 100}
+
+IpClient.wlan0 StateMachine dump:
+  2026-11-01T11:27:33.720 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  2026-11-01T11:27:43.003 - CMD_STOP wlan0/-1 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  2026-11-01T11:27:43.004 - CMD_UPDATE_HTTP_PROXY wlan0/-1 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  2026-11-01T11:27:43.005 - CMD_UPDATE_TCP_BUFFER_SIZES wlan0/-1 0 0 524288,1048576,2097152,262144,524288,1048576 [rcvd_in=StoppedState, proc_in=StoppedState]
+  2026-11-01T11:27:43.016 - INVOKE setNeighborDiscoveryOffload(true)
+  2026-11-01T11:27:43.017 - CMD_START wlan0/9 0 0 ProvisioningConfiguration{mEnableIPv4: true, mEnableIPv6: true, mUsingMultinetworkPolicyTracker: true, mUsingIpReachabilityMonitor: false, mRequestedPreDhcpActionMs: 36000, mInitialConfig: null, mStaticIpConfig: null, mApfCapabilities: ApfCapabilities{version: 0, maxSize: 0, format: 1}, mProvisioningTimeoutMs: 36000, mIPv6AddrGenMode: 0, mNetwork: 100} [rcvd_in=StoppedState, proc_in=StoppedState]
+  2026-11-01T11:27:43.020 - INVOKE setFallbackMulticastFilter(true)
+  2026-11-01T11:27:43.074 - CMD_CONFIRM wlan0/9 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  2026-11-01T11:27:43.075 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [XXX]  Routes: [XXX] DnsAddresses: [XXX] UsePrivateDns: false PrivateDnsServerName: null Domains: null MTU: 0ServerAddress: null TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  2026-11-01T11:27:43.099 - INVOKE onPreDhcpAction()
+  2026-11-01T11:27:43.120 - CMD_PRE_DHCP_ACTION wlan0/9 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  2026-11-01T11:27:43.120 - EVENT_PRE_DHCP_ACTION_COMPLETE wlan0/9 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  2026-11-01T11:27:44.163 - INVOKE onPostDhcpAction()
+  2026-11-01T11:27:44.168 - INVOKE onNewDhcpResults({IP address 192.168.1.2/24 Gateway 192.168.1.1  DNS servers: [ 103.140.17.242 103.175.2.230 ] Domains  DHCP server /192.168.1.1 Vendor info CTC0 lease 86400 seconds})
+  2026-11-01T11:27:44.168 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [XXX]  Routes: [XXX] DnsAddresses: [XXX] UsePrivateDns: false PrivateDnsServerName: null Domains: null MTU: 0ServerAddress: 192.168.1.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  2026-11-01T11:27:44.168 - CMD_POST_DHCP_ACTION wlan0/9 1 0 IP address 192.168.1.2/24 Gateway 192.168.1.1  DNS servers: [ 103.140.17.242 103.175.2.230 ] Domains  DHCP server /192.168.1.1 Vendor info CTC0 lease 86400 seconds [rcvd_in=RunningState, proc_in=RunningState]
+  2026-11-01T11:27:44.174 - CMD_CONFIGURE_LINKADDRESS wlan0/9 0 0 192.168.1.2/24 [rcvd_in=RunningState, proc_in=RunningState]
+  2026-11-01T11:27:44.205 - INVOKE onProvisioningSuccess({{InterfaceName: wlan0 LinkAddresses: [XXX]  Routes: [XXX] DnsAddresses: [XXX] UsePrivateDns: false PrivateDnsServerName: null Domains: null MTU: 0ServerAddress: 192.168.1.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  2026-11-01T20:29:17.547 - INVOKE setFallbackMulticastFilter(false)
+  2026-11-01T20:29:17.569 - CMD_SET_MULTICAST_FILTER wlan0/9 0 0 false [rcvd_in=RunningState, proc_in=RunningState]
+  2026-11-01T20:29:52.629 - INVOKE setFallbackMulticastFilter(true)
+  2026-11-01T20:29:52.658 - CMD_SET_MULTICAST_FILTER wlan0/9 0 0 true [rcvd_in=RunningState, proc_in=RunningState]
+  2026-11-01T20:30:12.720 - INVOKE setFallbackMulticastFilter(false)
+  2026-11-01T20:30:12.754 - CMD_SET_MULTICAST_FILTER wlan0/9 0 0 false [rcvd_in=RunningState, proc_in=RunningState]
+
+IpClient.wlan0 connectivity packet log:
+
+Debug with python and scapy via:
+shell$ python
+>>> from scapy import all as scapy
+>>> scapy.Ether("<paste_hex_string>".decode("hex")).show2()
+
+  2026-11-01T11:27:43.022 - --- START ---
+Dump of WifiConnectivityManager
+WifiConnectivityManager - Log Begin ----
+2026-11-01T11:27:30.804 - ScoredNetworkEvaluator constructed. mNetworkRecommendationsEnabled: false
+2026-11-01T11:27:33.672 - PNO settings: min5GHzRssi -82 min24GHzRssi -85 currentConnectionBonus 16 sameNetworkBonus 24 secureNetworkBonus 80 initialScoreMax 112
+2026-11-01T11:27:33.673 - Passpoint is: disabled
+2026-11-01T11:27:33.674 - ConnectivityScanManager initialized and disabled
+2026-11-01T11:27:33.674 - setUntrustedConnectionAllowed: allowed=false
+2026-11-01T11:27:33.685 - handleScreenStateChanged: screenOn=true
+2026-11-01T11:27:33.685 - startConnectivityScan: screenOn=true wifiState=unknown scanImmediately=false wifiEnabled=false wifiConnectivityManagerEnabled=false
+2026-11-01T11:27:33.786 - Set WiFi enabled
+2026-11-01T11:27:33.786 - Stopping WifiConnectivityManager
+2026-11-01T11:27:33.786 - handleConnectionStateChanged: state=disconnected
+2026-11-01T11:27:33.786 - scheduleWatchdogTimer
+2026-11-01T11:27:33.790 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=false
+2026-11-01T11:27:39.726 - Set WiFiConnectivityManager enabled
+2026-11-01T11:27:39.726 - Starting up WifiConnectivityManager
+2026-11-01T11:27:39.743 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+2026-11-01T11:27:42.574 - AllSingleScanListener onResults: start network selection
+2026-11-01T11:27:42.574 - About to run SavedNetworkEvaluator :
+2026-11-01T11:27:42.576 - 
+[ SSID:XXX BSSID:XXX RSSI:-54 ]  RSSI score: 100, Secure network bonus: 80, ## Total score: 180
+
+2026-11-01T11:27:42.576 - SavedNetworkEvaluator selects SSID="FTTH-THONIYIL":0 : 4c:ae:1c:39:2d:7c
+2026-11-01T11:27:42.577 - AllSingleScanListener:  WNS candidate-XXX
+2026-11-01T11:27:42.577 - connectToNetwork: Connect to XXX:any from Disconnected
+2026-11-01T11:27:42.955 - trackBssid: enable 4c:ae:1c:39:2d:7c reason code 0
+2026-11-01T11:27:42.957 - handleConnectionStateChanged: state=transitioning
+2026-11-01T11:27:42.957 - startConnectivityScan: screenOn=true wifiState=transitioning scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2026-11-01T11:27:44.189 - handleConnectionStateChanged: state=connected
+2026-11-01T11:27:44.189 - startConnectivityScan: screenOn=true wifiState=connected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2026-11-01T20:29:07.578 - AllSingleScanListener onResults: start network selection
+2026-11-01T20:29:07.580 - Switching networks in connected state is not allowed. Skip network selection.
+WifiConnectivityManager - Log End ----
+WifiOpenNetworkNotifier: 
+mSettingEnabled true
+currentTime: 1793546167003
+mNotificationRepeatTime: 0
+mState: 0
+mBlacklistedSsids: {}
+WifiCarrierNetworkNotifier: 
+mSettingEnabled true
+currentTime: 1793546167003
+mNotificationRepeatTime: 0
+mState: 0
+mBlacklistedSsids: {}
+Dump of WakeupController
+USE_PLATFORM_WIFI_WAKE: true
+mWifiWakeupEnabled: true
+isOnboarded: false
+configStore hasBeenRead: true
+mIsActive: false
+mNumScansHandled: 0
+WakeupLock: 
+mNumScans: 0
+mIsInitialized: true
+Locked networks: 0
+
+WifiMetrics:
+mConnectionEvents:
+startTime=11-01 11:27:42.588, SSID=XXX, BSSID=XXX, durationMillis=1595, roamType=ROAM_UNRELATED, connectionResult=1, level2FailureCode=NONE, connectivityLevelFailureCode=NONE, signalStrength=-54, wifiState=WIFI_DISCONNECTED, screenOn=true. mRouterFingerprint: mConnectionEvent.roamType=0, mChannelInfo=2412, mDtim=0, mAuthentication=2, mHidden=false, mRouterTechnology=4, mSupportsIpv6=false
+mWifiLogProto.numSavedNetworks=1
+mWifiLogProto.numOpenNetworks=0
+mWifiLogProto.numLegacyPersonalNetworks=1
+mWifiLogProto.numLegacyEnterpriseNetworks=0
+mWifiLogProto.numEnhancedOpenNetworks=0
+mWifiLogProto.numWpa3PersonalNetworks=0
+mWifiLogProto.numWpa3EnterpriseNetworks=0
+mWifiLogProto.numHiddenNetworks=0
+mWifiLogProto.numPasspointNetworks=0
+mWifiLogProto.isLocationEnabled=false
+mWifiLogProto.isScanningAlwaysEnabled=false
+mWifiLogProto.numNetworksAddedByUser=0
+mWifiLogProto.numNetworksAddedByApps=1
+mWifiLogProto.numNonEmptyScanResults=2
+mWifiLogProto.numEmptyScanResults=0
+mWifiLogProto.numConnecitvityOneshotScans=1
+mWifiLogProto.numOneshotScans=2
+mWifiLogProto.numBackgroundScans=0
+mWifiLogProto.numExternalAppOneshotScanRequests=1
+mWifiLogProto.numExternalForegroundAppOneshotScanRequestsThrottled=0
+mWifiLogProto.numExternalBackgroundAppOneshotScanRequestsThrottled=0
+mScanReturnEntries:
+  SCAN_UNKNOWN: 0
+  SCAN_SUCCESS: 2
+  SCAN_FAILURE_INTERRUPTED: 0
+  SCAN_FAILURE_INVALID_CONFIGURATION: 0
+  FAILURE_WIFI_DISABLED: 0
+mSystemStateEntries: <state><screenOn> : <scansInitiated>
+  WIFI_UNKNOWN       ON: 0
+  WIFI_DISABLED      ON: 0
+  WIFI_DISCONNECTED  ON: 1
+  WIFI_ASSOCIATED    ON: 1
+  WIFI_UNKNOWN      OFF: 0
+  WIFI_DISABLED     OFF: 0
+  WIFI_DISCONNECTED OFF: 0
+  WIFI_ASSOCIATED   OFF: 0
+mWifiLogProto.numConnectivityWatchdogPnoGood=0
+mWifiLogProto.numConnectivityWatchdogPnoBad=0
+mWifiLogProto.numConnectivityWatchdogBackgroundGood=0
+mWifiLogProto.numConnectivityWatchdogBackgroundBad=0
+mWifiLogProto.numLastResortWatchdogTriggers=0
+mWifiLogProto.numLastResortWatchdogBadAssociationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadAuthenticationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadDhcpNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadOtherNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogAvailableNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAssociation=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAuthentication=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadDhcp=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadOther=0
+mWifiLogProto.numLastResortWatchdogSuccesses=0
+mWifiLogProto.recordDurationSec=1128
+mWifiLogProto.rssiPollCount: {"2412":[{"-59":1},{"-58":2},{"-56":2},{"-55":1},{"-54":172},{"-53":189},{"-52":4}]}
+mWifiLogProto.rssiPollDeltaCount: Printing counts for [-127, 127]
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.alertReasonCounts=()
+mWifiLogProto.numTotalScanResults=2
+mWifiLogProto.numOpenNetworkScanResults=0
+mWifiLogProto.numLegacyPersonalNetworkScanResults=2
+mWifiLogProto.numLegacyEnterpriseNetworkScanResults=0
+mWifiLogProto.numEnhancedOpenNetworkScanResults=0
+mWifiLogProto.numWpa3PersonalNetworkScanResults=0
+mWifiLogProto.numWpa3EnterpriseNetworkScanResults=0
+mWifiLogProto.numHiddenNetworkScanResults=0
+mWifiLogProto.numHotspot2R1NetworkScanResults=0
+mWifiLogProto.numHotspot2R2NetworkScanResults=0
+mWifiLogProto.numScans=2
+mWifiLogProto.WifiScoreCount: [0, 60]
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 370 
+mWifiLogProto.SoftApManagerReturnCodeCounts:
+  SUCCESS: 0
+  FAILED_GENERAL_ERROR: 0
+  FAILED_NO_CHANNEL: 0
+
+mWifiLogProto.numHalCrashes=0
+mWifiLogProto.numWificondCrashes=0
+mWifiLogProto.numSupplicantCrashes=0
+mWifiLogProto.numHostapdCrashes=0
+mWifiLogProto.numSetupClientInterfaceFailureDueToHal=0
+mWifiLogProto.numSetupClientInterfaceFailureDueToWificond=0
+mWifiLogProto.numSetupClientInterfaceFailureDueToSupplicant=0
+mWifiLogProto.numSetupSoftApInterfaceFailureDueToHal=0
+mWifiLogProto.numSetupSoftApInterfaceFailureDueToWificond=0
+mWifiLogProto.numSetupSoftApInterfaceFailureDueToHostapd=0
+StaEventList:
+11-01 11:27:42.809 CMD_START_CONNECT, ConfigInfo: allowed_key_management=2 allowed_protocols=3 allowed_auth_algorithms=1 allowed_pairwise_ciphers=6 allowed_group_ciphers=15 hidden_ssid=false is_passpoint=false is_ephemeral=false has_ever_connected=true scan_rssi=-54 scan_freq=2412
+11-01 11:27:42.920 CMD_ASSOCIATED_BSSID, supplicantStateChangeEvents: { AUTHENTICATING ASSOCIATING ASSOCIATED}
+11-01 11:27:43.041 NETWORK_CONNECTION_EVENT lastRssi=-54 lastFreq=2412 lastLinkSpeed=130, supplicantStateChangeEvents: { FOUR_WAY_HANDSHAKE GROUP_HANDSHAKE}
+11-01 11:27:44.182 CMD_IP_CONFIGURATION_SUCCESSFUL lastRssi=-54 lastFreq=2412 lastLinkSpeed=130 lastScore=60, supplicantStateChangeEvents: { COMPLETED}
+11-01 11:27:44.522 NETWORK_AGENT_VALID_NETWORK
+mWifiLogProto.numPasspointProviders=0
+mWifiLogProto.numPasspointProviderInstallation=0
+mWifiLogProto.numPasspointProviderInstallSuccess=0
+mWifiLogProto.numPasspointProviderUninstallation=0
+mWifiLogProto.numPasspointProviderUninstallSuccess=0
+mWifiLogProto.numPasspointProvidersSuccessfullyConnected=0
+mWifiLogProto.numRadioModeChangeToMcc=0
+mWifiLogProto.numRadioModeChangeToScc=0
+mWifiLogProto.numRadioModeChangeToSbs=0
+mWifiLogProto.numRadioModeChangeToDbs=0
+mWifiLogProto.numSoftApUserBandPreferenceUnsatisfied=0
+mTotalSsidsInScanHistogram:{1=2}
+mTotalBssidsInScanHistogram:{1=2}
+mAvailableOpenSsidsInScanHistogram:{0=2}
+mAvailableOpenBssidsInScanHistogram:{0=2}
+mAvailableSavedSsidsInScanHistogram:{1=2}
+mAvailableSavedBssidsInScanHistogram:{1=2}
+mAvailableOpenOrSavedSsidsInScanHistogram:{1=2}
+mAvailableOpenOrSavedBssidsInScanHistogram:{1=2}
+mAvailableSavedPasspointProviderProfilesInScanHistogram:{0=2}
+mAvailableSavedPasspointProviderBssidsInScanHistogram:{0=2}
+mWifiLogProto.partialAllSingleScanListenerResults=0
+mWifiLogProto.fullBandAllSingleScanListenerResults=2
+mWifiAwareMetrics:
+mLastEnableUsageMs:0
+mLastEnableUsageInThisSampleWindowMs:0
+mAvailableTimeMs:0
+mHistogramAwareAvailableDurationMs:
+mLastEnableAwareMs:0
+mLastEnableAwareInThisSampleWindowMs:0
+mEnabledTimeMs:0
+mHistogramAwareEnabledDurationMs:
+mAttachDataByUid:
+mAttachStatusData:
+mHistogramAttachDuration:
+mMaxPublishInApp:0
+mMaxSubscribeInApp:0
+mMaxDiscoveryInApp:0
+mMaxPublishInSystem:0
+mMaxSubscribeInSystem:0
+mMaxDiscoveryInSystem:0
+mPublishStatusData:
+mSubscribeStatusData:
+mHistogramPublishDuration:
+mHistogramSubscribeDuration:
+mAppsWithDiscoverySessionResourceFailure:
+mMaxPublishWithRangingInApp:0
+mMaxSubscribeWithRangingInApp:0
+mMaxPublishWithRangingInSystem:0
+mMaxSubscribeWithRangingInSystem:0
+mHistogramSubscribeGeofenceMin:
+mHistogramSubscribeGeofenceMax:
+mNumSubscribesWithRanging:0
+mNumMatchesWithRanging:0
+mNumMatchesWithoutRangingForRangingEnabledSubscribes:0
+mMaxNdiInApp:0
+mMaxNdpInApp:0
+mMaxSecureNdpInApp:0
+mMaxNdiInSystem:0
+mMaxNdpInSystem:0
+mMaxSecureNdpInSystem:0
+mMaxNdpPerNdi:0
+mInBandNdpStatusData:
+mOutOfBandNdpStatusData:
+mNdpCreationTimeDuration:
+mNdpCreationTimeMin:-1
+mNdpCreationTimeMax:0
+mNdpCreationTimeSum:0
+mNdpCreationTimeSumSq:0
+mNdpCreationTimeNumSamples:0
+mHistogramNdpDuration:
+mRttMetrics:
+RTT Metrics:
+mNumStartRangingCalls:0
+mOverallStatusHistogram:{}
+AP:numCalls=0, numIndividualCalls=0, perUidInfo={}, numRequestsHistogram={}, requestGapHistogram={}, measuredDistanceHistogram={}
+AWARE:numCalls=0, numIndividualCalls=0, perUidInfo={}, numRequestsHistogram={}, requestGapHistogram={}, measuredDistanceHistogram={}
+mPnoScanMetrics.numPnoScanAttempts=0
+mPnoScanMetrics.numPnoScanFailed=0
+mPnoScanMetrics.numPnoScanStartedOverOffload=0
+mPnoScanMetrics.numPnoScanFailedOverOffload=0
+mPnoScanMetrics.numPnoFoundNetworkEvents=0
+mWifiLogProto.connectToNetworkNotificationCount={}
+mWifiLogProto.connectToNetworkNotificationActionCount={}
+mWifiLogProto.openNetworkRecommenderBlacklistSize=0
+mWifiLogProto.isWifiNetworksAvailableNotificationOn=true
+mWifiLogProto.numOpenNetworkRecommendationUpdates=0
+mWifiLogProto.numOpenNetworkConnectMessageFailedToSend=0
+mWifiLogProto.observedHotspotR1ApInScanHistogram={0=2}
+mWifiLogProto.observedHotspotR2ApInScanHistogram={0=2}
+mWifiLogProto.observedHotspotR1EssInScanHistogram={0=2}
+mWifiLogProto.observedHotspotR2EssInScanHistogram={0=2}
+mWifiLogProto.observedHotspotR1ApsPerEssInScanHistogram={}
+mWifiLogProto.observedHotspotR2ApsPerEssInScanHistogram={}
+mWifiLogProto.observed80211mcSupportingApsInScanHistogram{0=2}
+mSoftApTetheredEvents:
+mSoftApLocalOnlyEvents:
+mWpsMetrics.numWpsAttempts=0
+mWpsMetrics.numWpsSuccess=0
+mWpsMetrics.numWpsStartFailure=0
+mWpsMetrics.numWpsOverlapFailure=0
+mWpsMetrics.numWpsTimeoutFailure=0
+mWpsMetrics.numWpsOtherConnectionFailure=0
+mWpsMetrics.numWpsSupplicantFailure=0
+mWpsMetrics.numWpsCancellation=0
+Wifi power metrics:
+Logging duration (time on battery): 0
+Energy consumed by wifi (mAh): 0.0
+Amount of time wifi is in idle (ms): 0
+Amount of time wifi is in rx (ms): 0
+Amount of time wifi is in tx (ms): 0
+-------WifiWake metrics-------
+mTotalSessions: 0
+mTotalWakeups: 0
+mIgnoredStarts: 0
+mIsInSession: false
+Stored Sessions: 0
+----end of WifiWake metrics----
+mWifiLogProto.isMacRandomizationOn=false
+mWifiLogProto.scoreExperimentId=
+
+Dump of WifiBackupRestore
+
+ScoringParams: settings put global wifi_score_params rssi2=-85:-85:-73:-60,rssi5=-82:-82:-70:-57,pps=0:1:100,horizon=15,nud=8,expid=0
+
+WifiScoreReport:
+time,session,netid,rssi,filtered_rssi,rssi_threshold,freq,linkspeed,tx_good,tx_retry,tx_bad,rx_pps,nudrq,nuds,s1,s2,score
+11-01 11:27:43.059,0,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 11:27:46.187,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 11:27:49.197,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:27:40.845,1,100,-56.0,-56.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,67,79,60
+11-01 20:27:43.863,1,100,-54.0,-55.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,80,60
+11-01 20:27:46.883,1,100,-54.0,-54.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,80,60
+11-01 20:27:49.890,1,100,-54.0,-54.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:27:52.951,1,100,-54.0,-54.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:27:55.987,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:27:59.024,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:02.069,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:05.073,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:08.096,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:11.104,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:14.112,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:17.117,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:20.120,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:23.149,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:26.238,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:29.289,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:32.294,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:35.332,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:38.338,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:41.350,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:44.368,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:47.378,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:50.420,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:53.429,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:56.434,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:28:59.481,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:29:02.497,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:29:05.505,1,100,-58.0,-55.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,65,78,60
+11-01 20:29:08.512,1,100,-54.0,-55.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,79,60
+11-01 20:29:11.519,1,100,-54.0,-54.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,80,60
+11-01 20:29:14.525,1,100,-54.0,-54.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,80,60
+11-01 20:29:17.593,1,100,-54.0,-54.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:29:20.652,1,100,-54.0,-54.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:29:23.807,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:29:26.911,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:29:29.996,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:29:33.053,1,100,-53.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:29:36.120,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:29:39.141,1,100,-54.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:29:42.149,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:29:45.169,1,100,-53.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:29:48.175,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:29:51.182,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:29:54.260,1,100,-56.0,-54.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,67,80,60
+11-01 20:29:57.397,1,100,-59.0,-56.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,64,77,60
+11-01 20:30:00.428,1,100,-58.0,-57.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,65,75,60
+11-01 20:30:03.569,1,100,-55.0,-56.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,68,76,60
+11-01 20:30:06.655,1,100,-53.0,-55.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,79,60
+11-01 20:30:09.788,1,100,-53.0,-54.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,80,60
+11-01 20:30:12.878,1,100,-53.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:30:16.046,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:30:19.163,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:30:22.222,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:30:25.571,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:30:28.686,1,100,-54.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:30:31.696,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:30:34.730,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:30:37.737,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:30:40.825,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:30:43.884,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:30:46.979,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:30:50.030,1,100,-52.0,-52.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,71,82,60
+11-01 20:30:53.053,1,100,-53.0,-52.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:30:56.068,1,100,-54.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:30:59.085,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:31:02.094,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:05.226,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:08.261,1,100,-53.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:31:11.265,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:31:14.271,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:31:17.281,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:31:20.288,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:23.294,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:31:26.301,1,100,-54.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:29.309,1,100,-54.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:32.314,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:35.320,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:38.324,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,80,60
+11-01 20:31:41.330,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:44.338,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:47.344,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:50.352,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:53.359,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:56.363,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:31:59.368,1,100,-53.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:32:02.374,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:32:05.379,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:32:08.384,1,100,-53.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:32:11.387,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:32:14.392,1,100,-54.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:32:17.398,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:32:20.404,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:32:23.411,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:32:26.415,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:32:29.422,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:32:32.428,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:32:35.433,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:32:38.439,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:32:41.444,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:32:44.450,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:32:47.457,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:32:50.464,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:32:53.470,1,100,-54.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:32:56.478,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:32:59.484,1,100,-54.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:02.490,1,100,-54.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:05.494,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:08.500,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:11.507,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,80,60
+11-01 20:33:14.510,1,100,-53.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:33:17.517,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:20.523,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:23.530,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:26.536,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:29.543,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:32.549,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:35.556,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:38.562,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:41.569,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:44.574,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:47.579,1,100,-53.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:33:50.583,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:53.590,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:33:56.596,1,100,-53.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:33:59.603,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:02.608,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:05.615,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:08.621,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:11.629,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:14.634,1,100,-54.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:34:17.640,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:20.647,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:34:23.652,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:26.658,1,100,-54.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:34:29.663,1,100,-54.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:34:32.670,1,100,-53.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:34:35.675,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:38.681,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:41.688,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:44.694,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:47.698,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:50.704,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:53.716,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:56.725,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:34:59.731,1,100,-54.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:35:02.744,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:35:05.747,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:35:08.753,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,80,60
+11-01 20:35:11.756,1,100,-53.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:35:14.762,1,100,-53.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:35:17.769,1,100,-54.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:35:20.774,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:35:23.780,1,100,-53.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:35:26.783,1,100,-54.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:35:29.790,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:35:32.796,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:35:35.802,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:35:38.808,1,100,-53.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:35:41.813,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:35:44.820,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:35:47.826,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:35:50.832,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:35:53.842,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:35:56.849,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:35:59.855,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:36:02.861,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:36:05.867,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:36:08.873,1,100,-54.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:36:11.880,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:36:14.883,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:36:17.890,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:36:20.896,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:36:23.902,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:36:26.908,1,100,-54.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:36:29.915,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:36:32.922,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:36:35.928,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:36:38.934,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:36:41.940,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:36:44.943,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:36:47.950,1,100,-53.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:36:50.956,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:36:53.963,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:36:56.969,1,100,-54.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:36:59.974,1,100,-53.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:37:02.981,1,100,-54.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:05.988,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:37:08.994,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:37:12.000,1,100,-54.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:37:15.006,1,100,-54.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:18.013,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:21.018,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:24.023,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:27.029,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:30.036,1,100,-54.0,-54.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:33.040,1,100,-53.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:37:36.046,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:39.053,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:42.059,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:45.065,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:48.069,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:51.075,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:54.082,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:37:57.088,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:00.094,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:03.101,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:06.107,1,100,-53.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:38:09.114,1,100,-54.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:12.119,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:15.125,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:18.132,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:21.138,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:24.145,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:27.151,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:30.157,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:33.163,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:36.170,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:39.174,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:42.179,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:45.184,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:48.188,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:51.195,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:54.202,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:38:57.208,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:39:00.215,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:39:03.221,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:39:06.225,1,100,-54.0,-54.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:39:09.232,1,100,-53.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:39:12.238,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:39:15.244,1,100,-54.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:39:18.251,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:39:21.258,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:39:24.264,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:39:27.270,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:39:30.275,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:39:33.281,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:39:36.288,1,100,-54.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:39:39.293,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:39:42.300,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:39:45.305,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:39:48.312,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:39:51.318,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:39:54.323,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:39:57.330,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:40:00.333,1,100,-54.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:40:03.340,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:40:06.345,1,100,-54.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:40:09.352,1,100,-54.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:40:12.358,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:40:15.365,1,100,-53.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:40:18.372,1,100,-53.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:40:21.378,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:40:24.384,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:40:27.391,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:40:30.397,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:40:33.404,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:40:36.410,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:40:39.417,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:40:42.423,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:40:45.430,1,100,-54.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:40:48.437,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:40:51.443,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:40:54.450,1,100,-53.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:40:57.456,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:00.460,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:03.464,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,82,60
+11-01 20:41:06.471,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:09.482,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:12.487,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:41:15.493,1,100,-54.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:41:18.499,1,100,-54.0,-53.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:41:21.504,1,100,-54.0,-53.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:41:24.509,1,100,-53.0,-53.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+11-01 20:41:27.514,1,100,-53.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:30.521,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:33.526,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:36.530,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:39.533,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:42.538,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:45.545,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:48.549,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:51.553,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:54.559,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:41:57.564,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:00.570,1,100,-54.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:42:03.575,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:06.582,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:09.588,1,100,-52.0,-52.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,71,82,60
+11-01 20:42:12.593,1,100,-53.0,-52.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:15.599,1,100,-53.0,-52.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:18.604,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:21.610,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:24.618,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:27.624,1,100,-52.0,-52.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,71,82,60
+11-01 20:42:30.630,1,100,-53.0,-52.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:33.637,1,100,-53.0,-52.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:36.643,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:39.649,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:42.653,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:45.660,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:48.667,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:51.672,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:54.678,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:42:57.685,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:00.691,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:03.697,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:06.704,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:09.710,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:12.716,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:15.722,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:18.728,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:21.734,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:24.740,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:27.746,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:30.752,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:33.757,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:36.764,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:39.769,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:42.775,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:45.782,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:48.788,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:51.793,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:54.799,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:43:57.805,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:00.810,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:03.816,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:06.823,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:09.830,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:12.834,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:15.838,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:18.845,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:21.852,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:24.857,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:27.863,1,100,-54.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:44:30.870,1,100,-53.0,-53.3,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:33.873,1,100,-53.0,-53.2,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:36.880,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:39.885,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:42.892,1,100,-53.0,-53.1,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:45.898,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:48.904,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:51.910,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:54.917,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:44:57.924,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:00.930,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:03.936,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:06.942,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:09.949,1,100,-52.0,-52.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,71,82,60
+11-01 20:45:12.954,1,100,-53.0,-52.7,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:15.959,1,100,-53.0,-52.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:18.966,1,100,-53.0,-52.8,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:21.972,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:24.979,1,100,-53.0,-52.9,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:27.985,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:30.991,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:33.998,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:37.004,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:40.010,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:43.017,1,100,-53.0,-53.0,-85.0,2412,117,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:46.022,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:49.029,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:52.033,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:55.039,1,100,-53.0,-53.0,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,82,60
+11-01 20:45:58.044,1,100,-54.0,-53.4,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:46:01.051,1,100,-54.0,-53.6,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,69,81,60
+11-01 20:46:04.057,1,100,-53.0,-53.5,-85.0,2412,130,0.00,0.00,0.00,0.00,0,1,70,81,60
+

@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shahu.tv.probe"
+4    android:versionCode="3"
+5    android:versionName="3.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="28" />
+10
+11    <!-- Normal (install-time) permissions only: used for the Wi-Fi/Ethernet status glyph. -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:6:5-76
+13-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:6:22-73
+14    <!-- Device Manager: "Stop background processes" (normal permission; Android only stops BACKGROUND processes). -->
+15    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+15-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:8:5-84
+15-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:8:22-81
+16    <!-- Device Manager: recently active apps + app sizes. Special app-op, OFF until granted explicitly via adb. -->
+17    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+17-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:10:5-11:94
+17-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:10:22-75
+18
+19    <uses-feature
+19-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:13:5-87
+20        android:name="android.software.leanback"
+20-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:13:19-59
+21        android:required="false" />
+21-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:13:60-84
+22    <uses-feature
+22-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:14:5-90
+23        android:name="android.hardware.touchscreen"
+23-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:14:19-62
+24        android:required="false" />
+24-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:14:63-87
+25
+26    <application
+26-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:16:5-77:19
+27        android:allowBackup="false"
+27-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:17:9-36
+28        android:banner="@drawable/banner"
+28-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:18:9-42
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:19:9-43
+32        android:label="@string/app_name"
+32-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:20:9-41
+33        android:supportsRtl="false"
+33-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:21:9-36
+34        android:theme="@style/Theme.ShahusTV" >
+34-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:22:9-46
+35
+36        <!-- A normal TV app: appears in Fire TV "Your Apps". HOME is only declared by the (default-disabled) .HomeAlias. -->
+37        <activity
+37-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:25:9-37:20
+38            android:name="com.shahu.tv.MainActivity"
+38-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:26:13-41
+39            android:banner="@drawable/banner"
+39-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:27:13-46
+40            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|density|fontScale|locale|layoutDirection"
+40-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:28:13-174
+41            android:exported="true"
+41-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:29:13-36
+42            android:launchMode="singleTask"
+42-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:30:13-44
+43            android:screenOrientation="landscape" >
+43-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:31:13-50
+44            <intent-filter>
+44-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:32:13-36:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:33:17-69
+45-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:33:25-66
+46
+47                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+47-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:34:17-86
+47-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:34:27-83
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:35:17-77
+48-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:35:27-74
+49            </intent-filter>
+50        </activity>
+51        <!--
+52 HOME SCREEN MODE = SHAHU'S TV: this alias makes SHAHU'S TV a HOME candidate. Disabled by default and
+53             toggled only by HomeMode (our own component). Amazon's launcher (priority 950) stays installed,
+54             enabled and the system default on Fire OS.
+55        -->
+56        <activity-alias
+56-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:42:9-52:26
+57            android:name="com.shahu.tv.HomeAlias"
+57-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:43:13-38
+58            android:enabled="false"
+58-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:45:13-36
+59            android:exported="true"
+59-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:46:13-36
+60            android:targetActivity="com.shahu.tv.MainActivity" >
+60-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:44:13-51
+61            <intent-filter>
+61-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:47:13-51:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:33:17-69
+62-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:33:25-66
+63
+64                <category android:name="android.intent.category.HOME" />
+64-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:49:17-73
+64-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:49:27-70
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:50:17-76
+65-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:50:27-73
+66            </intent-filter>
+67        </activity-alias>
+68
+69        <activity
+69-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:54:9-58:53
+70            android:name="com.shahu.tv.SettingsActivity"
+70-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:55:13-45
+71            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|density|fontScale|locale|layoutDirection"
+71-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:56:13-174
+72            android:exported="false"
+72-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:57:13-37
+73            android:screenOrientation="landscape" />
+73-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:58:13-50
+74        <activity
+74-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:60:9-64:53
+75            android:name="com.shahu.tv.DeviceManagerActivity"
+75-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:61:13-50
+76            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|density|fontScale|locale|layoutDirection"
+76-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:62:13-174
+77            android:exported="false"
+77-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:63:13-37
+78            android:screenOrientation="landscape" />
+78-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:64:13-50
+79
+80        <!-- OPTIONAL, EXPERIMENTAL: Home-button redirect. Does nothing until the user enables it in Accessibility. -->
+81        <service
+81-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:67:9-76:19
+82            android:name="com.shahu.tv.HomeButtonService"
+82-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:68:13-46
+83            android:exported="true"
+83-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:69:13-36
+84            android:label="@string/home_service_label"
+84-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:70:13-55
+85            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+85-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:71:13-79
+86            <intent-filter>
+86-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:72:13-74:29
+87                <action android:name="android.accessibilityservice.AccessibilityService" />
+87-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:73:17-92
+87-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:73:25-89
+88            </intent-filter>
+89
+90            <meta-data
+90-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:75:13-114
+91                android:name="android.accessibilityservice"
+91-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:75:24-67
+92                android:resource="@xml/home_button_service" />
+92-->/Users/ihsan/Desktop/FIRETV/app/src/main/AndroidManifest.xml:75:68-111
+93        </service>
+94    </application>
+95
+96</manifest>

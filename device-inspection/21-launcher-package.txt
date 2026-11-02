@@ -1,0 +1,1294 @@
+Activity Resolver Table:
+  Schemes:
+      amzn:
+        1097ab0 com.amazon.tv.launcher/.util.MenuNavigationHelperActivity filter 6946f0a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.launcher": -1
+          Path: "PatternMatcher{LITERAL: /menuNavigation}"
+        88b0d29 com.amazon.tv.launcher/.deeplink.activity.SearchResultsDeepLinkActivityDI filter 18ddc57
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.launcher": -1
+          Path: "PatternMatcher{LITERAL: /search}"
+        88b0d29 com.amazon.tv.launcher/.deeplink.activity.SearchResultsDeepLinkActivityDI filter 4d38344
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.launcher": -1
+          Path: "PatternMatcher{LITERAL: /tilesearch}"
+        7ed48ae com.amazon.tv.launcher/.deeplink.activity.DirectiveSearchResultsActivityDI filter 49bd562
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.launcher": -1
+          Path: "PatternMatcher{LITERAL: /search}"
+        c1264f com.amazon.tv.launcher/.deeplink.activity.DetailsPageDeepLinkActivityDI filter abffe29
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.launcher": -1
+          Path: "PatternMatcher{LITERAL: /detail}"
+        c0391dc com.amazon.tv.launcher/.deeplink.activity.ChannelLandingPageDeepLinkActivityDI filter 96df6dc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.launcher": -1
+          Path: "PatternMatcher{LITERAL: /channelLandingPage}"
+        1e52e5 com.amazon.tv.launcher/.deeplink.activity.AlexaDiscoveryLandingPageActivityDI filter f3153e5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.launcher": -1
+          Path: "PatternMatcher{LITERAL: /voiceChannelLandingPage}"
+        c4941ba com.amazon.tv.launcher/.deeplink.activity.List1DDeepLinkActivityDI filter 7aeaeba
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.launcher": -1
+          Path: "PatternMatcher{LITERAL: /list1D}"
+        d13d86b com.amazon.tv.launcher/.deeplink.activity.PrimeVideoScreenDeepLinkActivityDI filter 551a4c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.launcher": -1
+          Path: "PatternMatcher{LITERAL: /primeVideoScreen}"
+        b25efc8 com.amazon.tv.launcher/.deeplink.activity.NavMenuScreenDeepLinkActivityDI filter 608fc86
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.launcher": -1
+          Path: "PatternMatcher{LITERAL: /navmenu}"
+        ae63861 com.amazon.tv.launcher/.ui.purchase.OffDeviceSubscriptionActivity filter 3d644e0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.subscription": -1
+          Path: "PatternMatcher{LITERAL: /offer}"
+          mPriority=-10, mOrder=0, mHasPartialTypes=false
+        ae63861 com.amazon.tv.launcher/.ui.purchase.OffDeviceSubscriptionActivity filter 77c399
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.subscription": -1
+          Path: "PatternMatcher{LITERAL: /offer-subscription-fallback}"
+        539bf86 com.amazon.tv.launcher/.deeplink.activity.CollectionDetailsActivity filter 9775a3f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.launcher": -1
+          Path: "PatternMatcher{LITERAL: /collectionDetails}"
+        9959047 com.amazon.tv.launcher/.primefreetrial.PrimeFreeTrialActivity filter bf80055
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.prime": -1
+          Path: "PatternMatcher{LITERAL: /offer_non_webview}"
+        48e4074 com.amazon.tv.launcher/.primefreetrial.PrimeSignupActivityDI filter f703a6a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.prime": -1
+          Path: "PatternMatcher{LITERAL: /offer}"
+        5ecf99d com.amazon.tv.launcher/.banksysignup.SubscriptionWebViewActivity filter c915b5b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.subscription": -1
+          Path: "PatternMatcher{LITERAL: /offer}"
+      content:
+        c1264f com.amazon.tv.launcher/.deeplink.activity.DetailsPageDeepLinkActivityDI filter 2278fb0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "com.amazon.mediabrowse": -1
+          Path: "PatternMatcher{LITERAL: /detail}"
+        c1264f com.amazon.tv.launcher/.deeplink.activity.DetailsPageDeepLinkActivityDI filter fe5e5ae
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "com.amazon.tv.launcher": -1
+          Path: "PatternMatcher{LITERAL: /detail}"
+        c0391dc com.amazon.tv.launcher/.deeplink.activity.ChannelLandingPageDeepLinkActivityDI filter 371ff4f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "com.amazon.mediabrowse": -1
+          Path: "PatternMatcher{LITERAL: /channelLandingPage}"
+        b25efc8 com.amazon.tv.launcher/.deeplink.activity.NavMenuScreenDeepLinkActivityDI filter ea84961
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "com.amazon.mediabrowse": -1
+          Path: "PatternMatcher{LITERAL: /navmenu}"
+
+  Non-Data Actions:
+      android.settings.SETTINGS:
+        34fb1c9 com.amazon.tv.launcher/.ui.SettingsActivity filter 2c4837b
+          Action: "android.settings.SETTINGS"
+          mPriority=100, mOrder=0, mHasPartialTypes=false
+      android.intent.action.MAIN:
+        59a478d com.amazon.tv.launcher/.ui.HomeActivity_vNext filter 87d3703
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.HOME"
+          Category: "fireos.intent.category.MAIN_HOME"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MONKEY"
+          mPriority=950, mOrder=0, mHasPartialTypes=false
+        88b9d42 com.amazon.tv.launcher/.ui.MainSettingsActivity filter 4dc8aac
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LEANBACK_SETTINGS"
+        684153 com.amazon.tv.launcher/.util.AnimationControlActivity filter 1ed165e
+          Action: "android.intent.action.MAIN"
+        97d4a90 com.amazon.tv.launcher/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity filter 2054cd1
+          Action: "android.intent.action.MAIN"
+        270cf89 com.amazon.tv.launcher/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity filter 44f9336
+          Action: "android.intent.action.MAIN"
+        63a4b8e com.amazon.tv.launcher/androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity filter 6805237
+          Action: "android.intent.action.MAIN"
+      com.amazon.intent.action.SHOW_TEXT_SEARCH:
+        c6d364e com.amazon.tv.launcher/.deeplink.activity.TextSearchDeepLinkActivityDI filter d29e6f3
+          Action: "com.amazon.intent.action.SHOW_TEXT_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      com.amazon.tv.action.NAVIGATE_TO_INPUTS:
+        59a478d com.amazon.tv.launcher/.ui.HomeActivity_vNext filter 3658680
+          Action: "com.amazon.tv.action.NAVIGATE_TO_INPUTS"
+          Category: "android.intent.category.DEFAULT"
+          mPriority=100, mOrder=0, mHasPartialTypes=false
+      android.settings.SHOW_ADMIN_SUPPORT_DETAILS:
+        7c770d3 com.amazon.tv.launcher/.ui.CTSDummyActivity filter 9dda598
+          Action: "android.settings.SHOW_ADMIN_SUPPORT_DETAILS"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.ALL_APPS:
+        a8e472f com.amazon.tv.launcher/.util.QuickSettingsProxyActivity filter 10acf0c
+          Action: "android.intent.action.ALL_APPS"
+          Category: "android.intent.category.DEFAULT"
+      com.amazon.tv.action.NAVIGATE_TO_GAMES:
+        59a478d com.amazon.tv.launcher/.ui.HomeActivity_vNext filter 83574b9
+          Action: "com.amazon.tv.action.NAVIGATE_TO_GAMES"
+          Category: "android.intent.category.DEFAULT"
+          mPriority=100, mOrder=0, mHasPartialTypes=false
+      amazon.intent.action.MAINSETTINGS:
+        88b9d42 com.amazon.tv.launcher/.ui.MainSettingsActivity filter 912405f
+          Action: "amazon.intent.action.MAINSETTINGS"
+          Category: "android.intent.category.MAINSETTINGS"
+      amazon.intent.action.NAVIGATE_1D_LIST:
+        53fe222 com.amazon.tv.launcher/.deeplink.activity.FarFieldListActivityDI filter 4688947
+          Action: "amazon.intent.action.NAVIGATE_1D_LIST"
+          Category: "android.intent.category.DEFAULT"
+          Category: "amazon.intent.category.LAUNCHER"
+      com.amazon.tv.launcher.action.SHOW_PURCHASE_DIALOG:
+        ecaf788 com.amazon.tv.launcher/.ui.purchase.VideoItemPurchaseActivityDI filter 71a72e3
+          Action: "com.amazon.tv.launcher.action.SHOW_PURCHASE_DIALOG"
+          Category: "android.intent.category.DEFAULT"
+      com.amazon.tv.launcher.PLAY_CONTENT:
+        fdc0434 com.amazon.tv.launcher/.content.PlayContentActivity filter 71bcff8
+          Action: "com.amazon.tv.launcher.PLAY_CONTENT"
+          Category: "android.intent.category.DEFAULT"
+      com.amazon.tv.action.PRIME_VIDEOS:
+        d13d86b com.amazon.tv.launcher/.deeplink.activity.PrimeVideoScreenDeepLinkActivityDI filter c79416b
+          Action: "com.amazon.tv.action.PRIME_VIDEOS"
+          Category: "android.intent.category.DEFAULT"
+      amazon.intent.action.NAVIGATE_EPISODES_LIST:
+        6fa3759 com.amazon.tv.launcher/.deeplink.activity.FarFieldEpisodeListActivityDI filter 1685b12
+          Action: "amazon.intent.action.NAVIGATE_EPISODES_LIST"
+          Category: "android.intent.category.DEFAULT"
+          Category: "amazon.intent.category.LAUNCHER"
+      com.amazon.tv.action.SHOW_SEARCH_RESULTS:
+        88b0d29 com.amazon.tv.launcher/.deeplink.activity.SearchResultsDeepLinkActivityDI filter f9271d6
+          Action: "com.amazon.tv.action.SHOW_SEARCH_RESULTS"
+          Category: "android.intent.category.DEFAULT"
+      amazon.intent.action.NAVIGATE_LIST:
+        aa619fc com.amazon.tv.launcher/.deeplink.activity.FarFieldDenseListActivityDI filter e404574
+          Action: "amazon.intent.action.NAVIGATE_LIST"
+          Category: "android.intent.category.DEFAULT"
+          Category: "amazon.intent.category.LAUNCHER"
+      amazon.intent.action.NAVIGATE_NODE:
+        59a478d com.amazon.tv.launcher/.ui.HomeActivity_vNext filter 86940fe
+          Action: "amazon.intent.action.NAVIGATE_NODE"
+          Category: "android.intent.category.DEFAULT"
+          Category: "amazon.intent.category.LAUNCHER"
+          mPriority=100, mOrder=0, mHasPartialTypes=false
+      com.amazon.tv.action.SHOW_DIRECTIVE_SEARCH_RESULTS:
+        7ed48ae com.amazon.tv.launcher/.deeplink.activity.DirectiveSearchResultsActivityDI filter aa5cc2d
+          Action: "com.amazon.tv.action.SHOW_DIRECTIVE_SEARCH_RESULTS"
+          Category: "android.intent.category.DEFAULT"
+      android.settings.PICTURE_IN_PICTURE_SETTINGS:
+        88b9d42 com.amazon.tv.launcher/.ui.MainSettingsActivity filter 12fa375
+          Action: "android.settings.PICTURE_IN_PICTURE_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.amazon.tv.action.NAVIGATE_TO_RECENTS:
+        d4a8d18 com.amazon.tv.launcher/.deeplink.activity.RecentDeepLinkActivityDI filter 76401f1
+          Action: "com.amazon.tv.action.NAVIGATE_TO_RECENTS"
+          Category: "android.intent.category.DEFAULT"
+      amazon.intent.action.NAVIGATE_SEASONS_LIST:
+        9806556 com.amazon.tv.launcher/.deeplink.activity.FarFieldSeasonListActivityDI filter 23f1a9d
+          Action: "amazon.intent.action.NAVIGATE_SEASONS_LIST"
+          Category: "android.intent.category.DEFAULT"
+          Category: "amazon.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        3139e51 com.amazon.tv.launcher/.content.ComradeReceiver filter 4f36b23
+          Action: "android.intent.action.PACKAGE_FULLY_REMOVED"
+          Scheme: "package"
+        d3d46b6 com.amazon.tv.launcher/com.amazon.tv.cardflow.AppStoreReceiver filter e767b5a
+          Action: "android.intent.action.PACKAGE_FULLY_REMOVED"
+          Scheme: "package"
+      amzn:
+        4e7e19f com.amazon.tv.launcher/.ExperienceChangedReceiver filter 27c284e
+          Action: "com.amazon.tv.ROUTINGINFO_CHANGED"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.routinginfo": -1
+          Path: "PatternMatcher{LITERAL: /experience}"
+        d73b2ec com.amazon.tv.launcher/.AlexaExperienceChangedReceiver filter d791d6f
+          Action: "com.amazon.tv.ROUTINGINFO_CHANGED"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.routinginfo": -1
+          Path: "PatternMatcher{LITERAL: /alexaExperience}"
+        94f46b5 com.amazon.tv.launcher/.MBRoutingInfoChangedReceiver filter 6638a7c
+          Action: "com.amazon.tv.ROUTINGINFO_CHANGED"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.routinginfo": -1
+          Path: "PatternMatcher{LITERAL: /mediabrowse}"
+
+  Non-Data Actions:
+      com.amazon.uicontrollermanager.DirectiveReceiver:
+        468920 com.amazon.tv.launcher/com.amazon.tv.csm.directives.UIControllerDirectiveReceiver filter c4c15d9
+          Action: "com.amazon.uicontrollermanager.DirectiveReceiver"
+      com.amazon.dcp.messaging.topic.com.amazon.dcp.messaging.topic.ftvlauncher.cache.expire.async:
+        a9052d9 com.amazon.tv.launcher/com.amazon.tv.mediabrowse.CacheBustingAsynchronousReceiver filter d49a711
+          Action: "com.amazon.dcp.messaging.topic.com.amazon.dcp.messaging.topic.ftvlauncher.cache.expire.async"
+      com.amazon.mas.client.install.INSTALL_FAILED:
+        d3d46b6 com.amazon.tv.launcher/com.amazon.tv.cardflow.AppStoreReceiver filter 47bef05
+          Action: "com.amazon.mas.client.install.INSTALL_COMPLETED"
+          Action: "com.amazon.mas.client.download.DOWNLOAD_COMPLETE"
+          Action: "com.amazon.mas.client.install.INSTALL_FAILED"
+          Action: "com.amazon.tv.launcher.intent.action.REMOVE_FROM_RECENT"
+          Action: "com.amazon.mas.client.locker.service.lockersync.LOCKER_SYNC_COMPLETE"
+          Category: "android.intent.category.DEFAULT"
+      com.amazon.action.PACKAGE_RECENCY_NOTIFICATION:
+        ff7d702 com.amazon.tv.launcher/.util.AppRecencyReceiver filter 5091b9b
+          Action: "com.amazon.action.PACKAGE_RECENCY_NOTIFICATION"
+          Category: "android.intent.category.DEFAULT"
+      com.amazon.alexa.router.capabilityagent.directive.HANDLE_DIRECTIVE:
+        65fc58a com.amazon.tv.launcher/.rvpcal.RvpCalDirectiveReceiver filter be52e02
+          Action: "com.amazon.alexa.router.capabilityagent.directive.HANDLE_DIRECTIVE"
+      com.amazon.speech.Alexa.RemoteVideoPlayer_SearchAndDisplayResults:
+        5f2e0d5 com.amazon.tv.launcher/com.amazon.tv.csm.directives.DirectiveReceiver filter 9e39b9e
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_Scroll"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_DisplayDetails"
+          Action: "com.amazon.speech.Alexa.MediaDetailDisplay_ShowDetails"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_ShowMore"
+          Action: "com.amazon.speech.LocalVoiceUI_ShowMoreWaysToWatchVideo"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_AddToWatchlist"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_RemoveFromWatchlist"
+          Action: "com.amazon.speech.LocalVoiceUI_ActionOnView"
+          Action: "com.amazon.speech.Alexa.RemoteVideoPlayer_SearchAndDisplayResults"
+          Action: "com.amazon.speech.Alexa.UIController_ActionOnUIElement"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        1c6a18e com.amazon.tv.launcher/androidx.profileinstaller.ProfileInstallReceiver filter 89df9bd
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      com.amazon.tv.launcher.primefreetrial.FREETRIAL_DONE:
+        f65feee com.amazon.tv.launcher/.content.FBAReceiver filter 269d3aa
+          Action: "com.amazon.tv.launcher.primefreetrial.FREETRIAL_DONE"
+      com.amazon.device.CAPABILITIES:
+        3139e51 com.amazon.tv.launcher/.content.ComradeReceiver filter a250c52
+          Action: "com.amazon.device.CAPABILITIES"
+      com.amazon.tv.launcher.mediabrowse.CLEAR_CACHE:
+        6a0ed50 com.amazon.tv.launcher/com.amazon.tv.mediabrowse.util.MediaBrowseCacheModificationBroadcastReceiver filter 1698076
+          Action: "com.amazon.tv.launcher.mediabrowse.EXPIRE_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.CLEAR_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.FF_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.CLEAR_CACHE_FOR_ENTITY"
+          Action: "com.amazon.tv.launcher.mediabrowse.EXPIRE_CACHE_BY_POSITION"
+      com.amazon.mas.client.download.DOWNLOAD_COMPLETE:
+        d3d46b6 com.amazon.tv.launcher/com.amazon.tv.cardflow.AppStoreReceiver filter 47bef05
+          Action: "com.amazon.mas.client.install.INSTALL_COMPLETED"
+          Action: "com.amazon.mas.client.download.DOWNLOAD_COMPLETE"
+          Action: "com.amazon.mas.client.install.INSTALL_FAILED"
+          Action: "com.amazon.tv.launcher.intent.action.REMOVE_FROM_RECENT"
+          Action: "com.amazon.mas.client.locker.service.lockersync.LOCKER_SYNC_COMPLETE"
+          Category: "android.intent.category.DEFAULT"
+      com.amazon.mas.client.install.INSTALL_COMPLETED:
+        d3d46b6 com.amazon.tv.launcher/com.amazon.tv.cardflow.AppStoreReceiver filter 47bef05
+          Action: "com.amazon.mas.client.install.INSTALL_COMPLETED"
+          Action: "com.amazon.mas.client.download.DOWNLOAD_COMPLETE"
+          Action: "com.amazon.mas.client.install.INSTALL_FAILED"
+          Action: "com.amazon.tv.launcher.intent.action.REMOVE_FROM_RECENT"
+          Action: "com.amazon.mas.client.locker.service.lockersync.LOCKER_SYNC_COMPLETE"
+          Category: "android.intent.category.DEFAULT"
+      com.amazon.speech.Alexa.Video.LocalVoiceUI_Scroll:
+        5f2e0d5 com.amazon.tv.launcher/com.amazon.tv.csm.directives.DirectiveReceiver filter 9e39b9e
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_Scroll"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_DisplayDetails"
+          Action: "com.amazon.speech.Alexa.MediaDetailDisplay_ShowDetails"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_ShowMore"
+          Action: "com.amazon.speech.LocalVoiceUI_ShowMoreWaysToWatchVideo"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_AddToWatchlist"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_RemoveFromWatchlist"
+          Action: "com.amazon.speech.LocalVoiceUI_ActionOnView"
+          Action: "com.amazon.speech.Alexa.RemoteVideoPlayer_SearchAndDisplayResults"
+          Action: "com.amazon.speech.Alexa.UIController_ActionOnUIElement"
+      android.intent.action.MEDIA_UNMOUNTED:
+        8826907 com.amazon.tv.launcher/com.amazon.tv.cardflow.ExternalStorageReceiver filter 3a4218b
+          Action: "android.intent.action.MEDIA_UNMOUNTED"
+      amazon.net.UNIFIED_NETWORK:
+        3741acd com.amazon.tv.launcher/.util.WifiNetUnifiedStatusReceiver filter 4d12749
+          Action: "amazon.net.UNIFIED_NETWORK"
+      com.amazon.speech.Alexa.UIController_ActionOnUIElement:
+        5f2e0d5 com.amazon.tv.launcher/com.amazon.tv.csm.directives.DirectiveReceiver filter 9e39b9e
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_Scroll"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_DisplayDetails"
+          Action: "com.amazon.speech.Alexa.MediaDetailDisplay_ShowDetails"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_ShowMore"
+          Action: "com.amazon.speech.LocalVoiceUI_ShowMoreWaysToWatchVideo"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_AddToWatchlist"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_RemoveFromWatchlist"
+          Action: "com.amazon.speech.LocalVoiceUI_ActionOnView"
+          Action: "com.amazon.speech.Alexa.RemoteVideoPlayer_SearchAndDisplayResults"
+          Action: "com.amazon.speech.Alexa.UIController_ActionOnUIElement"
+      com.amazon.tv.launcher.mediabrowse.FF_CACHE:
+        6a0ed50 com.amazon.tv.launcher/com.amazon.tv.mediabrowse.util.MediaBrowseCacheModificationBroadcastReceiver filter 1698076
+          Action: "com.amazon.tv.launcher.mediabrowse.EXPIRE_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.CLEAR_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.FF_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.CLEAR_CACHE_FOR_ENTITY"
+          Action: "com.amazon.tv.launcher.mediabrowse.EXPIRE_CACHE_BY_POSITION"
+      com.amazon.tv.launcher.REGISTER_TILE_METADATA_SERVICE:
+        6ce9d78 com.amazon.tv.launcher/.content.NSCBroadcastReceiver filter 2a6c8dd
+          Action: "com.amazon.tv.launcher.REGISTER_TILE_METADATA_SERVICE"
+      com.amazon.avod.event.START_PLAYBACK:
+        974c3dd com.amazon.tv.launcher/.util.AivPlaybackReceiver filter a90a34d
+          Action: "com.amazon.avod.event.START_PLAYBACK"
+          Action: "com.amazon.avod.event.PURCHASE"
+      com.amazon.firecard.action.REFRESH_CARDS:
+        d821613 com.amazon.tv.launcher/com.amazon.tv.cardflow.RefreshCardsReceiver filter b9cd268
+          Action: "com.amazon.firecard.action.REFRESH_CARDS"
+      com.amazon.avod.event.PURCHASE:
+        974c3dd com.amazon.tv.launcher/.util.AivPlaybackReceiver filter a90a34d
+          Action: "com.amazon.avod.event.START_PLAYBACK"
+          Action: "com.amazon.avod.event.PURCHASE"
+      androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START:
+        b5d3414 com.amazon.tv.launcher/androidx.tracing.perfetto.TracingReceiver filter 390f326
+          Action: "androidx.tracing.perfetto.action.ENABLE_TRACING"
+          Action: "androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START"
+          Action: "androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START"
+      com.amazon.tv.launcher.action.PRELOAD_SEARCH_TERMS:
+        c72df57 com.amazon.tv.launcher/.util.LauncherPreloaderReceiver filter 987967f
+          Action: "com.amazon.tv.launcher.action.PRELOAD_SEARCH_TERMS"
+      androidx.tracing.perfetto.action.ENABLE_TRACING:
+        b5d3414 com.amazon.tv.launcher/androidx.tracing.perfetto.TracingReceiver filter 390f326
+          Action: "androidx.tracing.perfetto.action.ENABLE_TRACING"
+          Action: "androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START"
+          Action: "androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START"
+      android.intent.action.LOCALE_CHANGED:
+        fbf9461 com.amazon.tv.launcher/.util.LocaleChangedEventReceiver filter 3cd2950
+          Action: "android.intent.action.LOCALE_CHANGED"
+      com.amazon.tv.oobe.PRIME_TRIAL_SIGNUP_SUCCESS:
+        4ae4236 com.amazon.tv.launcher/.util.PrimeTrialSignupEventReceiver filter 3cff64c
+          Action: "com.amazon.tv.oobe.PRIME_TRIAL_SIGNUP_SUCCESS"
+      com.amazon.tv.launcher.content.KENOBI_ZERO_WEBLAB_STATE_CHANGE:
+        cdd91c3 com.amazon.tv.launcher/.content.KenobiComradeCapabilitiesReceiver filter 65b7820
+          Action: "com.amazon.tv.launcher.content.COMRADE_UPDATE"
+          Action: "com.amazon.tv.launcher.content.KENOBI_ZERO_WEBLAB_STATE_CHANGE"
+      androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START:
+        b5d3414 com.amazon.tv.launcher/androidx.tracing.perfetto.TracingReceiver filter 390f326
+          Action: "androidx.tracing.perfetto.action.ENABLE_TRACING"
+          Action: "androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START"
+          Action: "androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START"
+      com.amazon.tv.launcher.mediabrowse.EXPIRE_CACHE_BY_POSITION:
+        6a0ed50 com.amazon.tv.launcher/com.amazon.tv.mediabrowse.util.MediaBrowseCacheModificationBroadcastReceiver filter 1698076
+          Action: "com.amazon.tv.launcher.mediabrowse.EXPIRE_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.CLEAR_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.FF_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.CLEAR_CACHE_FOR_ENTITY"
+          Action: "com.amazon.tv.launcher.mediabrowse.EXPIRE_CACHE_BY_POSITION"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        1c6a18e com.amazon.tv.launcher/androidx.profileinstaller.ProfileInstallReceiver filter 4314b67
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.amazon.mas.client.locker.service.lockersync.LOCKER_SYNC_COMPLETE:
+        d3d46b6 com.amazon.tv.launcher/com.amazon.tv.cardflow.AppStoreReceiver filter 47bef05
+          Action: "com.amazon.mas.client.install.INSTALL_COMPLETED"
+          Action: "com.amazon.mas.client.download.DOWNLOAD_COMPLETE"
+          Action: "com.amazon.mas.client.install.INSTALL_FAILED"
+          Action: "com.amazon.tv.launcher.intent.action.REMOVE_FROM_RECENT"
+          Action: "com.amazon.mas.client.locker.service.lockersync.LOCKER_SYNC_COMPLETE"
+          Category: "android.intent.category.DEFAULT"
+      com.amazon.speech.Alexa.Video.LocalVoiceUI_ShowMore:
+        5f2e0d5 com.amazon.tv.launcher/com.amazon.tv.csm.directives.DirectiveReceiver filter 9e39b9e
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_Scroll"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_DisplayDetails"
+          Action: "com.amazon.speech.Alexa.MediaDetailDisplay_ShowDetails"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_ShowMore"
+          Action: "com.amazon.speech.LocalVoiceUI_ShowMoreWaysToWatchVideo"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_AddToWatchlist"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_RemoveFromWatchlist"
+          Action: "com.amazon.speech.LocalVoiceUI_ActionOnView"
+          Action: "com.amazon.speech.Alexa.RemoteVideoPlayer_SearchAndDisplayResults"
+          Action: "com.amazon.speech.Alexa.UIController_ActionOnUIElement"
+      com.amazon.tv.launcher.util.OVERRIDE:
+        f41a7a6 com.amazon.tv.launcher/.util.override.OverrideReceiver filter 53d677
+          Action: "com.amazon.tv.launcher.util.OVERRIDE"
+      com.amazon.speech.Alexa.VideoWatchlist_AddToWatchlist:
+        5f2e0d5 com.amazon.tv.launcher/com.amazon.tv.csm.directives.DirectiveReceiver filter 9e39b9e
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_Scroll"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_DisplayDetails"
+          Action: "com.amazon.speech.Alexa.MediaDetailDisplay_ShowDetails"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_ShowMore"
+          Action: "com.amazon.speech.LocalVoiceUI_ShowMoreWaysToWatchVideo"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_AddToWatchlist"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_RemoveFromWatchlist"
+          Action: "com.amazon.speech.LocalVoiceUI_ActionOnView"
+          Action: "com.amazon.speech.Alexa.RemoteVideoPlayer_SearchAndDisplayResults"
+          Action: "com.amazon.speech.Alexa.UIController_ActionOnUIElement"
+      androidx.profileinstaller.action.SKIP_FILE:
+        1c6a18e com.amazon.tv.launcher/androidx.profileinstaller.ProfileInstallReceiver filter 6a0ad14
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      com.amazon.tv.launcher.mediabrowse.CLEAR_CACHE_FOR_ENTITY:
+        6a0ed50 com.amazon.tv.launcher/com.amazon.tv.mediabrowse.util.MediaBrowseCacheModificationBroadcastReceiver filter 1698076
+          Action: "com.amazon.tv.launcher.mediabrowse.EXPIRE_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.CLEAR_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.FF_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.CLEAR_CACHE_FOR_ENTITY"
+          Action: "com.amazon.tv.launcher.mediabrowse.EXPIRE_CACHE_BY_POSITION"
+      amazon.intent.action.SETTING_BUTTON_PRESSED:
+        c143c0 com.amazon.tv.launcher/.util.SettingButtonPressReceiver filter 614c2e4
+          Action: "amazon.intent.action.SETTING_BUTTON_PRESSED"
+          mPriority=998, mOrder=0, mHasPartialTypes=false
+      com.amazon.tv.launcher.mediabrowse.EXPIRE_CACHE:
+        6a0ed50 com.amazon.tv.launcher/com.amazon.tv.mediabrowse.util.MediaBrowseCacheModificationBroadcastReceiver filter 1698076
+          Action: "com.amazon.tv.launcher.mediabrowse.EXPIRE_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.CLEAR_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.FF_CACHE"
+          Action: "com.amazon.tv.launcher.mediabrowse.CLEAR_CACHE_FOR_ENTITY"
+          Action: "com.amazon.tv.launcher.mediabrowse.EXPIRE_CACHE_BY_POSITION"
+      com.amazon.alexa.androidapplicationagent.ROUTE_DIRECTIVE_INTENT_ACTION:
+        60554ee com.amazon.tv.launcher/com.amazon.alexa.androidapplicationagent.spi.DataReceiveBroadcastReceiver filter e517681
+          Action: "com.amazon.alexa.androidapplicationagent.ROUTE_DIRECTIVE_INTENT_ACTION"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        1c6a18e com.amazon.tv.launcher/androidx.profileinstaller.ProfileInstallReceiver filter 2891bb2
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      com.amazon.tv.subscription.action.FBA_SUBSCRIPTION_SIGNUP:
+        f65feee com.amazon.tv.launcher/.content.FBAReceiver filter 75f3695
+          Action: "com.amazon.tv.subscription.action.FBA_SUBSCRIPTION_SIGNUP"
+      com.amazon.dcp.messaging.topic.ftvlauncher.entitlements.refresh:
+        68e2fe6 com.amazon.tv.launcher/com.amazon.tv.mediabrowse.MBForceSyncMessageReceiver filter 2c2b38
+          Action: "com.amazon.dcp.messaging.topic.ftvlauncher.entitlements.refresh"
+      com.amazon.speech.Alexa.VideoWatchlist_RemoveFromWatchlist:
+        5f2e0d5 com.amazon.tv.launcher/com.amazon.tv.csm.directives.DirectiveReceiver filter 9e39b9e
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_Scroll"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_DisplayDetails"
+          Action: "com.amazon.speech.Alexa.MediaDetailDisplay_ShowDetails"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_ShowMore"
+          Action: "com.amazon.speech.LocalVoiceUI_ShowMoreWaysToWatchVideo"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_AddToWatchlist"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_RemoveFromWatchlist"
+          Action: "com.amazon.speech.LocalVoiceUI_ActionOnView"
+          Action: "com.amazon.speech.Alexa.RemoteVideoPlayer_SearchAndDisplayResults"
+          Action: "com.amazon.speech.Alexa.UIController_ActionOnUIElement"
+      com.amazon.tv.launcher.UserLocationChanged:
+        4b955be com.amazon.tv.launcher/.BuellerApplication$UserLocationChangedLauncherProcessReceiver filter c256313
+          Action: "com.amazon.tv.launcher.UserLocationChanged"
+      com.amazon.speech.Alexa.MediaDetailDisplay_ShowDetails:
+        5f2e0d5 com.amazon.tv.launcher/com.amazon.tv.csm.directives.DirectiveReceiver filter 9e39b9e
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_Scroll"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_DisplayDetails"
+          Action: "com.amazon.speech.Alexa.MediaDetailDisplay_ShowDetails"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_ShowMore"
+          Action: "com.amazon.speech.LocalVoiceUI_ShowMoreWaysToWatchVideo"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_AddToWatchlist"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_RemoveFromWatchlist"
+          Action: "com.amazon.speech.LocalVoiceUI_ActionOnView"
+          Action: "com.amazon.speech.Alexa.RemoteVideoPlayer_SearchAndDisplayResults"
+          Action: "com.amazon.speech.Alexa.UIController_ActionOnUIElement"
+      com.amazon.speech.Alexa.Video.LocalVoiceUI_DisplayDetails:
+        5f2e0d5 com.amazon.tv.launcher/com.amazon.tv.csm.directives.DirectiveReceiver filter 9e39b9e
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_Scroll"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_DisplayDetails"
+          Action: "com.amazon.speech.Alexa.MediaDetailDisplay_ShowDetails"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_ShowMore"
+          Action: "com.amazon.speech.LocalVoiceUI_ShowMoreWaysToWatchVideo"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_AddToWatchlist"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_RemoveFromWatchlist"
+          Action: "com.amazon.speech.LocalVoiceUI_ActionOnView"
+          Action: "com.amazon.speech.Alexa.RemoteVideoPlayer_SearchAndDisplayResults"
+          Action: "com.amazon.speech.Alexa.UIController_ActionOnUIElement"
+      com.amazon.speech.LocalVoiceUI_ActionOnView:
+        5f2e0d5 com.amazon.tv.launcher/com.amazon.tv.csm.directives.DirectiveReceiver filter 9e39b9e
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_Scroll"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_DisplayDetails"
+          Action: "com.amazon.speech.Alexa.MediaDetailDisplay_ShowDetails"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_ShowMore"
+          Action: "com.amazon.speech.LocalVoiceUI_ShowMoreWaysToWatchVideo"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_AddToWatchlist"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_RemoveFromWatchlist"
+          Action: "com.amazon.speech.LocalVoiceUI_ActionOnView"
+          Action: "com.amazon.speech.Alexa.RemoteVideoPlayer_SearchAndDisplayResults"
+          Action: "com.amazon.speech.Alexa.UIController_ActionOnUIElement"
+      com.amazon.speech.LocalVoiceUI_ShowMoreWaysToWatchVideo:
+        5f2e0d5 com.amazon.tv.launcher/com.amazon.tv.csm.directives.DirectiveReceiver filter 9e39b9e
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_Scroll"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_DisplayDetails"
+          Action: "com.amazon.speech.Alexa.MediaDetailDisplay_ShowDetails"
+          Action: "com.amazon.speech.Alexa.Video.LocalVoiceUI_ShowMore"
+          Action: "com.amazon.speech.LocalVoiceUI_ShowMoreWaysToWatchVideo"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_AddToWatchlist"
+          Action: "com.amazon.speech.Alexa.VideoWatchlist_RemoveFromWatchlist"
+          Action: "com.amazon.speech.LocalVoiceUI_ActionOnView"
+          Action: "com.amazon.speech.Alexa.RemoteVideoPlayer_SearchAndDisplayResults"
+          Action: "com.amazon.speech.Alexa.UIController_ActionOnUIElement"
+      com.amazon.tv.launcher.content.COMRADE_UPDATE:
+        cdd91c3 com.amazon.tv.launcher/.content.KenobiComradeCapabilitiesReceiver filter 65b7820
+          Action: "com.amazon.tv.launcher.content.COMRADE_UPDATE"
+          Action: "com.amazon.tv.launcher.content.KENOBI_ZERO_WEBLAB_STATE_CHANGE"
+      com.amazon.tv.launcher.intent.action.REMOVE_FROM_RECENT:
+        d3d46b6 com.amazon.tv.launcher/com.amazon.tv.cardflow.AppStoreReceiver filter 47bef05
+          Action: "com.amazon.mas.client.install.INSTALL_COMPLETED"
+          Action: "com.amazon.mas.client.download.DOWNLOAD_COMPLETE"
+          Action: "com.amazon.mas.client.install.INSTALL_FAILED"
+          Action: "com.amazon.tv.launcher.intent.action.REMOVE_FROM_RECENT"
+          Action: "com.amazon.mas.client.locker.service.lockersync.LOCKER_SYNC_COMPLETE"
+          Category: "android.intent.category.DEFAULT"
+
+Service Resolver Table:
+  Schemes:
+      amzn:
+        309d22f com.amazon.tv.launcher/.content.SkillConnectionService filter 54119c6 permission com.amazon.tv.launcher.permission.SKILL_CONNECTION
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "amzn"
+          Authority: "com.amazon.tv.skillconnection": -1
+          Path: "PatternMatcher{LITERAL: /handleConnection}"
+
+  Non-Data Actions:
+      android.net.conn.CONNECTIVITY_CHANGE:
+        f86e92c com.amazon.tv.launcher/com.amazon.tv.mediabrowse.service.MediaBrowseServiceImpl filter ea471ab permission android.permission.ACCESS_NETWORK_STATE
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.amazon.tv.launcher.AUTOPLAY:
+        5d979af com.amazon.tv.launcher/.autoplay.AutoPlaybackService filter be8b008 permission com.amazon.tv.launcher.permission.AUTOPLAY
+          Action: "com.amazon.tv.launcher.AUTOPLAY"
+      com.amazon.firecard.action.CONSUMER_BIND:
+        7d5784a com.amazon.tv.launcher/com.amazon.firecard.deviceagent.CardDeviceAgent filter 7b67d87 permission com.amazon.firecard.permission.CARD_CONSUMER
+          Action: "com.amazon.firecard.action.CONSUMER_BIND"
+          Category: "android.intent.category.DEFAULT"
+          mPriority=2147483647, mOrder=0, mHasPartialTypes=false
+      com.amazon.tv.launcher.NAVIGATION:
+        b81344 com.amazon.tv.launcher/.navigation.NavigationService filter 5e593a1 permission com.amazon.tv.launcher.permission.NAVIGATION
+          Action: "com.amazon.tv.launcher.NAVIGATION"
+      com.amazon.firecard.action.PRODUCER_BIND:
+        6d00817 com.amazon.tv.launcher/com.amazon.firecard.deviceagent.service.LocalProviderService filter 5cc4b4 permission com.amazon.firecard.permission.CARD_PRODUCER
+          Action: "com.amazon.firecard.action.PRODUCER_BIND"
+          Category: "android.intent.category.DEFAULT"
+          mPriority=2147483647, mOrder=0, mHasPartialTypes=false
+
+Permissions:
+  Permission [com.amazon.device.navigator.permission.LAUNCHER_RESET_EXCEPTION_PERMISSION] (771c4b8):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature
+    perm=Permission{3b10291 com.amazon.device.navigator.permission.LAUNCHER_RESET_EXCEPTION_PERMISSION}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.permission.REMOVE_FROM_TARGET] (d0e55ee):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature|privileged
+    perm=Permission{15d4a8f com.amazon.tv.launcher.permission.REMOVE_FROM_TARGET}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.mediabrowse.CACHE_MANIPULATION] (57395f3):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature
+    perm=Permission{6d912b0 com.amazon.tv.mediabrowse.CACHE_MANIPULATION}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.permission.PROMPT_REGISTER_TILE_METADATA_SERVICE] (41867ec):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature
+    perm=Permission{a9657b5 com.amazon.tv.launcher.permission.PROMPT_REGISTER_TILE_METADATA_SERVICE}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.permission.SHOW_TEXT_SEARCH] (a4a196c):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature|privileged
+    perm=Permission{ad3eb35 com.amazon.tv.launcher.permission.SHOW_TEXT_SEARCH}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.LAUNCH_MB_CONTENT] (2ab566e):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature|privileged
+    perm=Permission{e5d810f com.amazon.tv.launcher.LAUNCH_MB_CONTENT}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+  Permission [com.amazon.device.permission.COMRADE_ACTIONS] (bbcb59c):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature|privileged
+    perm=Permission{1570ba5 com.amazon.device.permission.COMRADE_ACTIONS}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.oobe.permission.SEND_PRIME_TRIAL_SIGNUP_SUCCESS] (c9042c0):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature|privileged
+    perm=Permission{e431bf9 com.amazon.tv.oobe.permission.SEND_PRIME_TRIAL_SIGNUP_SUCCESS}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.permission.COMRADE_STATUS] (71c1c5a):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature
+    perm=Permission{f37ae8b com.amazon.tv.launcher.permission.COMRADE_STATUS}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.permission.SALE_ROW_UPDATE_RECEIVER] (3b6aaf7):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature|privileged
+    perm=Permission{ee83d64 com.amazon.tv.launcher.permission.SALE_ROW_UPDATE_RECEIVER}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.caching.widgets.permission.CARD_WIDGET] (412a0b9):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature
+    perm=Permission{fcfcfe com.amazon.tv.caching.widgets.permission.CARD_WIDGET}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.permission.SKILL_CONNECTION] (f44b1ca):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature
+    perm=Permission{aa76f3b com.amazon.tv.launcher.permission.SKILL_CONNECTION}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.arc.permission.PRE_WARM_ARC_PERMISSION] (eb6a61b):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature
+    perm=Permission{e4323b8 com.amazon.tv.arc.permission.PRE_WARM_ARC_PERMISSION}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.uicontrollermanager.permission.DataTransfer] (98cf523):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=normal
+    perm=Permission{fc73a20 com.amazon.uicontrollermanager.permission.DataTransfer}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (2aaea39):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature
+    perm=Permission{739487e com.amazon.tv.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.notification.modeswitch_overlay.permission.MODE_SWITCH_CHANGE] (a4d7772):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature
+    perm=Permission{18cc7c3 com.amazon.tv.notification.modeswitch_overlay.permission.MODE_SWITCH_CHANGE}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.permission.SHOW_SEARCH_RESULTS] (13d5882):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature|privileged
+    perm=Permission{ea27b93 com.amazon.tv.launcher.permission.SHOW_SEARCH_RESULTS}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.permission.DETAIL_PAGE_PRELOADING] (3c19470):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature|privileged
+    perm=Permission{34683e9 com.amazon.tv.launcher.permission.DETAIL_PAGE_PRELOADING}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.firecard.permission.DIAGNOSTIC] (56f090b):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature
+    perm=Permission{e8a63e8 com.amazon.firecard.permission.DIAGNOSTIC}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.permission.AUTOPLAY] (750e5b3):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature
+    perm=Permission{ee08770 com.amazon.tv.launcher.permission.AUTOPLAY}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.permission.APPS_FRAGMENT_RECEIVER] (aaa425d):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature
+    perm=Permission{ba4c7d2 com.amazon.tv.launcher.permission.APPS_FRAGMENT_RECEIVER}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.instahints.permission.config.updated] (4d0692d):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature|privileged
+    perm=Permission{296ae62 com.amazon.instahints.permission.config.updated}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Permissions:
+  Permission [com.amazon.tv.launcher.permission.READ_COMRADES] (47e6372):
+    sourcePackage=com.amazon.tv.launcher
+    uid=10026 gids=null type=0 prot=signature|privileged
+    perm=Permission{84943c3 com.amazon.tv.launcher.permission.READ_COMRADES}
+    packageSetting=PackageSetting{e4c75f6 com.amazon.tv.launcher/10026}
+
+Registered ContentProviders:
+  com.amazon.tv.launcher/.primefreetrial.PrimeAIVProvider:
+    Provider{fd17135 com.amazon.tv.launcher/.primefreetrial.PrimeAIVProvider}
+  com.amazon.tv.launcher/com.amazon.tv.caching.widgets.LiveTvCardProfileContentProvider:
+    Provider{29a5693 com.amazon.tv.launcher/com.amazon.tv.caching.widgets.LiveTvCardProfileContentProvider}
+  com.amazon.tv.launcher/.content.ComradeStatusProvider:
+    Provider{509c8ef com.amazon.tv.launcher/.content.ComradeStatusProvider}
+  com.amazon.tv.launcher/androidx.startup.InitializationProvider:
+    Provider{5d60a83 com.amazon.tv.launcher/androidx.startup.InitializationProvider}
+  com.amazon.tv.launcher/com.amazon.firecard.deviceagent.provider.CardProvider:
+    Provider{48b73ad com.amazon.tv.launcher/com.amazon.firecard.deviceagent.provider.CardProvider}
+  com.amazon.tv.launcher/com.amazon.tv.caching.widgets.LiveTvCardContentProvider:
+    Provider{5da3bf2 com.amazon.tv.launcher/com.amazon.tv.caching.widgets.LiveTvCardContentProvider}
+  com.amazon.tv.launcher/com.amazon.firecard.deviceagent.provider.CdaDiagProvider:
+    Provider{b56ad80 com.amazon.tv.launcher/com.amazon.firecard.deviceagent.provider.CdaDiagProvider}
+
+ContentProvider Authorities:
+  [com.amazon.firecard.deviceagent.provider]:
+    Provider{48b73ad com.amazon.tv.launcher/com.amazon.firecard.deviceagent.provider.CardProvider}
+      applicationInfo=ApplicationInfo{5aad44b com.amazon.tv.launcher}
+  [com.amazon.tv.launcher.livetv.profiles]:
+    Provider{29a5693 com.amazon.tv.launcher/com.amazon.tv.caching.widgets.LiveTvCardProfileContentProvider}
+      applicationInfo=ApplicationInfo{5aad44b com.amazon.tv.launcher}
+  [com.amazon.avod.prime]:
+    Provider{fd17135 com.amazon.tv.launcher/.primefreetrial.PrimeAIVProvider}
+      applicationInfo=ApplicationInfo{5aad44b com.amazon.tv.launcher}
+  [com.amazon.tv.launcher.livetv]:
+    Provider{5da3bf2 com.amazon.tv.launcher/com.amazon.tv.caching.widgets.LiveTvCardContentProvider}
+      applicationInfo=ApplicationInfo{5aad44b com.amazon.tv.launcher}
+  [com.amazon.tv.launcher.androidx-startup]:
+    Provider{5d60a83 com.amazon.tv.launcher/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{5aad44b com.amazon.tv.launcher}
+  [com.amazon.tv.launcher.comrades]:
+    Provider{509c8ef com.amazon.tv.launcher/.content.ComradeStatusProvider}
+      applicationInfo=ApplicationInfo{5aad44b com.amazon.tv.launcher}
+  [com.amazon.firecard.deviceagent.diagnostic.provider]:
+    Provider{b56ad80 com.amazon.tv.launcher/com.amazon.firecard.deviceagent.provider.CdaDiagProvider}
+      applicationInfo=ApplicationInfo{5aad44b com.amazon.tv.launcher}
+
+Key Set Manager:
+  [com.amazon.tv.launcher]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.amazon.tv.launcher] (e4c75f6):
+    userId=10026
+    pkg=Package{de7633b com.amazon.tv.launcher}
+    codePath=/system/priv-app/com.amazon.tv.launcher
+    resourcePath=/system/priv-app/com.amazon.tv.launcher
+    legacyNativeLibraryDir=/system/priv-app/com.amazon.tv.launcher/lib
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    versionCode=732037310 minSdk=28 targetSdk=35
+    versionName=7320373.1
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{5aad44b com.amazon.tv.launcher}
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED ]
+    dataDir=/data/user/0/com.amazon.tv.launcher
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      com.fireos.sdk.ceviche
+      com.fireos.sdk.firetv_sysappslib
+      com.fireos.sdk.prism
+      com.fireos.sdk.minerva
+      com.fireos.sdk.ad_manager
+      com.fireos.sdk.metrics
+      com.fireos.sdk.messaging
+      com.fireos.sdk.mapclientlib
+      com.fireos.sdk.ftvkarmalibrary
+      com.fireos.sdk.tvextensions
+      com.fireos.sdk.h2contracts
+      com.fireos.sdk.h2shared
+    usesOptionalLibraries:
+      com.fireos.sdk.naatyamlib
+      com.fireos.sdk.ftv_device_capability_library
+      com.fireos.sdk.messaging
+      com.amazon.media.notifications
+      com.amazon.media.recommendations.consumer
+      com.fireos.sdk.ceviche
+      com.amazon.identity.auth.device
+      com.fireos.sdk.firetvsysapps
+      com.fireos.sdk.ftvkarmalibrary
+      com.fireos.sdk.prism
+      com.fireos.sdk.amazon_profile_service
+      com.fireos.sdk.minerva
+      com.fireos.sdk.admanager
+      com.fireos.sdk.tvextensions
+      com.fireos.sdk.ftv_device_capability_library
+      com.amazon.tv.image.decoder
+      com.fireos.sdk.neo
+      com.fireos.sdk.device_remote_config_sync
+      com.fireos.sdk.amazon_accessory_config
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/com.amazon.ceviche.sdk.jar
+      /system/framework/FireTvSysappsLib.jar
+      /system/framework/com.amazon.prism.sdk.jar
+      /system/priv-app/MinervaApi/MinervaApi.apk
+      /system/framework/com.amazon.ad_manager.sdk.jar
+      /system/priv-app/MetricsApi/MetricsApi.apk
+      /system/priv-app/DeviceMessagingAndroidInternalSDK/DeviceMessagingAndroidInternalSDK.apk
+      /system/framework/com.amazon.identity.auth.device.jar
+      /system/framework/com.amazon.tv.ftvkarmalibrary.jar
+      /system/framework/com.amazon.media.tv.jar
+      /system/framework/com.amazon.h2contracts.jar
+      /system/framework/com.amazon.h2shared.jar
+      /system/framework/com.amazon.naatyam.lib.jar
+      /system/framework/com.amazon.ftvcapabilitylibrary.jar
+      /system/framework/recommendation_consumer_sdk.jar
+      /system/framework/FireOSPhoenixSDKNeoJavaServiceApi.jar
+      /system/framework/com.amazon.device_remote_config_sync.jar
+      /system/framework/org.apache.http.legacy.boot.jar
+    timeStamp=2009-01-01 05:30:00
+    firstInstallTime=2009-01-01 05:30:00
+    lastUpdateTime=2009-01-01 05:30:00
+    installerPackageName=com.amazon.device.software.ota
+    signatures=PackageSignatures{6636a58 version:2, signatures:[e627f73a], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.amazon.avod.BUELLER_CONTENT_PROVIDER_ACCESS: prot=signature|privileged
+      com.amazon.avod.SDK_ACCESS: prot=signature|privileged
+      com.amazon.device.permission.NAVIGATOR: prot=signature|privileged
+      com.amazon.device.permission.LAUNCHER_MENU: prot=signature|privileged
+      com.amazon.tv.launcher.permission.REMOVE_FROM_TARGET: prot=signature|privileged, INSTALLED
+      com.amazon.device.permission.COMRADE_CAPABILITIES: prot=normal
+      com.amazon.device.permission.COMRADE_DIALOGS: prot=signature|privileged
+      com.amazon.device.permission.COMRADE_ACTIONS: prot=signature|privileged, INSTALLED
+      com.amazon.tv.permission.SEND_SYNC_EVENT: prot=signature|privileged
+      com.amazon.avod.prime.permission.CAN_CREATE_FREE_TRIAL_OFFER: prot=signature
+      com.amazon.tv.launcher.permission.READ_COMRADES: prot=signature|privileged, INSTALLED
+      com.amazon.device.permission.LAUNCHER_LIBRARY_SETTINGS: prot=signature|privileged
+      com.amazon.tv.permission.NAVIGATOR_DONT_HIDE: prot=signature|privileged
+      com.amazon.tv.launcher.LAUNCH_MB_CONTENT: prot=signature|privileged, INSTALLED
+      com.amazon.tv.launcher.INSTALL_DEMO_CONTENT: prot=signature|privileged
+      com.amazon.tv.oobe.permission.SEND_PRIME_TRIAL_SIGNUP_SUCCESS: prot=signature|privileged, INSTALLED
+      com.amazon.tv.launcher.permission.SKILL_CONNECTION: prot=signature, INSTALLED
+      com.amazon.tv.subscription.SHOW_OFFER_WEB: prot=signature|privileged
+      com.amazon.tv.mediabrowse.CACHE_MANIPULATION: prot=signature, INSTALLED
+      com.amazon.tv.launcher.HOME_PRESSED: prot=signature|privileged
+      com.amazon.tv.launcher.permission.SHOW_TEXT_SEARCH: prot=signature|privileged, INSTALLED
+      com.amazon.tv.launcher.permission.DETAIL_PAGE_PRELOADING: prot=signature|privileged, INSTALLED
+      com.amazon.tv.launcher.permission.SHOW_SEARCH_RESULTS: prot=signature|privileged, INSTALLED
+      com.amazon.tv.launcher.permission.AUTOPLAY: prot=signature, INSTALLED
+      com.amazon.tv.launcher.permission.COMRADE_STATUS: prot=signature, INSTALLED
+      com.amazon.tv.launcher.permission.APPS_FRAGMENT_RECEIVER: prot=signature, INSTALLED
+      com.amazon.device.navigator.permission.LAUNCHER_RESET_EXCEPTION_PERMISSION: prot=signature, INSTALLED
+      com.amazon.tv.notification.modeswitch_overlay.permission.MODE_SWITCH_CHANGE: prot=signature, INSTALLED
+      com.amazon.tv.caching.widgets.permission.CARD_WIDGET: prot=signature, INSTALLED
+      com.amazon.tv.launcher.permission.SEND_CARDS_INTENT: prot=signature
+      com.amazon.tv.launcher.permission.REMOVE_FROM_RECENT: prot=signature
+      com.amazon.uicontrollermanager.permission.DataTransfer: prot=normal, INSTALLED
+      com.amazon.tv.arc.permission.PRE_WARM_ARC_PERMISSION: prot=signature, INSTALLED
+      com.amazon.tv.launcher.permission.PROMPT_REGISTER_TILE_METADATA_SERVICE: prot=signature, INSTALLED
+      com.amazon.tv.launcher.permission.SALE_ROW_UPDATE_RECEIVER: prot=signature|privileged, INSTALLED
+      com.amazon.firecard.permission.CARD_CONSUMER: prot=signature
+      com.amazon.firecard.permission.CARD_PRODUCER: prot=signature
+      com.amazon.firecard.permission.DIAGNOSTIC: prot=signature, INSTALLED
+      com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS: prot=signature
+      com.amazon.instahints.permission.config.updated: prot=signature|privileged, INSTALLED
+      com.amazon.tv.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.REBOOT
+      com.amazon.identity.permission.GENERIC_IPC
+      android.permission.PACKAGE_USAGE_STATS
+      com.amazon.tv.launcher.INSTALL_DEMO_CONTENT
+      com.amazon.conversation.permission.ALEXA_PLUS_DEEP_LINK
+      com.amazon.tv.launcher.react.permission.PRE_WARM_LAUNCHER_REACT_PERMISSION
+      com.amazon.ceviche.permission.TRACK_EVENTS
+      com.vewd.core.tif.permission.EXTENSION
+      com.amazon.prism.permission.PROFILES_EVENTS
+      com.amazon.permission.GET_PROFILE
+      com.amazon.profilepicker.permission.LAUNCH
+      com.amazon.ftv.profilepicker.permission.SEND_DISMISS_INTENT
+      com.amazon.tv.alexadestination.permission.SEND_ALEXA_EVENT
+      com.lab126.downloads.DOWNLOAD_SVC_CLIENT_CONNECT
+      com.amazon.permission.RECEIVE_HOME_LONGPRESSED_ACTION
+      com.amazon.tv.launcher.permission.PRIME_VIDEOS
+      amazon.permission.COLLECT_METRICS
+      com.amazon.dcp.metrics.permission.METRICS_PERMISSION
+      com.amazon.tv.livetv.permission.PREWARM
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.FOREGROUND_SERVICE
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+      android.permission.POST_NOTIFICATIONS
+      com.amazon.alexa.router.capabilityagent.permission.SEND_DATA_TO_ALEXA
+      com.amazon.vizzini.setting.permission.ALEXA_SETTING
+      com.amazon.permission.RECEIVE_SETTING_BUTTON_PRESSED_ACTION
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.amazon.tv.launcher.HOME_PRESSED
+      com.amazon.tv.launcher.permission.SHOW_SEARCH_RESULTS
+      com.amazon.tv.launcher.permission.SHOW_CHANNEL_LANDING_PAGE
+      com.amazon.tv.subscription.SHOW_OFFER
+      com.amazon.tv.subscription.SHOW_OFFER_ON_DEVICE
+      com.amazon.permission.RECEIVE_SEARCH
+      com.amazon.venezia.pdi.APP_OPEN
+      com.amazon.venezia.DEEP_LINK_TO_3P_APP
+      com.amazon.venezia.permission.BIND
+      com.amazon.venezia.permission.LIBRARY_ITEM_LAUNCHED
+      android.permission.INTERNET
+      com.amazon.dcp.sso.permission.account.changed
+      com.amazon.dcp.sso.permission.MANAGE_COR_PFM
+      com.amazon.dcp.sso.permission.CUSTOMER_ATTRIBUTE_SERVICE
+      com.amazon.dcp.config.permission.DYN_CONFIG_VALUES_UPDATED
+      com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER
+      com.amazon.identity.auth.device.perm.AUTH_SDK
+      com.amazon.ssm.permission.SSM_NETWORK_ADVISOR_PERMISSION
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.GET_ACCOUNTS
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.READ_PHONE_STATE
+      android.permission.USE_CREDENTIALS
+      com.amazon.dcp.sso.permission.MANAGE_DEVICE_AND_USER_DATA
+      com.amazon.dcp.sso.permission.MULTIPLE_PROFILE_AWARE
+      com.amazon.dcp.sso.permission.AmazonAccountPropertyService.property.changed
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      com.amazon.permission.GET_COOKIE_CONSENT
+      com.amazon.prism.permission.PROFILES_READ_WRITE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECORD_AUDIO
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.WRITE_SETTINGS
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.READ_EXTERNAL_STORAGE
+      com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA
+      com.amazon.MANAGE_LAUNCHER
+      com.amazon.dcp.sso.permission.USE_DEVICE_CREDENTIALS
+      com.amazon.dcp.sso.permission.EXPIRE_ACCESS_TOKEN
+      com.amazon.CONTENT_PROVIDER_ACCESS
+      com.amazon.mp3.CONTENT_PROVIDER_ACCESS
+      com.amazon.avod.BUELLER_CONTENT_PROVIDER_ACCESS
+      com.amazon.avod.SDK_ACCESS
+      com.amazon.device.permission.NAVIGATOR
+      com.amazon.device.permission.LAUNCHER_MENU
+      com.amazon.tv.permission.LAUNCHER_SETTINGS
+      com.amazon.device.permission.LAUNCHER_LIBRARY_SETTINGS
+      com.amazon.device.permission.READ_CONTROLLERS
+      amazon.permission.BLACKLISTED_IN_APPS_SETTINGS
+      com.amazon.permission.ACTIVITY_SWITCH_WATCHER
+      com.amazon.dcp.messaging.permission.HANDLE_DEVICE_MESSAGE
+      com.amazon.device.messaging.permission.CLOUD_MESSAGING
+      com.amazon.device.navigator.permission.LAUNCHER_RESET_EXCEPTION_PERMISSION
+      com.amazon.tv.notification.modeswitch_overlay.permission.MODE_SWITCH_CHANGE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.WAKE_LOCK
+      android.permission.BLUETOOTH
+      com.amazon.permission.ParentalControl
+      com.amazon.sneakpeek.LAUNCHER_BROADCAST
+      com.amazon.gamecircle.provider.CONTENT_PROVIDER_READ
+      com.amazon.mas.client.CONTENT_PROVIDER_READ
+      com.amazon.tv.oobe.RECEIVE_USER_LOCATION_CHANGED
+      com.amazon.device.permission.SEND_OOBE_REGISTRATION
+      com.amazon.cost.androidtvoobe.permission.INVOKE_FROZEN_MODE_TRANSITION_FLOW
+      com.amazon.tv.ime.permission.KEYBOARD_STATE
+      com.amazon.kso.blackbird.webview.LAUNCH_CLP_WEBVIEW
+      android.permission.CHANGE_COMPONENT_ENABLED_STATE
+      com.amazon.tv.parentalcontrols.permission.PARENTAL_CONTROLS
+      com.amazon.tv.launcher.permission.READ_COMRADES
+      com.amazon.tv.oobe.permission.RECEIVE_PRIME_TRIAL_SIGNUP_SUCCESS
+      com.amazon.device.permission.ACCESS_SALE_PROVIDER
+      com.amazon.tv.launcher.permission.COMRADE_STATUS
+      com.amazon.tv.launcher.permission.SEND_CARDS_INTENT
+      com.amazon.tv.launcher.permission.RECEIVE_CARDS_INTENT
+      com.amazon.tv.permission.CANCEL_RECORDING
+      com.amazon.tv.permission.REMOVE_RECORDING
+      com.amazon.tv.livetv.permission.RECORDING_OPTIONS
+      com.amazon.tv.livetv.permission.MANAGE_RECORDINGS
+      com.amazon.tv.livetv.permission.TUNE_CHANNEL
+      com.amazon.tv.livetv.permission.LIVE_DETAILS
+      com.amazon.tv.livetv.permission.PLAY_RECORDED
+      com.amazon.tv.livetv.permission.REMOVE_RECORDING_RULE
+      com.amazon.tv.livetv.permission.RECORDING
+      com.amazon.tv.livetv.permission.TUNE_INPUT
+      com.amazon.tv.livetv.permission.ACCESS_EPG
+      com.amazon.tv.livetv.permission.SHOW_EPG
+      com.amazon.tv.permission.TUNE_INPUT
+      com.amazon.tv.inputpreference.permission.LAUNCH_INPUTS
+      com.amazon.tv.permission.INPUT_WIZARD
+      com.amazon.tv.permission.CHANNEL_SCAN
+      com.amazon.tv.inputpreference.permission.CHANNEL_SCAN
+      com.amazon.tv.permission.SUBSCRIPTION_CHANGE
+      com.amazon.tv.notificationcenter.permission.RECEIVE_NOTIFICATION_COUNT_UPDATES
+      com.netflix.ninja.permission.NETFLIX_KEY
+      android.permission.REAL_GET_TASKS
+      amazon.speech.permission.SEND_DATA_TO_ALEXA
+      com.amazon.tv.subscription.SHOW_OFFER_WEB
+      com.amazon.tv.subscription.permission.FBA_SUBSCRIPTION_SIGNUP
+      amazon.permission.SHARED_STORAGE_WRITE
+      android.permission.MANAGE_EXTERNAL_STORAGE
+      android.permission.MANAGE_USERS
+      com.amazon.permission.UPDATE_PACKAGE_RECENCY_FILTER
+      com.amazon.tv.oobe.SHOW_ACCOUNT_PROMOTION
+      com.amazon.venezia.permission.D12_REMOTE_LAUNCH
+      com.amazon.mas.client.GLOBAL_BROADCAST_com.amazon.venezia
+      com.amazon.firecard.permission.CARD_PRODUCER
+      com.amazon.tv.launcher.permission.REMOVE_FROM_RECENT
+      com.amazon.tv.launcher.permission.REMOVE_FROM_TARGET
+      com.amazon.adep.permission.CONTENT_PROVIDER_READ
+      com.amazon.tv.permission.ROUTINGINFO_CHANGED
+      com.amazon.permission.AMAZON_UNIFIED_NETWORK
+      com.amazon.mas.client.CONTENT_PROVIDER_READ_com.amazon.venezia
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.amazon.firebat.permissions.LOG_CDA_CARD
+      com.amazon.alexa.device.application.permission.FIRST_PARTY_BIND_PERMISSION
+      com.amazon.alexa.androidapplicationagent.permission.SEND_DATA
+      com.amazon.permission.GET_WAKEUPEVENTS
+      amazon.speech.permission.SEND_ALEXA_DIRECTIVE
+      com.amazon.firetv.androidskillconnectioncapability.permission.SEND_ASC_DEEPLINK
+      com.amazon.firetv.androidskillconnectioncapability.permission.SEND_APE_DEEPLINK
+      com.amazon.neo.permission.ADD_SERVICE
+      com.amazon.uicontrollermanager.permission.DataTransfer
+      com.amazon.permission.READ_AMBIENT_STATE
+      com.amazon.alexa.uicontrollermanager.permission.BIND_PERMISSION
+      com.amazon.permission.ACCESS_HDMI_SERVICE_ADVANCED
+      com.amazon.dcp.messaging.permission.QUEUE_MESSAGE
+      com.amazon.tv.arc.permission.PRE_WARM_ARC_PERMISSION
+      com.amazon.tv.launcher.permission.PROMPT_REGISTER_TILE_METADATA_SERVICE
+      com.amazon.permission.RECEIVE_QS_LAUNCH_ACTION
+      com.amazon.tv.settings.permission.VIEW_SETTINGS_SEARCH
+      com.amazon.privilege.consume.recommendations
+      com.amazon.whas.API_COMMUNICATION
+      com.amazon.livedeviceservice.permission.RECEIVE_BROADCASTS
+      com.amazon.alexa.device.application.permission.BIND_PERMISSION
+      com.amazon.alexa.device.application.permission.DISCOVER_REQUEST_PERMISSION
+      android.permission.READ_PROFILE
+      com.amazon.firecard.permission.CARD_CONSUMER
+      android.permission.INTERACT_ACROSS_USERS
+      com.amazon.dcp.settings.permission.READ_SETTINGS
+      com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS
+      com.amazon.device.permission.PROFILE_INTERACTION
+      com.amazon.prism.permission.EVENTS
+      android.permission.INTERACT_ACROSS_USERS_FULL
+      com.amazon.tv.launcher.SEARCH_PRESSED_PERMISSION
+      android.permission.BLUETOOTH_CONNECT
+      com.amazon.accessoryconfig.permission.ACCESS
+      com.amazon.accessoryconfig.permission.SERVICEACCESS
+      com.amazon.firebat.API_ACCESS
+      com.amazon.permission.GET_DEVICE_INFO
+      com.amazon.permission.cues.GET_HINTS
+      com.amazon.aca.permission.GET_INSTA_HINTS
+      com.amazon.permission.UPDATE_HINT_CONTEXT
+      com.amazon.aca.tutorial.TUTORIAL_SERVICE
+      com.amazon.tv.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.REORDER_TASKS
+      amazon.aosp.permission.INTERACT_ACROSS_USERS_FULL
+      com.amazon.permission.INTERACT_ACROSS_USERS_FULL
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      com.amazon.vizzini.setting.permission.ALEXA_SETTING: granted=true
+      com.amazon.device.navigator.permission.LAUNCHER_RESET_EXCEPTION_PERMISSION: granted=true
+      com.amazon.tv.settings.permission.VIEW_SETTINGS_SEARCH: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      com.amazon.tv.launcher.permission.RECEIVE_CARDS_INTENT: granted=true
+      com.amazon.tv.launcher.permission.REMOVE_FROM_RECENT: granted=true
+      com.amazon.tv.livetv.permission.RECORDING: granted=true
+      com.amazon.tv.launcher.permission.REMOVE_FROM_TARGET: granted=true
+      com.amazon.mas.client.GLOBAL_BROADCAST_com.amazon.venezia: granted=true
+      com.amazon.ceviche.permission.TRACK_EVENTS: granted=true
+      com.amazon.tv.subscription.SHOW_OFFER_ON_DEVICE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      com.amazon.neo.permission.ADD_SERVICE: granted=true
+      com.amazon.tv.ime.permission.KEYBOARD_STATE: granted=true
+      com.amazon.device.permission.READ_CONTROLLERS: granted=true
+      com.amazon.permission.ACCESS_HDMI_SERVICE_ADVANCED: granted=true
+      com.amazon.conversation.permission.ALEXA_PLUS_DEEP_LINK: granted=true
+      amazon.permission.SHARED_STORAGE_WRITE: granted=true
+      com.amazon.dcp.messaging.permission.HANDLE_DEVICE_MESSAGE: granted=true
+      com.amazon.tv.permission.REMOVE_RECORDING: granted=true
+      com.amazon.tv.launcher.permission.PROMPT_REGISTER_TILE_METADATA_SERVICE: granted=true
+      com.amazon.venezia.DEEP_LINK_TO_3P_APP: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      com.amazon.avod.SDK_ACCESS: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      com.amazon.privilege.consume.recommendations: granted=true
+      com.amazon.venezia.permission.BIND: granted=true
+      com.amazon.mas.client.CONTENT_PROVIDER_READ: granted=true
+      com.lab126.downloads.DOWNLOAD_SVC_CLIENT_CONNECT: granted=true
+      com.amazon.alexa.uicontrollermanager.permission.BIND_PERMISSION: granted=true
+      com.amazon.tv.launcher.permission.SEND_CARDS_INTENT: granted=true
+      android.permission.CHANGE_COMPONENT_ENABLED_STATE: granted=true
+      com.amazon.tv.livetv.permission.MANAGE_RECORDINGS: granted=true
+      com.amazon.tv.launcher.permission.PRIME_VIDEOS: granted=true
+      amazon.permission.BLACKLISTED_IN_APPS_SETTINGS: granted=true
+      amazon.aosp.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      com.amazon.tv.launcher.permission.COMRADE_STATUS: granted=true
+      com.amazon.tv.permission.SUBSCRIPTION_CHANGE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.amazon.mas.client.CONTENT_PROVIDER_READ_com.amazon.venezia: granted=true
+      com.amazon.alexa.device.application.permission.FIRST_PARTY_BIND_PERMISSION: granted=true
+      com.amazon.device.permission.NAVIGATOR: granted=true
+      com.amazon.adep.permission.CONTENT_PROVIDER_READ: granted=true
+      com.amazon.dcp.sso.permission.MANAGE_COR_PFM: granted=true
+      com.amazon.avod.BUELLER_CONTENT_PROVIDER_ACCESS: granted=true
+      com.amazon.CONTENT_PROVIDER_ACCESS: granted=true
+      com.amazon.device.messaging.permission.CLOUD_MESSAGING: granted=true
+      com.amazon.tv.notificationcenter.permission.RECEIVE_NOTIFICATION_COUNT_UPDATES: granted=true
+      android.permission.READ_PROFILE: granted=true
+      com.amazon.tv.oobe.RECEIVE_USER_LOCATION_CHANGED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      com.amazon.alexa.router.capabilityagent.permission.SEND_DATA_TO_ALEXA: granted=true
+      com.amazon.avod.prime.permission.CAN_CREATE_FREE_TRIAL_OFFER: granted=true
+      com.amazon.ssm.permission.SSM_NETWORK_ADVISOR_PERMISSION: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      com.amazon.dcp.sso.permission.EXPIRE_ACCESS_TOKEN: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      com.amazon.device.permission.LAUNCHER_LIBRARY_SETTINGS: granted=true
+      com.amazon.permission.GET_DEVICE_INFO: granted=true
+      com.amazon.alexa.androidapplicationagent.permission.SEND_DATA: granted=true
+      com.amazon.device.permission.ACCESS_SALE_PROVIDER: granted=true
+      com.amazon.dcp.config.permission.DYN_CONFIG_VALUES_UPDATED: granted=true
+      com.amazon.gamecircle.provider.CONTENT_PROVIDER_READ: granted=true
+      com.amazon.firecard.permission.CARD_PRODUCER: granted=true
+      com.amazon.tv.permission.INPUT_WIZARD: granted=true
+      com.amazon.tv.permission.NAVIGATOR_DONT_HIDE: granted=true
+      com.amazon.tv.permission.TUNE_INPUT: granted=true
+      com.amazon.tv.arc.permission.PRE_WARM_ARC_PERMISSION: granted=true
+      com.amazon.dcp.sso.permission.MANAGE_DEVICE_AND_USER_DATA: granted=true
+      com.amazon.dcp.settings.permission.READ_SETTINGS: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      com.amazon.tv.livetv.permission.LIVE_DETAILS: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.amazon.uicontrollermanager.permission.DataTransfer: granted=true
+      com.amazon.venezia.pdi.APP_OPEN: granted=true
+      com.amazon.firetv.androidskillconnectioncapability.permission.SEND_ASC_DEEPLINK: granted=true
+      com.amazon.permission.RECEIVE_HOME_LONGPRESSED_ACTION: granted=true
+      com.amazon.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      amazon.permission.COLLECT_METRICS: granted=true
+      amazon.speech.permission.SEND_DATA_TO_ALEXA: granted=true
+      com.amazon.tv.permission.CHANNEL_SCAN: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      com.amazon.tv.launcher.SEARCH_PRESSED_PERMISSION: granted=true
+      com.amazon.permission.ParentalControl: granted=true
+      com.amazon.firecard.permission.CARD_CONSUMER: granted=true
+      com.amazon.tv.parentalcontrols.permission.PARENTAL_CONTROLS: granted=true
+      com.amazon.tv.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.amazon.dcp.sso.permission.account.changed: granted=true
+      com.amazon.permission.ACTIVITY_SWITCH_WATCHER: granted=true
+      com.amazon.dcp.sso.permission.AmazonAccountPropertyService.property.changed: granted=true
+      com.amazon.dcp.sso.permission.CUSTOMER_ATTRIBUTE_SERVICE: granted=true
+      com.amazon.device.permission.PROFILE_INTERACTION: granted=true
+      com.amazon.device.permission.SEND_OOBE_REGISTRATION: granted=true
+      com.amazon.livedeviceservice.permission.RECEIVE_BROADCASTS: granted=true
+      com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      com.amazon.tv.notification.modeswitch_overlay.permission.MODE_SWITCH_CHANGE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.amazon.permission.RECEIVE_SETTING_BUTTON_PRESSED_ACTION: granted=true
+      com.amazon.identity.auth.device.perm.AUTH_SDK: granted=true
+      com.amazon.tv.launcher.permission.SHOW_SEARCH_RESULTS: granted=true
+      com.amazon.permission.GET_COOKIE_CONSENT: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      com.amazon.firebat.API_ACCESS: granted=true
+      com.amazon.tv.subscription.SHOW_OFFER_WEB: granted=true
+      com.amazon.mp3.CONTENT_PROVIDER_ACCESS: granted=true
+      com.netflix.ninja.permission.NETFLIX_KEY: granted=true
+      com.amazon.permission.RECEIVE_QS_LAUNCH_ACTION: granted=true
+      com.amazon.tv.launcher.INSTALL_DEMO_CONTENT: granted=true
+      com.amazon.tv.livetv.permission.SHOW_EPG: granted=true
+      com.amazon.firetv.androidskillconnectioncapability.permission.SEND_APE_DEEPLINK: granted=true
+      com.amazon.tv.livetv.permission.REMOVE_RECORDING_RULE: granted=true
+      com.amazon.permission.cues.GET_HINTS: granted=true
+      com.amazon.venezia.permission.D12_REMOTE_LAUNCH: granted=true
+      com.amazon.permission.AMAZON_UNIFIED_NETWORK: granted=true
+      com.amazon.tv.livetv.permission.PLAY_RECORDED: granted=true
+      com.amazon.prism.permission.PROFILES_EVENTS: granted=true
+      com.amazon.alexa.device.application.permission.BIND_PERMISSION: granted=true
+      com.amazon.profilepicker.permission.LAUNCH: granted=true
+      com.amazon.tv.livetv.permission.ACCESS_EPG: granted=true
+      android.permission.REBOOT: granted=true
+      com.amazon.prism.permission.PROFILES_READ_WRITE: granted=true
+      com.amazon.identity.permission.GENERIC_IPC: granted=true
+      com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS: granted=true
+      com.amazon.permission.GET_WAKEUPEVENTS: granted=true
+      com.amazon.firebat.permissions.LOG_CDA_CARD: granted=true
+      com.amazon.tv.permission.CANCEL_RECORDING: granted=true
+      com.amazon.tv.permission.SEND_SYNC_EVENT: granted=true
+      com.amazon.permission.GET_PROFILE: granted=true
+      com.amazon.alexa.device.application.permission.DISCOVER_REQUEST_PERMISSION: granted=true
+      com.amazon.tv.livetv.permission.TUNE_INPUT: granted=true
+      com.amazon.permission.RECEIVE_SEARCH: granted=true
+      com.amazon.device.permission.COMRADE_DIALOGS: granted=true
+      com.amazon.device.permission.LAUNCHER_MENU: granted=true
+      com.amazon.tv.launcher.permission.SHOW_CHANNEL_LANDING_PAGE: granted=true
+      com.amazon.tv.livetv.permission.TUNE_CHANNEL: granted=true
+      com.amazon.dcp.sso.permission.USE_DEVICE_CREDENTIALS: granted=true
+      com.amazon.aca.permission.GET_INSTA_HINTS: granted=true
+      com.amazon.tv.launcher.HOME_PRESSED: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.amazon.ftv.profilepicker.permission.SEND_DISMISS_INTENT: granted=true
+      amazon.speech.permission.SEND_ALEXA_DIRECTIVE: granted=true
+      com.amazon.tv.livetv.permission.RECORDING_OPTIONS: granted=true
+      com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER: granted=true
+      com.amazon.permission.UPDATE_HINT_CONTEXT: granted=true
+      com.amazon.permission.UPDATE_PACKAGE_RECENCY_FILTER: granted=true
+      com.amazon.permission.READ_AMBIENT_STATE: granted=true
+      com.amazon.tv.launcher.permission.READ_COMRADES: granted=true
+      com.amazon.dcp.messaging.permission.QUEUE_MESSAGE: granted=true
+      com.amazon.tv.oobe.permission.RECEIVE_PRIME_TRIAL_SIGNUP_SUCCESS: granted=true
+      com.amazon.accessoryconfig.permission.ACCESS: granted=true
+      com.amazon.tv.alexadestination.permission.SEND_ALEXA_EVENT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.amazon.device.permission.COMRADE_CAPABILITIES: granted=true
+      com.amazon.tv.oobe.SHOW_ACCOUNT_PROMOTION: granted=true
+      com.amazon.dcp.metrics.permission.METRICS_PERMISSION: granted=true
+      com.amazon.kso.blackbird.webview.LAUNCH_CLP_WEBVIEW: granted=true
+      com.amazon.tv.permission.ROUTINGINFO_CHANGED: granted=true
+      com.amazon.tv.permission.LAUNCHER_SETTINGS: granted=true
+      com.amazon.tv.livetv.permission.PREWARM: granted=true
+      com.amazon.tv.inputpreference.permission.LAUNCH_INPUTS: granted=true
+      com.amazon.whas.API_COMMUNICATION: granted=true
+      com.amazon.venezia.permission.LIBRARY_ITEM_LAUNCHED: granted=true
+      com.amazon.tv.subscription.permission.FBA_SUBSCRIPTION_SIGNUP: granted=true
+      amazon.alexa.timeout.TIMEOUT_OPERATIONS: granted=true
+    User 0: ceDataInode=-4294675173 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      gids=[5901, 3002, 3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ GRANTED_BY_DEFAULT ]
+        android.permission.GET_ACCOUNTS: granted=true, flags=[ GRANTED_BY_DEFAULT ]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ GRANTED_BY_DEFAULT ]
+      enabledComponents:
+        com.amazon.tv.launcher.ui.HomeActivity_vNext
+
+Package Changes:
+  Sequence number=27
+  User 0:
+    seq=0, package=com.amazon.tv.quicksettings.ui
+    seq=20, package=com.netflix.ninja
+    seq=23, package=com.amazon.ceviche
+    seq=24, package=com.amazon.tv.settings.v2
+    seq=26, package=com.amazon.ftv.screensaver
+
+
+Dexopt state:
+  [com.amazon.tv.launcher]
+    path: /system/priv-app/com.amazon.tv.launcher/com.amazon.tv.launcher.apk
+      arm: [status=speed] [reason=prebuilt]
+
+
+Compiler stats:
+  [com.amazon.tv.launcher]
+     base.apk - 50954

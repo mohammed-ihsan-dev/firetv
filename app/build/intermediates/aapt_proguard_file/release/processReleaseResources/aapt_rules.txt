@@ -1,0 +1,10 @@
+-keep class com.shahu.tv.BootReceiver { <init>(); }
+-keep class com.shahu.tv.DeviceManagerActivity { <init>(); }
+-keep class com.shahu.tv.HomeButtonService { <init>(); }
+-keep class com.shahu.tv.MainActivity { <init>(); }
+-keep class com.shahu.tv.SettingsActivity { <init>(); }
+-keep class com.shahu.tv.ShahuApp { <init>(); }
+-keep class com.shahu.tv.CarouselView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.shahu.tv.WifiIndicatorView { <init>(android.content.Context, android.util.AttributeSet); }
+

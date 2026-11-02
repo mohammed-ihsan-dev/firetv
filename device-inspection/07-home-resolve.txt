@@ -1,0 +1,31 @@
+$ adb -s 192.168.1.2:5555 shell cmd package resolve-activity -a android.intent.action.MAIN -c android.intent.category.HOME
+priority=950 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+ActivityInfo:
+  name=com.amazon.tv.launcher.ui.HomeActivity_vNext
+  packageName=com.amazon.tv.launcher
+  labelRes=0x7f1102ba nonLocalizedLabel=null icon=0x0 banner=0x0
+  enabled=false exported=true directBootAware=false
+  taskAffinity=com.amazon.tv.launcher.home targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+  launchMode=2 flags=0x4200 theme=0x0
+  screenOrientation=0 configChanges=0x40000ffb softInputMode=0x0
+  lockTaskLaunchMode=LOCK_TASK_LAUNCH_MODE_DEFAULT
+  resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+  ApplicationInfo:
+    name=com.amazon.tv.launcher.BuellerApplication
+    packageName=com.amazon.tv.launcher
+    labelRes=0x7f110051 nonLocalizedLabel=null icon=0x7f0801b2 banner=0x0
+    className=com.amazon.tv.launcher.BuellerApplication
+    processName=com.amazon.tv.launcher
+    taskAffinity=com.amazon.tv.launcher
+    uid=10026 flags=0x28983e45 privateFlags=0x1108 theme=0x7f1201fb
+    requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+    sourceDir=/system/priv-app/com.amazon.tv.launcher/com.amazon.tv.launcher.apk
+    seinfo=amazonapp:privapp:targetSdkVersion=35
+    seinfoUser=:complete
+    dataDir=/data/user/0/com.amazon.tv.launcher
+    deviceProtectedDataDir=/data/user_de/0/com.amazon.tv.launcher
+    credentialProtectedDataDir=/data/user/0/com.amazon.tv.launcher
+    enabled=true minSdkVersion=28 targetSdkVersion=35 versionCode=732037310 targetSandboxVersion=1
+    supportsRtl=false
+    fullBackupContent=true
+    HiddenApiEnforcementPolicy=2

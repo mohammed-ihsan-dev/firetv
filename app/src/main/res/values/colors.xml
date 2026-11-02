@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#08090B</color>
+    <color name="surface">#14151A</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#C9CCD3</color>
+    <color name="text_tertiary">#8E929C</color>
+    <color name="accent_red">#E5323F</color>
+    <color name="border_subtle">#33FFFFFF</color>
+    <color name="glass_fill_top">#B8343740</color>
+    <color name="glass_fill_bottom">#CC16171C</color>
+</resources>

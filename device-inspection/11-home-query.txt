@@ -1,0 +1,96 @@
+$ adb -s 192.168.1.2:5555 shell cmd package query-activities -a android.intent.action.MAIN -c android.intent.category.HOME
+3 activities found:
+  Activity #0:
+    priority=950 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    ActivityInfo:
+      name=com.amazon.tv.launcher.ui.HomeActivity_vNext
+      packageName=com.amazon.tv.launcher
+      labelRes=0x7f1102ba nonLocalizedLabel=null icon=0x0 banner=0x0
+      enabled=false exported=true directBootAware=false
+      taskAffinity=com.amazon.tv.launcher.home targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+      launchMode=2 flags=0x4200 theme=0x0
+      screenOrientation=0 configChanges=0x40000ffb softInputMode=0x0
+      lockTaskLaunchMode=LOCK_TASK_LAUNCH_MODE_DEFAULT
+      resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+      ApplicationInfo:
+        name=com.amazon.tv.launcher.BuellerApplication
+        packageName=com.amazon.tv.launcher
+        labelRes=0x7f110051 nonLocalizedLabel=null icon=0x7f0801b2 banner=0x0
+        className=com.amazon.tv.launcher.BuellerApplication
+        processName=com.amazon.tv.launcher
+        taskAffinity=com.amazon.tv.launcher
+        uid=10026 flags=0x28983e45 privateFlags=0x1108 theme=0x7f1201fb
+        requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+        sourceDir=/system/priv-app/com.amazon.tv.launcher/com.amazon.tv.launcher.apk
+        seinfo=amazonapp:privapp:targetSdkVersion=35
+        seinfoUser=:complete
+        dataDir=/data/user/0/com.amazon.tv.launcher
+        deviceProtectedDataDir=/data/user_de/0/com.amazon.tv.launcher
+        credentialProtectedDataDir=/data/user/0/com.amazon.tv.launcher
+        enabled=true minSdkVersion=28 targetSdkVersion=35 versionCode=732037310 targetSandboxVersion=1
+        supportsRtl=false
+        fullBackupContent=true
+        HiddenApiEnforcementPolicy=2
+  Activity #1:
+    priority=1 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    ActivityInfo:
+      name=com.amazon.firehomestarter.HomeStarterActivity
+      packageName=com.amazon.firehomestarter
+      enabled=true exported=true directBootAware=false
+      taskAffinity=null targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+      launchMode=2 flags=0xa34 theme=0x1030055
+      screenOrientation=-1 configChanges=0x3 softInputMode=0x0
+      lockTaskLaunchMode=LOCK_TASK_LAUNCH_MODE_DEFAULT
+      resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+      ApplicationInfo:
+        name=com.amazon.firehomestarter.FireHomeStarterApplication
+        packageName=com.amazon.firehomestarter
+        labelRes=0x0 nonLocalizedLabel=null icon=0x7f020000 banner=0x0
+        className=com.amazon.firehomestarter.FireHomeStarterApplication
+        processName=com.amazon.firehomestarter
+        taskAffinity=com.amazon.firehomestarter
+        uid=10030 flags=0x38883e45 privateFlags=0x1008 theme=0x0
+        requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+        sourceDir=/system/priv-app/com.amazon.firehomestarter/com.amazon.firehomestarter.apk
+        seinfo=amazonapp:privapp:targetSdkVersion=26
+        seinfoUser=:complete
+        dataDir=/data/user/0/com.amazon.firehomestarter
+        deviceProtectedDataDir=/data/user_de/0/com.amazon.firehomestarter
+        credentialProtectedDataDir=/data/user/0/com.amazon.firehomestarter
+        enabled=true minSdkVersion=17 targetSdkVersion=26 versionCode=15210 targetSandboxVersion=1
+        supportsRtl=false
+        fullBackupContent=true
+        HiddenApiEnforcementPolicy=3
+  Activity #2:
+    priority=-1000 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+    ActivityInfo:
+      name=com.amazon.tv.settings.v2.system.FallbackHome
+      packageName=com.amazon.tv.settings.v2
+      enabled=true exported=true directBootAware=true
+      taskAffinity=null targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+      launchMode=0 flags=0x220 theme=0x7f1300ce
+      screenOrientation=-1 configChanges=0x3 softInputMode=0x0
+       uiOptions=0x1
+      lockTaskLaunchMode=LOCK_TASK_LAUNCH_MODE_DEFAULT
+      resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+      ApplicationInfo:
+        name=com.amazon.tv.settings.v2.SettingsApplication
+        packageName=com.amazon.tv.settings.v2
+        labelRes=0x7f120c30 nonLocalizedLabel=null icon=0x7f080061 banner=0x0
+        className=com.amazon.tv.settings.v2.SettingsApplication
+        processName=com.amazon.tv.settings.v2
+        taskAffinity=null
+        uid=10135 flags=0x30d83e45 privateFlags=0x1068 theme=0x0
+        requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+        sourceDir=/system/priv-app/com.amazon.tv.settings.v2/com.amazon.tv.settings.v2.apk
+        resourceDirs=[/data/app/com.amazon.tv.settings.v2.overlay.localisation.common-JiAWc7jbrDimLtpU-RH_yA==/base.apk]
+        seinfo=amazonapp:privapp:targetSdkVersion=28
+        seinfoUser=:complete
+        dataDir=/data/user_de/0/com.amazon.tv.settings.v2
+        deviceProtectedDataDir=/data/user_de/0/com.amazon.tv.settings.v2
+        credentialProtectedDataDir=/data/user/0/com.amazon.tv.settings.v2
+        enabled=true minSdkVersion=25 targetSdkVersion=28 versionCode=641755610 targetSandboxVersion=1
+        uiOptions=0x1
+        supportsRtl=true
+        fullBackupContent=true
+        HiddenApiEnforcementPolicy=2

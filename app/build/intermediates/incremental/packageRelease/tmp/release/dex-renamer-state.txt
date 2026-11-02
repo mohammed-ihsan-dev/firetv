@@ -1,0 +1,4 @@
+#Mon Nov 02 12:33:52 IST 2026
+base.0=/Users/ihsan/Desktop/FIRETV/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

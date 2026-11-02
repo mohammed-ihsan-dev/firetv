@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Screen is 1920x1080 @ xhdpi = 960x540 dp. -->
+    <dimen name="edge">56dp</dimen>
+    <!-- Home grid: 4 x 2 tiles, 16:9. Width = 4*172 + 3*20 = 748dp (centred, 106dp margins). -->
+    <dimen name="tile_w">172dp</dimen>
+    <dimen name="tile_h">97dp</dimen>
+    <dimen name="tile_gap">20dp</dimen>
+    <dimen name="tile_row_gap">22dp</dimen>
+    <dimen name="tile_radius">12dp</dimen>
+    <dimen name="tile_elevation">3dp</dimen>
+    <dimen name="tile_focus_z">10dp</dimen>
+    <dimen name="grid_bottom">34dp</dimen>
+    <dimen name="row_keyline">120dp</dimen>
+</resources>

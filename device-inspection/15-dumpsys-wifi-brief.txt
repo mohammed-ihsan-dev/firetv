@@ -1,0 +1,152 @@
+$ adb -s 192.168.1.2:5555 shell dumpsys connectivity
+NetworkFactories for: WIFI WIFI_UT Ethernet
+
+Active default network: 100
+
+Current Networks:
+  NetworkAgentInfo{ ni{[type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]}  network{100}  nethandle{432902426637}  lp{{InterfaceName: wlan0 LinkAddresses: [XXX]  Routes: [XXX] DnsAddresses: [XXX] UsePrivateDns: false PrivateDnsServerName: null Domains: null MTU: 0ServerAddress: 192.168.1.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED Unwanted:  LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps SignalStrength: -55]}  Score{60}  everValidated{true}  lastValidated{true}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} clat{null} }
+    Requests: REQUEST:1 LISTEN:25 BACKGROUND_REQUEST:0 total:26
+      NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted: ] ]
+      NetworkRequest [ LISTEN id=3, [] ]
+      NetworkRequest [ LISTEN id=4, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+      NetworkRequest [ LISTEN id=5, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+      NetworkRequest [ TRACK_DEFAULT id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+      NetworkRequest [ TRACK_DEFAULT id=7, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+      NetworkRequest [ LISTEN id=8, [ Transports: WIFI Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+      NetworkRequest [ TRACK_DEFAULT id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+      NetworkRequest [ LISTEN id=11, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+      NetworkRequest [ LISTEN id=12, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+      NetworkRequest [ TRACK_DEFAULT id=14, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+      NetworkRequest [ TRACK_DEFAULT id=16, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10061] ]
+      NetworkRequest [ LISTEN id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10026] ]
+      NetworkRequest [ LISTEN id=19, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10121] ]
+      NetworkRequest [ TRACK_DEFAULT id=22, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+      NetworkRequest [ LISTEN id=24, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10121] ]
+      NetworkRequest [ TRACK_DEFAULT id=27, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+      NetworkRequest [ LISTEN id=30, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10121] ]
+      NetworkRequest [ LISTEN id=32, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10055] ]
+      NetworkRequest [ LISTEN id=34, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10055] ]
+      NetworkRequest [ TRACK_DEFAULT id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10203] ]
+      NetworkRequest [ TRACK_DEFAULT id=94, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10203] ]
+      NetworkRequest [ LISTEN id=108, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10123] ]
+      NetworkRequest [ LISTEN id=110, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10123] ]
+      NetworkRequest [ LISTEN id=111, [ Transports: WIFI Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10123] ]
+      NetworkRequest [ LISTEN id=114, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10048] ]
+    Lingered:
+
+Network Requests:
+  uid/pid:1000/529 NetworkRequest [ LISTEN id=10, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+  uid/pid:10048/14840 NetworkRequest [ LISTEN id=114, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10048] ]
+  uid/pid:1000/830 NetworkRequest [ TRACK_DEFAULT id=27, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+  uid/pid:1000/529 NetworkRequest [ BACKGROUND_REQUEST id=2, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted: ] ]
+  uid/pid:10121/2371 NetworkRequest [ LISTEN id=30, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10121] ]
+  uid/pid:10121/2371 NetworkRequest [ LISTEN id=24, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10121] ]
+  uid/pid:10203/10827 NetworkRequest [ TRACK_DEFAULT id=94, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10203] ]
+  uid/pid:1000/529 NetworkRequest [ LISTEN id=4, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+  uid/pid:1000/529 NetworkRequest [ TRACK_DEFAULT id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+  uid/pid:1000/529 NetworkRequest [ LISTEN id=12, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+  uid/pid:1000/529 NetworkRequest [ TRACK_DEFAULT id=7, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+  uid/pid:10203/10827 NetworkRequest [ TRACK_DEFAULT id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10203] ]
+  uid/pid:1000/529 NetworkRequest [ LISTEN id=8, [ Transports: WIFI Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+  uid/pid:1000/830 NetworkRequest [ TRACK_DEFAULT id=22, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+  uid/pid:1000/529 NetworkRequest [ LISTEN id=3, [] ]
+  uid/pid:10055/3358 NetworkRequest [ LISTEN id=32, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10055] ]
+  uid/pid:10121/2371 NetworkRequest [ LISTEN id=19, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10121] ]
+  uid/pid:1000/529 NetworkRequest [ TRACK_DEFAULT id=14, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+  uid/pid:10055/3358 NetworkRequest [ LISTEN id=34, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10055] ]
+  uid/pid:10123/14105 NetworkRequest [ LISTEN id=111, [ Transports: WIFI Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10123] ]
+  uid/pid:10061/1765 NetworkRequest [ TRACK_DEFAULT id=16, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10061] ]
+  uid/pid:1000/529 NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted: ] ]
+  uid/pid:10026/1797 NetworkRequest [ LISTEN id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10026] ]
+  uid/pid:10123/14105 NetworkRequest [ LISTEN id=108, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10123] ]
+  uid/pid:1000/529 NetworkRequest [ TRACK_DEFAULT id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+  uid/pid:1000/529 NetworkRequest [ LISTEN id=11, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+  uid/pid:1000/529 NetworkRequest [ LISTEN id=5, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+  uid/pid:10123/14105 NetworkRequest [ LISTEN id=110, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10123] ]
+  
+mLegacyTypeTracker:
+  Supported types: 1 9 17
+  Current state:
+    1 NetworkAgentInfo [WIFI () - 100] CONNECTED/CONNECTED
+
+
+Tethering:
+  Configuration:
+    tetherableUsbRegexs: []
+    tetherableWifiRegexs: []
+    tetherableBluetoothRegexs: []
+    isDunRequired: false
+    preferredUpstreamIfaceTypes: [ETHERNET, WIFI, BLUETOOTH, MOBILE]
+    dhcpRanges: [192.168.42.2, 192.168.42.254, 192.168.43.2, 192.168.43.254, 192.168.44.2, 192.168.44.254, 192.168.45.2, 192.168.45.254, 192.168.46.2, 192.168.46.254, 192.168.47.2, 192.168.47.254, 192.168.48.2, 192.168.48.254, 192.168.49.2, 192.168.49.254]
+    defaultIPv4DNS: [8.8.4.4, 8.8.8.8]
+    provisioningApp: []
+    provisioningAppNoUi: 
+  Tether state:
+    Upstream wanted: false
+    Current upstream interface(s): null
+  Hardware offload:
+    Offload HALs not started
+    Current upstream: null
+    Exempt prefixes: []
+    NAT timeout update callbacks received during the last offload session: 0
+    NAT timeout update netlink errors during the last offload session: 0
+  Log:
+    2026-11-01T11:27:30.885 - MARK constructed
+    2026-11-01T11:27:30.887 - [config] DUN check returned: DUN_UNSPECIFIED
+    2026-11-01T11:27:30.888 - [config] TetheringConfiguration{tetherableUsbRegexs:[] tetherableWifiRegexs:[] tetherableBluetoothRegexs:[] isDunRequired:false preferredUpstreamIfaceTypes:[ETHERNET,WIFI,BLUETOOTH,MOBILE] provisioningApp:[] provisioningAppNoUi:}
+    2026-11-01T11:27:33.111 - OBSERVED configuration changed
+    2026-11-01T11:27:33.112 - [config] DUN check returned: DUN_UNSPECIFIED
+    2026-11-01T11:27:33.112 - [config] TetheringConfiguration{tetherableUsbRegexs:[] tetherableWifiRegexs:[] tetherableBluetoothRegexs:[] isDunRequired:false preferredUpstreamIfaceTypes:[ETHERNET,WIFI,BLUETOOTH,MOBILE] provisioningApp:[] provisioningAppNoUi:}
+    2026-11-01T11:27:33.138 - OBSERVED configuration changed
+    2026-11-01T11:27:33.140 - [config] DUN check returned: DUN_UNSPECIFIED
+    2026-11-01T11:27:33.141 - [config] TetheringConfiguration{tetherableUsbRegexs:[] tetherableWifiRegexs:[] tetherableBluetoothRegexs:[] isDunRequired:false preferredUpstreamIfaceTypes:[ETHERNET,WIFI,BLUETOOTH,MOBILE] provisioningApp:[] provisioningAppNoUi:}
+    2026-11-01T11:27:38.349 - USB bcast connected:false configured:false rndis:false
+    2026-11-01T11:27:42.922 - wlan0 is not a tetherable iface, ignoring
+    2026-11-01T11:27:42.945 - wlan0 is not a tetherable iface, ignoring
+    2026-11-01T11:27:44.362 - InitialState got CMD_UPSTREAM_CHANGED
+    2026-11-01T20:27:42.254 - wlan0 is not a tetherable iface, ignoring
+    2026-11-01T20:29:07.560 - wlan0 is not a tetherable iface, ignoring
+    2026-11-01T20:30:53.385 - OBSERVED configuration changed
+    2026-11-01T20:30:53.399 - [config] DUN check returned: DUN_UNSPECIFIED
+    2026-11-01T20:30:53.402 - [config] TetheringConfiguration{tetherableUsbRegexs:[] tetherableWifiRegexs:[] tetherableBluetoothRegexs:[] isDunRequired:false preferredUpstreamIfaceTypes:[ETHERNET,WIFI,BLUETOOTH,MOBILE] provisioningApp:[] provisioningAppNoUi:}
+
+Packet keepalives:
+
+Bad Wi-Fi avoidance: unrestricted
+
+MultipathPolicyTracker:
+
+mValidationLogs (most recent first):
+100 - SSID=""FTTH-THONIYIL""
+  2026-11-01T11:27:44.373 - PROBE_DNS firetvcaptiveportal.com 56ms OK 16.4.126.5
+  2026-11-01T11:27:44.487 - PROBE_HTTP http://firetvcaptiveportal.com/generate_204 time=101ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Access-Control-Allow-Origin=[*], Connection=[keep-alive], Date=[Sun, 01 Nov 2026 14:57:33 GMT], X-Android-Received-Millis=[1793512664487], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1793512664448], X-Powered-By=[Express]}
+
+mNetworkRequestInfoLogs (most recent first):
+  2026-11-01T20:45:12.365 - REGISTER uid/pid:10048/14840 NetworkRequest [ LISTEN id=114, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10048] ]
+  2026-11-01T20:44:07.224 - RELEASE uid/pid:10100/1296 NetworkRequest [ LISTEN id=113, [ Transports: CELLULAR|WIFI|ETHERNET Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10100] ]
+  2026-11-01T20:44:06.177 - REGISTER uid/pid:10100/1296 NetworkRequest [ LISTEN id=113, [ Transports: CELLULAR|WIFI|ETHERNET Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10100] ]
+  2026-11-01T20:41:47.230 - RELEASE uid/pid:10187/14242 NetworkRequest [ REQUEST id=112, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10187] ]
+  2026-11-01T20:41:12.947 - RELEASE uid/pid:10099/13009 NetworkRequest [ LISTEN id=104, [ Capabilities: NOT_METERED&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10099] ]
+  2026-11-01T20:41:12.093 - REGISTER uid/pid:10187/14242 NetworkRequest [ REQUEST id=112, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10187] ]
+  2026-11-01T20:41:02.209 - RELEASE uid/pid:10123/14105 NetworkRequest [ TRACK_DEFAULT id=109, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10123] ]
+  2026-11-01T20:41:02.066 - REGISTER uid/pid:10123/14105 NetworkRequest [ LISTEN id=111, [ Transports: WIFI Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10123] ]
+  2026-11-01T20:41:01.626 - REGISTER uid/pid:10123/14105 NetworkRequest [ LISTEN id=110, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10123] ]
+  2026-11-01T20:41:01.456 - REGISTER uid/pid:10123/14105 NetworkRequest [ TRACK_DEFAULT id=109, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10123] ]
+  2026-11-01T20:41:01.363 - REGISTER uid/pid:10123/14105 NetworkRequest [ LISTEN id=108, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10123] ]
+  2026-11-01T20:41:00.083 - RELEASE uid/pid:10187/13374 NetworkRequest [ REQUEST id=106, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10187] ]
+  2026-11-01T20:41:00.077 - RELEASE uid/pid:10048/13868 NetworkRequest [ LISTEN id=107, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10048] ]
+  2026-11-01T20:39:55.838 - REGISTER uid/pid:10048/13868 NetworkRequest [ LISTEN id=107, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10048] ]
+  2026-11-01T20:36:26.993 - REGISTER uid/pid:10187/13374 NetworkRequest [ REQUEST id=106, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10187] ]
+  2026-11-01T20:36:19.338 - RELEASE uid/pid:10084/13258 NetworkRequest [ TRACK_DEFAULT id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10084] ]
+  2026-11-01T20:36:19.121 - REGISTER uid/pid:10084/13258 NetworkRequest [ TRACK_DEFAULT id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10084] ]
+  2026-11-01T20:36:00.236 - REGISTER uid/pid:10099/13009 NetworkRequest [ LISTEN id=104, [ Capabilities: NOT_METERED&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10099] ]
+  2026-11-01T20:35:58.810 - RELEASE uid/pid:10084/12948 NetworkRequest [ TRACK_DEFAULT id=103, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10084] ]
+  2026-11-01T20:35:58.734 - REGISTER uid/pid:10084/12948 NetworkRequest [ TRACK_DEFAULT id=103, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10084] ]
+
+mNetworkInfoBlockingLogs (most recent first):
+
+NetTransition WakeLock activity (most recent first):
+  total acquisitions: 0
+  total releases: 0
+  cumulative duration: 0s
+  longest duration: 0s

@@ -1,0 +1,9 @@
+$ adb -s 192.168.1.2:5555 shell df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/root             1.4G  1.1G  244M  84% /
+tmpfs                 438M  1.3M  437M   1% /dev
+tmpfs                 438M     0  438M   0% /mnt
+/dev/block/dm-1       143M   93M   47M  67% /vendor
+/dev/block/mmcblk0p13 4.9G  3.7G  1.0G  79% /data
+/dev/block/mmcblk0p12 488M   26M  446M   6% /cache
+/data/media           4.9G  3.7G  1.0G  79% /storage/emulated

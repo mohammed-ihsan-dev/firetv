@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SHAHU'S TV home: full-screen cinematic wallpaper, header and a circular app carousel with caption.
+     Screen = 960 x 540 dp. Readability scrims are baked into each wallpaper bitmap (WallpaperLoader). -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <!-- Wallpaper: two layers for the crossfade. -->
+    <ImageView android:id="@+id/wallBack" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:scaleType="centerCrop" android:importantForAccessibility="no" />
+    <ImageView android:id="@+id/wallFront" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:scaleType="centerCrop" android:importantForAccessibility="no" />
+
+    <!-- Header -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_gravity="top" android:orientation="horizontal" android:gravity="center_vertical"
+        android:paddingStart="@dimen/edge" android:paddingEnd="@dimen/edge" android:paddingTop="26dp">
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <View android:layout_width="4dp" android:layout_height="22dp" android:layout_marginEnd="12dp"
+                android:background="@color/accent_red" />
+            <TextView android:id="@+id/brand" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/brand" android:textColor="@color/text_primary" android:textSize="22sp"
+                android:fontFamily="sans-serif-medium" android:textStyle="bold" android:letterSpacing="0.18"
+                android:includeFontPadding="false" android:shadowColor="#99000000" android:shadowRadius="10" />
+        </LinearLayout>
+
+        <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1" />
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="end">
+            <TextView android:id="@+id/clock" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textColor="@color/text_primary" android:textSize="24sp" android:fontFamily="sans-serif-light"
+                android:includeFontPadding="false" android:shadowColor="#99000000" android:shadowRadius="10" />
+            <TextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="3dp" android:textColor="@color/text_secondary" android:textSize="12sp"
+                android:includeFontPadding="false" android:shadowColor="#99000000" android:shadowRadius="8" />
+        </LinearLayout>
+
+        <com.shahu.tv.WifiIndicatorView android:id="@+id/wifi" android:layout_width="20dp" android:layout_height="16dp"
+            android:layout_marginStart="18dp" />
+
+        <!-- Minimal profile badge -->
+        <TextView android:id="@+id/profile" android:layout_width="34dp" android:layout_height="34dp"
+            android:layout_marginStart="16dp" android:background="@drawable/profile_badge" android:gravity="center"
+            android:text="S" android:textColor="@color/text_primary" android:textSize="15sp"
+            android:fontFamily="sans-serif-medium" android:importantForAccessibility="no" />
+    </LinearLayout>
+
+    <!-- HOME: circular carousel (selected app centred) + caption -->
+    <LinearLayout android:id="@+id/homeLayer" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_gravity="bottom" android:layout_marginBottom="12dp" android:orientation="vertical"
+        android:gravity="center_horizontal" android:clipChildren="false" android:clipToPadding="false">
+
+        <com.shahu.tv.CarouselView android:id="@+id/carousel" android:layout_width="match_parent"
+            android:layout_height="154dp" android:clipChildren="false" />
+
+        <TextView android:id="@+id/appName" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="0dp" android:textColor="@color/text_primary" android:textSize="23sp"
+            android:fontFamily="sans-serif-medium" android:maxLines="1" android:includeFontPadding="false"
+            android:letterSpacing="0.02" android:shadowColor="#CC000000" android:shadowRadius="12" />
+        <TextView android:id="@+id/appDesc" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="3dp" android:textColor="@color/text_secondary" android:textSize="12sp"
+            android:maxLines="1" android:shadowColor="#CC000000" android:shadowRadius="10" />
+    </LinearLayout>
+
+    <!-- MORE APPS: every other installed app (same discovery + launching as before). -->
+    <LinearLayout android:id="@+id/morePanel" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:visibility="gone" android:paddingTop="84dp">
+        <!-- clipChildren stays true here: tiles scrolled out of view must not draw under the title / hint. -->
+
+        <LinearLayout android:layout_width="782dp" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" android:gravity="bottom" android:paddingStart="17dp" android:paddingEnd="17dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/more_title" android:textColor="@color/text_primary" android:textSize="26sp"
+                android:fontFamily="sans-serif-medium" android:includeFontPadding="false" />
+            <TextView android:id="@+id/moreCount" android:layout_width="0dp" android:layout_weight="1"
+                android:layout_height="wrap_content" android:layout_marginStart="14dp"
+                android:textColor="@color/text_tertiary" android:textSize="13sp" />
+            <TextView android:id="@+id/moreFocused" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textColor="@color/text_secondary" android:textSize="15sp" android:fontFamily="sans-serif-medium"
+                android:maxLines="1" />
+        </LinearLayout>
+
+        <ScrollView android:id="@+id/moreScroll" android:layout_width="782dp" android:layout_height="0dp"
+            android:layout_weight="1" android:layout_gravity="center_horizontal" android:layout_marginTop="10dp"
+            android:scrollbars="none" android:overScrollMode="never" android:fillViewport="false"
+            android:clipChildren="false" android:clipToPadding="false"
+            android:paddingTop="14dp" android:paddingBottom="30dp" android:descendantFocusability="afterDescendants">
+            <GridLayout android:id="@+id/moreGrid" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" android:columnCount="4" android:useDefaultMargins="false"
+                android:clipChildren="false" android:clipToPadding="false" />
+        </ScrollView>
+
+        <TextView android:id="@+id/moreHint" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" android:layout_marginBottom="16dp"
+            android:text="@string/more_hint" android:textColor="@color/text_tertiary" android:textSize="11sp" />
+    </LinearLayout>
+
+    <TextView android:id="@+id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center" android:text="@string/no_apps" android:textColor="@color/text_secondary"
+        android:visibility="gone" />
+</FrameLayout>

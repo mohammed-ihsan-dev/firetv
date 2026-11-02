@@ -1,0 +1,8 @@
+com.shahu.tv.app-pngs-0 /Users/ihsan/Desktop/FIRETV/app/build/generated/res/pngs/release
+com.shahu.tv.app-resValues-1 /Users/ihsan/Desktop/FIRETV/app/build/generated/res/resValues/release
+com.shahu.tv.app-packageReleaseResources-2 /Users/ihsan/Desktop/FIRETV/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.shahu.tv.app-packageReleaseResources-3 /Users/ihsan/Desktop/FIRETV/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.shahu.tv.app-merged-not-compiled-resources-4 /Users/ihsan/Desktop/FIRETV/app/build/intermediates/merged-not-compiled-resources/release
+com.shahu.tv.app-release-5 /Users/ihsan/Desktop/FIRETV/app/build/intermediates/merged_res/release/mergeReleaseResources
+com.shahu.tv.app-main-6 /Users/ihsan/Desktop/FIRETV/app/src/main/res
+com.shahu.tv.app-release-7 /Users/ihsan/Desktop/FIRETV/app/src/release/res

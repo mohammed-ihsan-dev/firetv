@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_red">#E5323F</color>
+    <color name="bg">#08090B</color>
+    <color name="border_subtle">#33FFFFFF</color>
+    <color name="glass_fill_bottom">#CC16171C</color>
+    <color name="glass_fill_top">#B8343740</color>
+    <color name="surface">#14151A</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#C9CCD3</color>
+    <color name="text_tertiary">#8E929C</color>
+    <dimen name="edge">56dp</dimen>
+    <dimen name="grid_bottom">34dp</dimen>
+    <dimen name="row_keyline">120dp</dimen>
+    <dimen name="tile_elevation">3dp</dimen>
+    <dimen name="tile_focus_z">10dp</dimen>
+    <dimen name="tile_gap">20dp</dimen>
+    <dimen name="tile_h">97dp</dimen>
+    <dimen name="tile_radius">12dp</dimen>
+    <dimen name="tile_row_gap">22dp</dimen>
+    <dimen name="tile_w">172dp</dimen>
+    <string name="app_name">SHAHU\'S TV</string>
+    <string name="brand">SHAHU\'S TV</string>
+    <string name="default_description">Press OK to open.</string>
+    <string name="home_service_description">SHAHU\'S TV Home button: when Home Screen Mode is SHAHU\'S TV, a short press of the remote\'s Home button opens SHAHU\'S TV. Only the Home key is checked. Screen content is never read.</string>
+    <string name="home_service_label">SHAHU\'S TV Home button</string>
+    <string name="launch_failed">Could not open %1$s</string>
+    <string name="more_count">%1$d apps</string>
+    <string name="more_hint">BACK  Home    ·    OK  Open    ·    MENU  App info</string>
+    <string name="more_title">More Apps</string>
+    <string name="no_apps">No other apps are installed.</string>
+    <string name="not_installed">Not installed</string>
+    <string name="row_title">Your Apps</string>
+    <string name="settings_subtitle">Home screen mode, Device Manager and Fire TV settings</string>
+    <string name="settings_title">SHAHU\'S TV Settings</string>
+    <style name="Theme.ShahusTV" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">false</item>
+        <item name="android:colorAccent">@color/text_primary</item>
+    </style>
+</resources>
